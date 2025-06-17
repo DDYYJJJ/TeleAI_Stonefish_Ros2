@@ -1,0 +1,1 @@
+ament_cmake_symlink_install_targets("TARGET_FILES" "/home/dyj/ros2_ws/build/stonefish_ros2/stonefish_simulator" "/home/dyj/ros2_ws/build/stonefish_ros2/stonefish_simulator_nogpu" "/home/dyj/ros2_ws/build/stonefish_ros2/fluid_dynamics_test" "TARGETS" "stonefish_simulator" "stonefish_simulator_nogpu" "fluid_dynamics_test" "DESTINATION" "lib/stonefish_ros2")

@@ -1,0 +1,14 @@
+[01m[K/home/dyj/ros2_ws/src/stonefish_ros2/src/FluidDynamicsTestManager.cpp:[m[K In member function ‘[01m[Kvirtual void FluidDynamicsTestManager::BuildScenario()[m[K’:
+[01m[K/home/dyj/ros2_ws/src/stonefish_ros2/src/FluidDynamicsTestManager.cpp:155:38:[m[K [01;31m[Kerror: [m[Kexpected primary-expression before ‘[01m[K...[m[K’ token
+  155 |     thruster1_->AttachToSolid(hull1, [01;31m[K...[m[K);
+      |                                      [01;31m[K^~~[m[K
+[01m[K/home/dyj/ros2_ws/src/stonefish_ros2/src/FluidDynamicsTestManager.cpp:160:38:[m[K [01;31m[Kerror: [m[Kexpected primary-expression before ‘[01m[K...[m[K’ token
+  160 |     thruster2_->AttachToSolid(hull2, [01;31m[K...[m[K);
+      |                                      [01;31m[K^~~[m[K
+[01m[K/home/dyj/ros2_ws/src/stonefish_ros2/src/FluidDynamicsTestManager.cpp:[m[K In member function ‘[01m[Kvirtual void FluidDynamicsTestManager::SimulationStepCompleted(sf::Scalar)[m[K’:
+[01m[K/home/dyj/ros2_ws/src/stonefish_ros2/src/FluidDynamicsTestManager.cpp:186:67:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[KtimeStep[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+  186 | void FluidDynamicsTestManager::SimulationStepCompleted([01;35m[Ksf::Scalar timeStep[m[K)
+      |                                                        [01;35m[K~~~~~~~~~~~^~~~~~~~[m[K
+make[2]: *** [CMakeFiles/fluid_dynamics_test.dir/build.make:63：CMakeFiles/fluid_dynamics_test.dir/src/FluidDynamicsTestManager.cpp.o] 错误 1
+make[1]: *** [CMakeFiles/Makefile2:642：CMakeFiles/fluid_dynamics_test.dir/all] 错误 2
+make: *** [Makefile:141：all] 错误 2

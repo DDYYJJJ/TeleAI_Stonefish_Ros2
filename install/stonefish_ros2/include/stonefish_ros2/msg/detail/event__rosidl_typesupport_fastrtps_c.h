@@ -1,0 +1,1 @@
+/home/dyj/ros2_ws/build/stonefish_ros2/rosidl_typesupport_fastrtps_c/stonefish_ros2/msg/detail/event__rosidl_typesupport_fastrtps_c.h

@@ -1,0 +1,18 @@
+{
+  "package_name": "stonefish_ros2",
+  "non_idl_tuples": [
+    "/home/dyj/ros2_ws/src/stonefish_ros2:msg/Int32Stamped.msg",
+    "/home/dyj/ros2_ws/src/stonefish_ros2:msg/BeaconInfo.msg",
+    "/home/dyj/ros2_ws/src/stonefish_ros2:msg/NEDPose.msg",
+    "/home/dyj/ros2_ws/src/stonefish_ros2:msg/INS.msg",
+    "/home/dyj/ros2_ws/src/stonefish_ros2:msg/DVLBeam.msg",
+    "/home/dyj/ros2_ws/src/stonefish_ros2:msg/DVL.msg",
+    "/home/dyj/ros2_ws/src/stonefish_ros2:msg/ThrusterState.msg",
+    "/home/dyj/ros2_ws/src/stonefish_ros2:msg/DebugPhysics.msg",
+    "/home/dyj/ros2_ws/src/stonefish_ros2:msg/Event.msg",
+    "/home/dyj/ros2_ws/src/stonefish_ros2:msg/EventArray.msg",
+    "/home/dyj/ros2_ws/src/stonefish_ros2:srv/SonarSettings.srv",
+    "/home/dyj/ros2_ws/src/stonefish_ros2:srv/SonarSettings2.srv",
+    "/home/dyj/ros2_ws/src/stonefish_ros2:srv/Respawn.srv"
+  ]
+}

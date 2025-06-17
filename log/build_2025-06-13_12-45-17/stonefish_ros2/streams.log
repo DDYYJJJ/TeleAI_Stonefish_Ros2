@@ -1,0 +1,43 @@
+[0.007s] Invoking command in '/home/dyj/ros2_ws/build/stonefish_ros2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/rolling /usr/bin/cmake --build /home/dyj/ros2_ws/build/stonefish_ros2 -- -j16 -l16
+[0.050s] [  0%] Built target ament_cmake_python_symlink_stonefish_ros2
+[0.057s] [  1%] Built target stonefish_ros2__cpp
+[0.061s] [ 11%] Built target stonefish_ros2__rosidl_generator_c
+[0.070s] [ 22%] Built target stonefish_ros2__rosidl_typesupport_cpp
+[0.071s] [ 32%] Built target stonefish_ros2__rosidl_typesupport_introspection_cpp
+[0.075s] [ 43%] Built target stonefish_ros2__rosidl_typesupport_c
+[0.078s] [ 53%] Built target stonefish_ros2__rosidl_typesupport_introspection_c
+[0.078s] [35m[1mScanning dependencies of target fluid_dynamics_test[0m
+[0.080s] [ 64%] Built target stonefish_ros2__rosidl_typesupport_fastrtps_cpp
+[0.099s] [ 75%] Built target stonefish_ros2__rosidl_typesupport_fastrtps_c
+[0.101s] [ 80%] Built target stonefish_ros2_interface
+[0.109s] [ 80%] [32mBuilding CXX object CMakeFiles/fluid_dynamics_test.dir/src/FluidDynamicsTestManager.cpp.o[0m
+[0.113s] [ 80%] Built target stonefish_ros2
+[0.119s] [ 81%] Built target stonefish_simulator
+[0.120s] [ 83%] Built target stonefish_simulator_nogpu
+[0.126s] [ 84%] Built target stonefish_ros2__py
+[0.148s] running egg_info
+[0.148s] writing stonefish_ros2.egg-info/PKG-INFO
+[0.148s] writing dependency_links to stonefish_ros2.egg-info/dependency_links.txt
+[0.149s] writing top-level names to stonefish_ros2.egg-info/top_level.txt
+[0.159s] [ 94%] Built target stonefish_ros2__rosidl_generator_py
+[0.165s] reading manifest file 'stonefish_ros2.egg-info/SOURCES.txt'
+[0.165s] writing manifest file 'stonefish_ros2.egg-info/SOURCES.txt'
+[0.177s] [ 96%] Built target stonefish_ros2__rosidl_typesupport_introspection_c__pyext
+[0.177s] [ 97%] Built target stonefish_ros2__rosidl_typesupport_c__pyext
+[0.179s] [ 98%] Built target stonefish_ros2__rosidl_typesupport_fastrtps_c__pyext
+[0.179s] [ 98%] Built target ament_cmake_python_build_stonefish_ros2_egg
+[2.043s] [01m[K/home/dyj/ros2_ws/src/stonefish_ros2/src/FluidDynamicsTestManager.cpp:[m[K In member function ‘[01m[Kvirtual void FluidDynamicsTestManager::BuildScenario()[m[K’:
+[2.043s] [01m[K/home/dyj/ros2_ws/src/stonefish_ros2/src/FluidDynamicsTestManager.cpp:155:38:[m[K [01;31m[Kerror: [m[Kexpected primary-expression before ‘[01m[K...[m[K’ token
+[2.043s]   155 |     thruster1_->AttachToSolid(hull1, [01;31m[K...[m[K);
+[2.043s]       |                                      [01;31m[K^~~[m[K
+[2.044s] [01m[K/home/dyj/ros2_ws/src/stonefish_ros2/src/FluidDynamicsTestManager.cpp:160:38:[m[K [01;31m[Kerror: [m[Kexpected primary-expression before ‘[01m[K...[m[K’ token
+[2.044s]   160 |     thruster2_->AttachToSolid(hull2, [01;31m[K...[m[K);
+[2.044s]       |                                      [01;31m[K^~~[m[K
+[2.047s] [01m[K/home/dyj/ros2_ws/src/stonefish_ros2/src/FluidDynamicsTestManager.cpp:[m[K In member function ‘[01m[Kvirtual void FluidDynamicsTestManager::SimulationStepCompleted(sf::Scalar)[m[K’:
+[2.047s] [01m[K/home/dyj/ros2_ws/src/stonefish_ros2/src/FluidDynamicsTestManager.cpp:186:67:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[KtimeStep[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+[2.047s]   186 | void FluidDynamicsTestManager::SimulationStepCompleted([01;35m[Ksf::Scalar timeStep[m[K)
+[2.047s]       |                                                        [01;35m[K~~~~~~~~~~~^~~~~~~~[m[K
+[3.144s] make[2]: *** [CMakeFiles/fluid_dynamics_test.dir/build.make:63：CMakeFiles/fluid_dynamics_test.dir/src/FluidDynamicsTestManager.cpp.o] 错误 1
+[3.144s] make[1]: *** [CMakeFiles/Makefile2:642：CMakeFiles/fluid_dynamics_test.dir/all] 错误 2
+[3.144s] make: *** [Makefile:141：all] 错误 2
+[3.147s] Invoked command in '/home/dyj/ros2_ws/build/stonefish_ros2' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/rolling /usr/bin/cmake --build /home/dyj/ros2_ws/build/stonefish_ros2 -- -j16 -l16
