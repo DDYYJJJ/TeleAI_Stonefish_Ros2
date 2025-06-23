@@ -23,6 +23,9 @@ SUFFIXES =
 .SUFFIXES: .hpux_make_needs_suffix_list
 
 
+# Produce verbose output by default.
+VERBOSE = 1
+
 # Suppress display of executed commands.
 $(VERBOSE).SILENT:
 
@@ -68,17 +71,48 @@ install/strip/fast: preinstall/fast
 	/usr/bin/cmake -DCMAKE_INSTALL_DO_STRIP=1 -P cmake_install.cmake
 .PHONY : install/strip/fast
 
-# Special rule for the target install/local
-install/local: preinstall
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Installing only the local directory..."
-	/usr/bin/cmake -DCMAKE_INSTALL_LOCAL_ONLY=1 -P cmake_install.cmake
-.PHONY : install/local
+# Special rule for the target edit_cache
+edit_cache:
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "No interactive CMake dialog available..."
+	/usr/bin/cmake -E echo No\ interactive\ CMake\ dialog\ available.
+.PHONY : edit_cache
 
-# Special rule for the target install/local
-install/local/fast: preinstall/fast
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Installing only the local directory..."
-	/usr/bin/cmake -DCMAKE_INSTALL_LOCAL_ONLY=1 -P cmake_install.cmake
-.PHONY : install/local/fast
+# Special rule for the target edit_cache
+edit_cache/fast: edit_cache
+
+.PHONY : edit_cache/fast
+
+# Special rule for the target rebuild_cache
+rebuild_cache:
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running CMake to regenerate build system..."
+	/usr/bin/cmake -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
+.PHONY : rebuild_cache
+
+# Special rule for the target rebuild_cache
+rebuild_cache/fast: rebuild_cache
+
+.PHONY : rebuild_cache/fast
+
+# Special rule for the target test
+test:
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running tests..."
+	/usr/bin/ctest --force-new-ctest-process $(ARGS)
+.PHONY : test
+
+# Special rule for the target test
+test/fast: test
+
+.PHONY : test/fast
+
+# Special rule for the target list_install_components
+list_install_components:
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Available install components are: \"Unspecified\""
+.PHONY : list_install_components
+
+# Special rule for the target list_install_components
+list_install_components/fast: list_install_components
+
+.PHONY : list_install_components/fast
 
 # Special rule for the target install
 install: preinstall
@@ -92,48 +126,17 @@ install/fast: preinstall/fast
 	/usr/bin/cmake -P cmake_install.cmake
 .PHONY : install/fast
 
-# Special rule for the target list_install_components
-list_install_components:
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Available install components are: \"Unspecified\""
-.PHONY : list_install_components
+# Special rule for the target install/local
+install/local: preinstall
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Installing only the local directory..."
+	/usr/bin/cmake -DCMAKE_INSTALL_LOCAL_ONLY=1 -P cmake_install.cmake
+.PHONY : install/local
 
-# Special rule for the target list_install_components
-list_install_components/fast: list_install_components
-
-.PHONY : list_install_components/fast
-
-# Special rule for the target test
-test:
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running tests..."
-	/usr/bin/ctest --force-new-ctest-process $(ARGS)
-.PHONY : test
-
-# Special rule for the target test
-test/fast: test
-
-.PHONY : test/fast
-
-# Special rule for the target rebuild_cache
-rebuild_cache:
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running CMake to regenerate build system..."
-	/usr/bin/cmake -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
-.PHONY : rebuild_cache
-
-# Special rule for the target rebuild_cache
-rebuild_cache/fast: rebuild_cache
-
-.PHONY : rebuild_cache/fast
-
-# Special rule for the target edit_cache
-edit_cache:
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "No interactive CMake dialog available..."
-	/usr/bin/cmake -E echo No\ interactive\ CMake\ dialog\ available.
-.PHONY : edit_cache
-
-# Special rule for the target edit_cache
-edit_cache/fast: edit_cache
-
-.PHONY : edit_cache/fast
+# Special rule for the target install/local
+install/local/fast: preinstall/fast
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Installing only the local directory..."
+	/usr/bin/cmake -DCMAKE_INSTALL_LOCAL_ONLY=1 -P cmake_install.cmake
+.PHONY : install/local/fast
 
 # The main all target
 all: cmake_check_build_system
@@ -168,186 +171,30 @@ depend:
 .PHONY : depend
 
 #=============================================================================
-# Target rules for targets named stonefish_ros2__rosidl_typesupport_introspection_c__pyext
+# Target rules for targets named camera_test
 
 # Build rule for target.
-stonefish_ros2__rosidl_typesupport_introspection_c__pyext: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 stonefish_ros2__rosidl_typesupport_introspection_c__pyext
-.PHONY : stonefish_ros2__rosidl_typesupport_introspection_c__pyext
+camera_test: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 camera_test
+.PHONY : camera_test
 
 # fast build rule for target.
-stonefish_ros2__rosidl_typesupport_introspection_c__pyext/fast:
-	$(MAKE) -f CMakeFiles/stonefish_ros2__rosidl_typesupport_introspection_c__pyext.dir/build.make CMakeFiles/stonefish_ros2__rosidl_typesupport_introspection_c__pyext.dir/build
-.PHONY : stonefish_ros2__rosidl_typesupport_introspection_c__pyext/fast
+camera_test/fast:
+	$(MAKE) -f CMakeFiles/camera_test.dir/build.make CMakeFiles/camera_test.dir/build
+.PHONY : camera_test/fast
 
 #=============================================================================
-# Target rules for targets named stonefish_ros2__rosidl_typesupport_fastrtps_c__pyext
+# Target rules for targets named stonefish_simulator_nogpu
 
 # Build rule for target.
-stonefish_ros2__rosidl_typesupport_fastrtps_c__pyext: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 stonefish_ros2__rosidl_typesupport_fastrtps_c__pyext
-.PHONY : stonefish_ros2__rosidl_typesupport_fastrtps_c__pyext
+stonefish_simulator_nogpu: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 stonefish_simulator_nogpu
+.PHONY : stonefish_simulator_nogpu
 
 # fast build rule for target.
-stonefish_ros2__rosidl_typesupport_fastrtps_c__pyext/fast:
-	$(MAKE) -f CMakeFiles/stonefish_ros2__rosidl_typesupport_fastrtps_c__pyext.dir/build.make CMakeFiles/stonefish_ros2__rosidl_typesupport_fastrtps_c__pyext.dir/build
-.PHONY : stonefish_ros2__rosidl_typesupport_fastrtps_c__pyext/fast
-
-#=============================================================================
-# Target rules for targets named ament_cmake_python_build_stonefish_ros2_egg
-
-# Build rule for target.
-ament_cmake_python_build_stonefish_ros2_egg: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 ament_cmake_python_build_stonefish_ros2_egg
-.PHONY : ament_cmake_python_build_stonefish_ros2_egg
-
-# fast build rule for target.
-ament_cmake_python_build_stonefish_ros2_egg/fast:
-	$(MAKE) -f CMakeFiles/ament_cmake_python_build_stonefish_ros2_egg.dir/build.make CMakeFiles/ament_cmake_python_build_stonefish_ros2_egg.dir/build
-.PHONY : ament_cmake_python_build_stonefish_ros2_egg/fast
-
-#=============================================================================
-# Target rules for targets named uninstall
-
-# Build rule for target.
-uninstall: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 uninstall
-.PHONY : uninstall
-
-# fast build rule for target.
-uninstall/fast:
-	$(MAKE) -f CMakeFiles/uninstall.dir/build.make CMakeFiles/uninstall.dir/build
-.PHONY : uninstall/fast
-
-#=============================================================================
-# Target rules for targets named stonefish_simulator
-
-# Build rule for target.
-stonefish_simulator: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 stonefish_simulator
-.PHONY : stonefish_simulator
-
-# fast build rule for target.
-stonefish_simulator/fast:
-	$(MAKE) -f CMakeFiles/stonefish_simulator.dir/build.make CMakeFiles/stonefish_simulator.dir/build
-.PHONY : stonefish_simulator/fast
-
-#=============================================================================
-# Target rules for targets named stonefish_ros2__rosidl_typesupport_c__pyext
-
-# Build rule for target.
-stonefish_ros2__rosidl_typesupport_c__pyext: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 stonefish_ros2__rosidl_typesupport_c__pyext
-.PHONY : stonefish_ros2__rosidl_typesupport_c__pyext
-
-# fast build rule for target.
-stonefish_ros2__rosidl_typesupport_c__pyext/fast:
-	$(MAKE) -f CMakeFiles/stonefish_ros2__rosidl_typesupport_c__pyext.dir/build.make CMakeFiles/stonefish_ros2__rosidl_typesupport_c__pyext.dir/build
-.PHONY : stonefish_ros2__rosidl_typesupport_c__pyext/fast
-
-#=============================================================================
-# Target rules for targets named stonefish_ros2_uninstall
-
-# Build rule for target.
-stonefish_ros2_uninstall: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 stonefish_ros2_uninstall
-.PHONY : stonefish_ros2_uninstall
-
-# fast build rule for target.
-stonefish_ros2_uninstall/fast:
-	$(MAKE) -f CMakeFiles/stonefish_ros2_uninstall.dir/build.make CMakeFiles/stonefish_ros2_uninstall.dir/build
-.PHONY : stonefish_ros2_uninstall/fast
-
-#=============================================================================
-# Target rules for targets named stonefish_ros2__rosidl_generator_py
-
-# Build rule for target.
-stonefish_ros2__rosidl_generator_py: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 stonefish_ros2__rosidl_generator_py
-.PHONY : stonefish_ros2__rosidl_generator_py
-
-# fast build rule for target.
-stonefish_ros2__rosidl_generator_py/fast:
-	$(MAKE) -f CMakeFiles/stonefish_ros2__rosidl_generator_py.dir/build.make CMakeFiles/stonefish_ros2__rosidl_generator_py.dir/build
-.PHONY : stonefish_ros2__rosidl_generator_py/fast
-
-#=============================================================================
-# Target rules for targets named stonefish_ros2__rosidl_typesupport_cpp
-
-# Build rule for target.
-stonefish_ros2__rosidl_typesupport_cpp: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 stonefish_ros2__rosidl_typesupport_cpp
-.PHONY : stonefish_ros2__rosidl_typesupport_cpp
-
-# fast build rule for target.
-stonefish_ros2__rosidl_typesupport_cpp/fast:
-	$(MAKE) -f CMakeFiles/stonefish_ros2__rosidl_typesupport_cpp.dir/build.make CMakeFiles/stonefish_ros2__rosidl_typesupport_cpp.dir/build
-.PHONY : stonefish_ros2__rosidl_typesupport_cpp/fast
-
-#=============================================================================
-# Target rules for targets named stonefish_ros2
-
-# Build rule for target.
-stonefish_ros2: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 stonefish_ros2
-.PHONY : stonefish_ros2
-
-# fast build rule for target.
-stonefish_ros2/fast:
-	$(MAKE) -f CMakeFiles/stonefish_ros2.dir/build.make CMakeFiles/stonefish_ros2.dir/build
-.PHONY : stonefish_ros2/fast
-
-#=============================================================================
-# Target rules for targets named stonefish_ros2_interface
-
-# Build rule for target.
-stonefish_ros2_interface: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 stonefish_ros2_interface
-.PHONY : stonefish_ros2_interface
-
-# fast build rule for target.
-stonefish_ros2_interface/fast:
-	$(MAKE) -f CMakeFiles/stonefish_ros2_interface.dir/build.make CMakeFiles/stonefish_ros2_interface.dir/build
-.PHONY : stonefish_ros2_interface/fast
-
-#=============================================================================
-# Target rules for targets named ament_cmake_python_symlink_stonefish_ros2
-
-# Build rule for target.
-ament_cmake_python_symlink_stonefish_ros2: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 ament_cmake_python_symlink_stonefish_ros2
-.PHONY : ament_cmake_python_symlink_stonefish_ros2
-
-# fast build rule for target.
-ament_cmake_python_symlink_stonefish_ros2/fast:
-	$(MAKE) -f CMakeFiles/ament_cmake_python_symlink_stonefish_ros2.dir/build.make CMakeFiles/ament_cmake_python_symlink_stonefish_ros2.dir/build
-.PHONY : ament_cmake_python_symlink_stonefish_ros2/fast
-
-#=============================================================================
-# Target rules for targets named stonefish_ros2__rosidl_generator_c
-
-# Build rule for target.
-stonefish_ros2__rosidl_generator_c: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 stonefish_ros2__rosidl_generator_c
-.PHONY : stonefish_ros2__rosidl_generator_c
-
-# fast build rule for target.
-stonefish_ros2__rosidl_generator_c/fast:
-	$(MAKE) -f CMakeFiles/stonefish_ros2__rosidl_generator_c.dir/build.make CMakeFiles/stonefish_ros2__rosidl_generator_c.dir/build
-.PHONY : stonefish_ros2__rosidl_generator_c/fast
-
-#=============================================================================
-# Target rules for targets named stonefish_ros2__cpp
-
-# Build rule for target.
-stonefish_ros2__cpp: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 stonefish_ros2__cpp
-.PHONY : stonefish_ros2__cpp
-
-# fast build rule for target.
-stonefish_ros2__cpp/fast:
-	$(MAKE) -f CMakeFiles/stonefish_ros2__cpp.dir/build.make CMakeFiles/stonefish_ros2__cpp.dir/build
-.PHONY : stonefish_ros2__cpp/fast
+stonefish_simulator_nogpu/fast:
+	$(MAKE) -f CMakeFiles/stonefish_simulator_nogpu.dir/build.make CMakeFiles/stonefish_simulator_nogpu.dir/build
+.PHONY : stonefish_simulator_nogpu/fast
 
 #=============================================================================
 # Target rules for targets named stonefish_ros2__rosidl_typesupport_fastrtps_c
@@ -363,19 +210,6 @@ stonefish_ros2__rosidl_typesupport_fastrtps_c/fast:
 .PHONY : stonefish_ros2__rosidl_typesupport_fastrtps_c/fast
 
 #=============================================================================
-# Target rules for targets named stonefish_ros2__rosidl_typesupport_introspection_c
-
-# Build rule for target.
-stonefish_ros2__rosidl_typesupport_introspection_c: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 stonefish_ros2__rosidl_typesupport_introspection_c
-.PHONY : stonefish_ros2__rosidl_typesupport_introspection_c
-
-# fast build rule for target.
-stonefish_ros2__rosidl_typesupport_introspection_c/fast:
-	$(MAKE) -f CMakeFiles/stonefish_ros2__rosidl_typesupport_introspection_c.dir/build.make CMakeFiles/stonefish_ros2__rosidl_typesupport_introspection_c.dir/build
-.PHONY : stonefish_ros2__rosidl_typesupport_introspection_c/fast
-
-#=============================================================================
 # Target rules for targets named stonefish_ros2__rosidl_typesupport_c
 
 # Build rule for target.
@@ -389,17 +223,69 @@ stonefish_ros2__rosidl_typesupport_c/fast:
 .PHONY : stonefish_ros2__rosidl_typesupport_c/fast
 
 #=============================================================================
-# Target rules for targets named stonefish_ros2__rosidl_typesupport_fastrtps_cpp
+# Target rules for targets named stonefish_ros2__cpp
 
 # Build rule for target.
-stonefish_ros2__rosidl_typesupport_fastrtps_cpp: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 stonefish_ros2__rosidl_typesupport_fastrtps_cpp
-.PHONY : stonefish_ros2__rosidl_typesupport_fastrtps_cpp
+stonefish_ros2__cpp: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 stonefish_ros2__cpp
+.PHONY : stonefish_ros2__cpp
 
 # fast build rule for target.
-stonefish_ros2__rosidl_typesupport_fastrtps_cpp/fast:
-	$(MAKE) -f CMakeFiles/stonefish_ros2__rosidl_typesupport_fastrtps_cpp.dir/build.make CMakeFiles/stonefish_ros2__rosidl_typesupport_fastrtps_cpp.dir/build
-.PHONY : stonefish_ros2__rosidl_typesupport_fastrtps_cpp/fast
+stonefish_ros2__cpp/fast:
+	$(MAKE) -f CMakeFiles/stonefish_ros2__cpp.dir/build.make CMakeFiles/stonefish_ros2__cpp.dir/build
+.PHONY : stonefish_ros2__cpp/fast
+
+#=============================================================================
+# Target rules for targets named stonefish_ros2__rosidl_generator_c
+
+# Build rule for target.
+stonefish_ros2__rosidl_generator_c: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 stonefish_ros2__rosidl_generator_c
+.PHONY : stonefish_ros2__rosidl_generator_c
+
+# fast build rule for target.
+stonefish_ros2__rosidl_generator_c/fast:
+	$(MAKE) -f CMakeFiles/stonefish_ros2__rosidl_generator_c.dir/build.make CMakeFiles/stonefish_ros2__rosidl_generator_c.dir/build
+.PHONY : stonefish_ros2__rosidl_generator_c/fast
+
+#=============================================================================
+# Target rules for targets named ament_cmake_python_symlink_stonefish_ros2
+
+# Build rule for target.
+ament_cmake_python_symlink_stonefish_ros2: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 ament_cmake_python_symlink_stonefish_ros2
+.PHONY : ament_cmake_python_symlink_stonefish_ros2
+
+# fast build rule for target.
+ament_cmake_python_symlink_stonefish_ros2/fast:
+	$(MAKE) -f CMakeFiles/ament_cmake_python_symlink_stonefish_ros2.dir/build.make CMakeFiles/ament_cmake_python_symlink_stonefish_ros2.dir/build
+.PHONY : ament_cmake_python_symlink_stonefish_ros2/fast
+
+#=============================================================================
+# Target rules for targets named stonefish_ros2_interface
+
+# Build rule for target.
+stonefish_ros2_interface: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 stonefish_ros2_interface
+.PHONY : stonefish_ros2_interface
+
+# fast build rule for target.
+stonefish_ros2_interface/fast:
+	$(MAKE) -f CMakeFiles/stonefish_ros2_interface.dir/build.make CMakeFiles/stonefish_ros2_interface.dir/build
+.PHONY : stonefish_ros2_interface/fast
+
+#=============================================================================
+# Target rules for targets named stonefish_ros2
+
+# Build rule for target.
+stonefish_ros2: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 stonefish_ros2
+.PHONY : stonefish_ros2
+
+# fast build rule for target.
+stonefish_ros2/fast:
+	$(MAKE) -f CMakeFiles/stonefish_ros2.dir/build.make CMakeFiles/stonefish_ros2.dir/build
+.PHONY : stonefish_ros2/fast
 
 #=============================================================================
 # Target rules for targets named fluid_dynamics_test
@@ -415,17 +301,147 @@ fluid_dynamics_test/fast:
 .PHONY : fluid_dynamics_test/fast
 
 #=============================================================================
-# Target rules for targets named stonefish_simulator_nogpu
+# Target rules for targets named stonefish_ros2__rosidl_typesupport_introspection_c
 
 # Build rule for target.
-stonefish_simulator_nogpu: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 stonefish_simulator_nogpu
-.PHONY : stonefish_simulator_nogpu
+stonefish_ros2__rosidl_typesupport_introspection_c: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 stonefish_ros2__rosidl_typesupport_introspection_c
+.PHONY : stonefish_ros2__rosidl_typesupport_introspection_c
 
 # fast build rule for target.
-stonefish_simulator_nogpu/fast:
-	$(MAKE) -f CMakeFiles/stonefish_simulator_nogpu.dir/build.make CMakeFiles/stonefish_simulator_nogpu.dir/build
-.PHONY : stonefish_simulator_nogpu/fast
+stonefish_ros2__rosidl_typesupport_introspection_c/fast:
+	$(MAKE) -f CMakeFiles/stonefish_ros2__rosidl_typesupport_introspection_c.dir/build.make CMakeFiles/stonefish_ros2__rosidl_typesupport_introspection_c.dir/build
+.PHONY : stonefish_ros2__rosidl_typesupport_introspection_c/fast
+
+#=============================================================================
+# Target rules for targets named stonefish_ros2__rosidl_typesupport_cpp
+
+# Build rule for target.
+stonefish_ros2__rosidl_typesupport_cpp: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 stonefish_ros2__rosidl_typesupport_cpp
+.PHONY : stonefish_ros2__rosidl_typesupport_cpp
+
+# fast build rule for target.
+stonefish_ros2__rosidl_typesupport_cpp/fast:
+	$(MAKE) -f CMakeFiles/stonefish_ros2__rosidl_typesupport_cpp.dir/build.make CMakeFiles/stonefish_ros2__rosidl_typesupport_cpp.dir/build
+.PHONY : stonefish_ros2__rosidl_typesupport_cpp/fast
+
+#=============================================================================
+# Target rules for targets named stonefish_ros2__rosidl_typesupport_fastrtps_cpp
+
+# Build rule for target.
+stonefish_ros2__rosidl_typesupport_fastrtps_cpp: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 stonefish_ros2__rosidl_typesupport_fastrtps_cpp
+.PHONY : stonefish_ros2__rosidl_typesupport_fastrtps_cpp
+
+# fast build rule for target.
+stonefish_ros2__rosidl_typesupport_fastrtps_cpp/fast:
+	$(MAKE) -f CMakeFiles/stonefish_ros2__rosidl_typesupport_fastrtps_cpp.dir/build.make CMakeFiles/stonefish_ros2__rosidl_typesupport_fastrtps_cpp.dir/build
+.PHONY : stonefish_ros2__rosidl_typesupport_fastrtps_cpp/fast
+
+#=============================================================================
+# Target rules for targets named stonefish_ros2__rosidl_generator_py
+
+# Build rule for target.
+stonefish_ros2__rosidl_generator_py: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 stonefish_ros2__rosidl_generator_py
+.PHONY : stonefish_ros2__rosidl_generator_py
+
+# fast build rule for target.
+stonefish_ros2__rosidl_generator_py/fast:
+	$(MAKE) -f CMakeFiles/stonefish_ros2__rosidl_generator_py.dir/build.make CMakeFiles/stonefish_ros2__rosidl_generator_py.dir/build
+.PHONY : stonefish_ros2__rosidl_generator_py/fast
+
+#=============================================================================
+# Target rules for targets named stonefish_ros2_uninstall
+
+# Build rule for target.
+stonefish_ros2_uninstall: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 stonefish_ros2_uninstall
+.PHONY : stonefish_ros2_uninstall
+
+# fast build rule for target.
+stonefish_ros2_uninstall/fast:
+	$(MAKE) -f CMakeFiles/stonefish_ros2_uninstall.dir/build.make CMakeFiles/stonefish_ros2_uninstall.dir/build
+.PHONY : stonefish_ros2_uninstall/fast
+
+#=============================================================================
+# Target rules for targets named stonefish_ros2__rosidl_typesupport_c__pyext
+
+# Build rule for target.
+stonefish_ros2__rosidl_typesupport_c__pyext: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 stonefish_ros2__rosidl_typesupport_c__pyext
+.PHONY : stonefish_ros2__rosidl_typesupport_c__pyext
+
+# fast build rule for target.
+stonefish_ros2__rosidl_typesupport_c__pyext/fast:
+	$(MAKE) -f CMakeFiles/stonefish_ros2__rosidl_typesupport_c__pyext.dir/build.make CMakeFiles/stonefish_ros2__rosidl_typesupport_c__pyext.dir/build
+.PHONY : stonefish_ros2__rosidl_typesupport_c__pyext/fast
+
+#=============================================================================
+# Target rules for targets named stonefish_simulator
+
+# Build rule for target.
+stonefish_simulator: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 stonefish_simulator
+.PHONY : stonefish_simulator
+
+# fast build rule for target.
+stonefish_simulator/fast:
+	$(MAKE) -f CMakeFiles/stonefish_simulator.dir/build.make CMakeFiles/stonefish_simulator.dir/build
+.PHONY : stonefish_simulator/fast
+
+#=============================================================================
+# Target rules for targets named uninstall
+
+# Build rule for target.
+uninstall: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 uninstall
+.PHONY : uninstall
+
+# fast build rule for target.
+uninstall/fast:
+	$(MAKE) -f CMakeFiles/uninstall.dir/build.make CMakeFiles/uninstall.dir/build
+.PHONY : uninstall/fast
+
+#=============================================================================
+# Target rules for targets named ament_cmake_python_build_stonefish_ros2_egg
+
+# Build rule for target.
+ament_cmake_python_build_stonefish_ros2_egg: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 ament_cmake_python_build_stonefish_ros2_egg
+.PHONY : ament_cmake_python_build_stonefish_ros2_egg
+
+# fast build rule for target.
+ament_cmake_python_build_stonefish_ros2_egg/fast:
+	$(MAKE) -f CMakeFiles/ament_cmake_python_build_stonefish_ros2_egg.dir/build.make CMakeFiles/ament_cmake_python_build_stonefish_ros2_egg.dir/build
+.PHONY : ament_cmake_python_build_stonefish_ros2_egg/fast
+
+#=============================================================================
+# Target rules for targets named stonefish_ros2__rosidl_typesupport_fastrtps_c__pyext
+
+# Build rule for target.
+stonefish_ros2__rosidl_typesupport_fastrtps_c__pyext: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 stonefish_ros2__rosidl_typesupport_fastrtps_c__pyext
+.PHONY : stonefish_ros2__rosidl_typesupport_fastrtps_c__pyext
+
+# fast build rule for target.
+stonefish_ros2__rosidl_typesupport_fastrtps_c__pyext/fast:
+	$(MAKE) -f CMakeFiles/stonefish_ros2__rosidl_typesupport_fastrtps_c__pyext.dir/build.make CMakeFiles/stonefish_ros2__rosidl_typesupport_fastrtps_c__pyext.dir/build
+.PHONY : stonefish_ros2__rosidl_typesupport_fastrtps_c__pyext/fast
+
+#=============================================================================
+# Target rules for targets named stonefish_ros2__rosidl_typesupport_introspection_c__pyext
+
+# Build rule for target.
+stonefish_ros2__rosidl_typesupport_introspection_c__pyext: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 stonefish_ros2__rosidl_typesupport_introspection_c__pyext
+.PHONY : stonefish_ros2__rosidl_typesupport_introspection_c__pyext
+
+# fast build rule for target.
+stonefish_ros2__rosidl_typesupport_introspection_c__pyext/fast:
+	$(MAKE) -f CMakeFiles/stonefish_ros2__rosidl_typesupport_introspection_c__pyext.dir/build.make CMakeFiles/stonefish_ros2__rosidl_typesupport_introspection_c__pyext.dir/build
+.PHONY : stonefish_ros2__rosidl_typesupport_introspection_c__pyext/fast
 
 #=============================================================================
 # Target rules for targets named stonefish_ros2__rosidl_typesupport_introspection_cpp
@@ -3342,6 +3358,60 @@ rosidl_typesupport_introspection_cpp/stonefish_ros2/srv/detail/sonar_settings__t
 	$(MAKE) -f CMakeFiles/stonefish_ros2__rosidl_typesupport_introspection_cpp.dir/build.make CMakeFiles/stonefish_ros2__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/stonefish_ros2/srv/detail/sonar_settings__type_support.cpp.s
 .PHONY : rosidl_typesupport_introspection_cpp/stonefish_ros2/srv/detail/sonar_settings__type_support.cpp.s
 
+src/CameraTest/CameraTestManager.o: src/CameraTest/CameraTestManager.cpp.o
+
+.PHONY : src/CameraTest/CameraTestManager.o
+
+# target to build an object file
+src/CameraTest/CameraTestManager.cpp.o:
+	$(MAKE) -f CMakeFiles/camera_test.dir/build.make CMakeFiles/camera_test.dir/src/CameraTest/CameraTestManager.cpp.o
+.PHONY : src/CameraTest/CameraTestManager.cpp.o
+
+src/CameraTest/CameraTestManager.i: src/CameraTest/CameraTestManager.cpp.i
+
+.PHONY : src/CameraTest/CameraTestManager.i
+
+# target to preprocess a source file
+src/CameraTest/CameraTestManager.cpp.i:
+	$(MAKE) -f CMakeFiles/camera_test.dir/build.make CMakeFiles/camera_test.dir/src/CameraTest/CameraTestManager.cpp.i
+.PHONY : src/CameraTest/CameraTestManager.cpp.i
+
+src/CameraTest/CameraTestManager.s: src/CameraTest/CameraTestManager.cpp.s
+
+.PHONY : src/CameraTest/CameraTestManager.s
+
+# target to generate assembly for a file
+src/CameraTest/CameraTestManager.cpp.s:
+	$(MAKE) -f CMakeFiles/camera_test.dir/build.make CMakeFiles/camera_test.dir/src/CameraTest/CameraTestManager.cpp.s
+.PHONY : src/CameraTest/CameraTestManager.cpp.s
+
+src/CameraTest/main.o: src/CameraTest/main.cpp.o
+
+.PHONY : src/CameraTest/main.o
+
+# target to build an object file
+src/CameraTest/main.cpp.o:
+	$(MAKE) -f CMakeFiles/camera_test.dir/build.make CMakeFiles/camera_test.dir/src/CameraTest/main.cpp.o
+.PHONY : src/CameraTest/main.cpp.o
+
+src/CameraTest/main.i: src/CameraTest/main.cpp.i
+
+.PHONY : src/CameraTest/main.i
+
+# target to preprocess a source file
+src/CameraTest/main.cpp.i:
+	$(MAKE) -f CMakeFiles/camera_test.dir/build.make CMakeFiles/camera_test.dir/src/CameraTest/main.cpp.i
+.PHONY : src/CameraTest/main.cpp.i
+
+src/CameraTest/main.s: src/CameraTest/main.cpp.s
+
+.PHONY : src/CameraTest/main.s
+
+# target to generate assembly for a file
+src/CameraTest/main.cpp.s:
+	$(MAKE) -f CMakeFiles/camera_test.dir/build.make CMakeFiles/camera_test.dir/src/CameraTest/main.cpp.s
+.PHONY : src/CameraTest/main.cpp.s
+
 src/FluidDynamicsTestApp.o: src/FluidDynamicsTestApp.cpp.o
 
 .PHONY : src/FluidDynamicsTestApp.o
@@ -3619,33 +3689,34 @@ help:
 	@echo "... clean"
 	@echo "... depend"
 	@echo "... install/strip"
-	@echo "... install/local"
-	@echo "... install"
-	@echo "... list_install_components"
-	@echo "... stonefish_ros2__rosidl_typesupport_introspection_c__pyext"
-	@echo "... stonefish_ros2__rosidl_typesupport_fastrtps_c__pyext"
-	@echo "... ament_cmake_python_build_stonefish_ros2_egg"
-	@echo "... test"
-	@echo "... uninstall"
-	@echo "... stonefish_simulator"
-	@echo "... stonefish_ros2__rosidl_typesupport_c__pyext"
-	@echo "... stonefish_ros2_uninstall"
-	@echo "... stonefish_ros2__rosidl_generator_py"
-	@echo "... stonefish_ros2__rosidl_typesupport_cpp"
-	@echo "... stonefish_ros2"
-	@echo "... stonefish_ros2_interface"
-	@echo "... ament_cmake_python_symlink_stonefish_ros2"
-	@echo "... stonefish_ros2__rosidl_generator_c"
-	@echo "... stonefish_ros2__cpp"
-	@echo "... rebuild_cache"
-	@echo "... edit_cache"
-	@echo "... stonefish_ros2__rosidl_typesupport_fastrtps_c"
-	@echo "... stonefish_ros2__rosidl_typesupport_introspection_c"
-	@echo "... stonefish_ros2__rosidl_typesupport_c"
-	@echo "... stonefish_ros2__rosidl_typesupport_fastrtps_cpp"
-	@echo "... fluid_dynamics_test"
+	@echo "... camera_test"
 	@echo "... stonefish_simulator_nogpu"
+	@echo "... stonefish_ros2__rosidl_typesupport_fastrtps_c"
+	@echo "... edit_cache"
+	@echo "... rebuild_cache"
+	@echo "... stonefish_ros2__rosidl_typesupport_c"
+	@echo "... stonefish_ros2__cpp"
+	@echo "... stonefish_ros2__rosidl_generator_c"
+	@echo "... ament_cmake_python_symlink_stonefish_ros2"
+	@echo "... stonefish_ros2_interface"
+	@echo "... stonefish_ros2"
+	@echo "... fluid_dynamics_test"
+	@echo "... stonefish_ros2__rosidl_typesupport_introspection_c"
+	@echo "... stonefish_ros2__rosidl_typesupport_cpp"
+	@echo "... stonefish_ros2__rosidl_typesupport_fastrtps_cpp"
+	@echo "... stonefish_ros2__rosidl_generator_py"
+	@echo "... stonefish_ros2_uninstall"
+	@echo "... stonefish_ros2__rosidl_typesupport_c__pyext"
+	@echo "... stonefish_simulator"
+	@echo "... uninstall"
+	@echo "... test"
+	@echo "... ament_cmake_python_build_stonefish_ros2_egg"
+	@echo "... stonefish_ros2__rosidl_typesupport_fastrtps_c__pyext"
+	@echo "... stonefish_ros2__rosidl_typesupport_introspection_c__pyext"
+	@echo "... list_install_components"
 	@echo "... stonefish_ros2__rosidl_typesupport_introspection_cpp"
+	@echo "... install"
+	@echo "... install/local"
 	@echo "... stonefish_ros2__py"
 	@echo "... rosidl_generator_c/stonefish_ros2/msg/detail/beacon_info__functions.o"
 	@echo "... rosidl_generator_c/stonefish_ros2/msg/detail/beacon_info__functions.i"
@@ -3968,6 +4039,12 @@ help:
 	@echo "... rosidl_typesupport_introspection_cpp/stonefish_ros2/srv/detail/sonar_settings__type_support.o"
 	@echo "... rosidl_typesupport_introspection_cpp/stonefish_ros2/srv/detail/sonar_settings__type_support.i"
 	@echo "... rosidl_typesupport_introspection_cpp/stonefish_ros2/srv/detail/sonar_settings__type_support.s"
+	@echo "... src/CameraTest/CameraTestManager.o"
+	@echo "... src/CameraTest/CameraTestManager.i"
+	@echo "... src/CameraTest/CameraTestManager.s"
+	@echo "... src/CameraTest/main.o"
+	@echo "... src/CameraTest/main.i"
+	@echo "... src/CameraTest/main.s"
 	@echo "... src/FluidDynamicsTestApp.o"
 	@echo "... src/FluidDynamicsTestApp.i"
 	@echo "... src/FluidDynamicsTestApp.s"

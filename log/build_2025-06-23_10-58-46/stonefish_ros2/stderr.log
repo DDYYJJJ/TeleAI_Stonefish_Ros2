@@ -1,0 +1,7 @@
+[01m[K/home/dyj/ros2_ws/src/stonefish_ros2/src/FluidDynamicsTestManager.cpp:[m[K In member function ‘[01m[Kvirtual void FluidDynamicsTestManager::SimulationStepCompleted(sf::Scalar)[m[K’:
+[01m[K/home/dyj/ros2_ws/src/stonefish_ros2/src/FluidDynamicsTestManager.cpp:296:19:[m[K [01;35m[Kwarning: [m[Kvariable ‘[01m[KcgTransform[m[K’ set but not used [[01;35m[K-Wunused-but-set-variable[m[K]
+  296 |     sf::Transform [01;35m[KcgTransform[m[K = hull->getCG2OTransform().inverse();
+      |                   [01;35m[K^~~~~~~~~~~[m[K
+[01m[K/home/dyj/ros2_ws/src/stonefish_ros2/src/FluidDynamicsTestManager.cpp:310:19:[m[K [01;35m[Kwarning: [m[Kvariable ‘[01m[KsphR1MCGTransform[m[K’ set but not used [[01;35m[K-Wunused-but-set-variable[m[K]
+  310 |     sf::Transform [01;35m[KsphR1MCGTransform[m[K = sphR1M->getCG2OTransform().inverse();
+      |                   [01;35m[K^~~~~~~~~~~~~~~~~[m[K

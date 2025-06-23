@@ -1,0 +1,341 @@
+/usr/bin/cmake -S/home/dyj/ros2_ws/src/stonefish_ros2 -B/home/dyj/ros2_ws/build/stonefish_ros2 --check-build-system CMakeFiles/Makefile.cmake 0
+/usr/bin/cmake -E cmake_progress_start /home/dyj/ros2_ws/build/stonefish_ros2/CMakeFiles /home/dyj/ros2_ws/build/stonefish_ros2/CMakeFiles/progress.marks
+/usr/bin/make -f CMakeFiles/Makefile2 all
+make[1]: 进入目录“/home/dyj/ros2_ws/build/stonefish_ros2”
+/usr/bin/make -f CMakeFiles/stonefish_ros2__cpp.dir/build.make CMakeFiles/stonefish_ros2__cpp.dir/depend
+/usr/bin/make -f CMakeFiles/stonefish_ros2__rosidl_generator_c.dir/build.make CMakeFiles/stonefish_ros2__rosidl_generator_c.dir/depend
+/usr/bin/make -f CMakeFiles/ament_cmake_python_symlink_stonefish_ros2.dir/build.make CMakeFiles/ament_cmake_python_symlink_stonefish_ros2.dir/depend
+make[2]: 进入目录“/home/dyj/ros2_ws/build/stonefish_ros2”
+cd /home/dyj/ros2_ws/build/stonefish_ros2 && /usr/bin/cmake -E cmake_depends "Unix Makefiles" /home/dyj/ros2_ws/src/stonefish_ros2 /home/dyj/ros2_ws/src/stonefish_ros2 /home/dyj/ros2_ws/build/stonefish_ros2 /home/dyj/ros2_ws/build/stonefish_ros2 /home/dyj/ros2_ws/build/stonefish_ros2/CMakeFiles/ament_cmake_python_symlink_stonefish_ros2.dir/DependInfo.cmake --color=
+make[2]: 进入目录“/home/dyj/ros2_ws/build/stonefish_ros2”
+cd /home/dyj/ros2_ws/build/stonefish_ros2 && /usr/bin/cmake -E cmake_depends "Unix Makefiles" /home/dyj/ros2_ws/src/stonefish_ros2 /home/dyj/ros2_ws/src/stonefish_ros2 /home/dyj/ros2_ws/build/stonefish_ros2 /home/dyj/ros2_ws/build/stonefish_ros2 /home/dyj/ros2_ws/build/stonefish_ros2/CMakeFiles/stonefish_ros2__cpp.dir/DependInfo.cmake --color=
+make[2]: 进入目录“/home/dyj/ros2_ws/build/stonefish_ros2”
+cd /home/dyj/ros2_ws/build/stonefish_ros2 && /usr/bin/cmake -E cmake_depends "Unix Makefiles" /home/dyj/ros2_ws/src/stonefish_ros2 /home/dyj/ros2_ws/src/stonefish_ros2 /home/dyj/ros2_ws/build/stonefish_ros2 /home/dyj/ros2_ws/build/stonefish_ros2 /home/dyj/ros2_ws/build/stonefish_ros2/CMakeFiles/stonefish_ros2__rosidl_generator_c.dir/DependInfo.cmake --color=
+make[2]: 离开目录“/home/dyj/ros2_ws/build/stonefish_ros2”
+/usr/bin/make -f CMakeFiles/ament_cmake_python_symlink_stonefish_ros2.dir/build.make CMakeFiles/ament_cmake_python_symlink_stonefish_ros2.dir/build
+make[2]: 进入目录“/home/dyj/ros2_ws/build/stonefish_ros2”
+/usr/bin/cmake -E create_symlink /home/dyj/ros2_ws/build/stonefish_ros2/rosidl_generator_py/stonefish_ros2 /home/dyj/ros2_ws/build/stonefish_ros2/ament_cmake_python/stonefish_ros2/stonefish_ros2
+make[2]: 离开目录“/home/dyj/ros2_ws/build/stonefish_ros2”
+/usr/bin/make -f CMakeFiles/stonefish_ros2__cpp.dir/build.make CMakeFiles/stonefish_ros2__cpp.dir/build
+make[2]: 进入目录“/home/dyj/ros2_ws/build/stonefish_ros2”
+make[2]: 对“CMakeFiles/stonefish_ros2__cpp.dir/build”无需做任何事。
+make[2]: 离开目录“/home/dyj/ros2_ws/build/stonefish_ros2”
+make[2]: 离开目录“/home/dyj/ros2_ws/build/stonefish_ros2”
+/usr/bin/make -f CMakeFiles/stonefish_ros2__rosidl_generator_c.dir/build.make CMakeFiles/stonefish_ros2__rosidl_generator_c.dir/build
+make[2]: 离开目录“/home/dyj/ros2_ws/build/stonefish_ros2”
+[  1%] Built target stonefish_ros2__cpp
+/usr/bin/make -f CMakeFiles/stonefish_ros2__rosidl_typesupport_cpp.dir/build.make CMakeFiles/stonefish_ros2__rosidl_typesupport_cpp.dir/depend
+/usr/bin/make -f CMakeFiles/stonefish_ros2__rosidl_typesupport_fastrtps_cpp.dir/build.make CMakeFiles/stonefish_ros2__rosidl_typesupport_fastrtps_cpp.dir/depend
+/usr/bin/make -f CMakeFiles/stonefish_ros2__rosidl_typesupport_introspection_cpp.dir/build.make CMakeFiles/stonefish_ros2__rosidl_typesupport_introspection_cpp.dir/depend
+make[2]: 进入目录“/home/dyj/ros2_ws/build/stonefish_ros2”
+make[2]: 对“CMakeFiles/stonefish_ros2__rosidl_generator_c.dir/build”无需做任何事。
+make[2]: 离开目录“/home/dyj/ros2_ws/build/stonefish_ros2”
+make[2]: 进入目录“/home/dyj/ros2_ws/build/stonefish_ros2”
+cd /home/dyj/ros2_ws/build/stonefish_ros2 && /usr/bin/cmake -E cmake_depends "Unix Makefiles" /home/dyj/ros2_ws/src/stonefish_ros2 /home/dyj/ros2_ws/src/stonefish_ros2 /home/dyj/ros2_ws/build/stonefish_ros2 /home/dyj/ros2_ws/build/stonefish_ros2 /home/dyj/ros2_ws/build/stonefish_ros2/CMakeFiles/stonefish_ros2__rosidl_typesupport_cpp.dir/DependInfo.cmake --color=
+make[2]: 进入目录“/home/dyj/ros2_ws/build/stonefish_ros2”
+cd /home/dyj/ros2_ws/build/stonefish_ros2 && /usr/bin/cmake -E cmake_depends "Unix Makefiles" /home/dyj/ros2_ws/src/stonefish_ros2 /home/dyj/ros2_ws/src/stonefish_ros2 /home/dyj/ros2_ws/build/stonefish_ros2 /home/dyj/ros2_ws/build/stonefish_ros2 /home/dyj/ros2_ws/build/stonefish_ros2/CMakeFiles/stonefish_ros2__rosidl_typesupport_introspection_cpp.dir/DependInfo.cmake --color=
+[  1%] Built target ament_cmake_python_symlink_stonefish_ros2
+/usr/bin/make -f CMakeFiles/ament_cmake_python_build_stonefish_ros2_egg.dir/build.make CMakeFiles/ament_cmake_python_build_stonefish_ros2_egg.dir/depend
+make[2]: 进入目录“/home/dyj/ros2_ws/build/stonefish_ros2”
+cd /home/dyj/ros2_ws/build/stonefish_ros2 && /usr/bin/cmake -E cmake_depends "Unix Makefiles" /home/dyj/ros2_ws/src/stonefish_ros2 /home/dyj/ros2_ws/src/stonefish_ros2 /home/dyj/ros2_ws/build/stonefish_ros2 /home/dyj/ros2_ws/build/stonefish_ros2 /home/dyj/ros2_ws/build/stonefish_ros2/CMakeFiles/ament_cmake_python_build_stonefish_ros2_egg.dir/DependInfo.cmake --color=
+[ 11%] Built target stonefish_ros2__rosidl_generator_c
+/usr/bin/make -f CMakeFiles/stonefish_ros2__rosidl_typesupport_c.dir/build.make CMakeFiles/stonefish_ros2__rosidl_typesupport_c.dir/depend
+/usr/bin/make -f CMakeFiles/stonefish_ros2__rosidl_typesupport_introspection_c.dir/build.make CMakeFiles/stonefish_ros2__rosidl_typesupport_introspection_c.dir/depend
+make[2]: 进入目录“/home/dyj/ros2_ws/build/stonefish_ros2”
+cd /home/dyj/ros2_ws/build/stonefish_ros2 && /usr/bin/cmake -E cmake_depends "Unix Makefiles" /home/dyj/ros2_ws/src/stonefish_ros2 /home/dyj/ros2_ws/src/stonefish_ros2 /home/dyj/ros2_ws/build/stonefish_ros2 /home/dyj/ros2_ws/build/stonefish_ros2 /home/dyj/ros2_ws/build/stonefish_ros2/CMakeFiles/stonefish_ros2__rosidl_typesupport_fastrtps_cpp.dir/DependInfo.cmake --color=
+make[2]: 离开目录“/home/dyj/ros2_ws/build/stonefish_ros2”
+/usr/bin/make -f CMakeFiles/stonefish_ros2__rosidl_typesupport_cpp.dir/build.make CMakeFiles/stonefish_ros2__rosidl_typesupport_cpp.dir/build
+make[2]: 离开目录“/home/dyj/ros2_ws/build/stonefish_ros2”
+/usr/bin/make -f CMakeFiles/stonefish_ros2__rosidl_typesupport_introspection_cpp.dir/build.make CMakeFiles/stonefish_ros2__rosidl_typesupport_introspection_cpp.dir/build
+make[2]: 进入目录“/home/dyj/ros2_ws/build/stonefish_ros2”
+cd /home/dyj/ros2_ws/build/stonefish_ros2 && /usr/bin/cmake -E cmake_depends "Unix Makefiles" /home/dyj/ros2_ws/src/stonefish_ros2 /home/dyj/ros2_ws/src/stonefish_ros2 /home/dyj/ros2_ws/build/stonefish_ros2 /home/dyj/ros2_ws/build/stonefish_ros2 /home/dyj/ros2_ws/build/stonefish_ros2/CMakeFiles/stonefish_ros2__rosidl_typesupport_c.dir/DependInfo.cmake --color=
+make[2]: 进入目录“/home/dyj/ros2_ws/build/stonefish_ros2”
+cd /home/dyj/ros2_ws/build/stonefish_ros2 && /usr/bin/cmake -E cmake_depends "Unix Makefiles" /home/dyj/ros2_ws/src/stonefish_ros2 /home/dyj/ros2_ws/src/stonefish_ros2 /home/dyj/ros2_ws/build/stonefish_ros2 /home/dyj/ros2_ws/build/stonefish_ros2 /home/dyj/ros2_ws/build/stonefish_ros2/CMakeFiles/stonefish_ros2__rosidl_typesupport_introspection_c.dir/DependInfo.cmake --color=
+make[2]: 离开目录“/home/dyj/ros2_ws/build/stonefish_ros2”
+/usr/bin/make -f CMakeFiles/stonefish_ros2__rosidl_typesupport_fastrtps_cpp.dir/build.make CMakeFiles/stonefish_ros2__rosidl_typesupport_fastrtps_cpp.dir/build
+make[2]: 进入目录“/home/dyj/ros2_ws/build/stonefish_ros2”
+make[2]: 对“CMakeFiles/stonefish_ros2__rosidl_typesupport_cpp.dir/build”无需做任何事。
+make[2]: 离开目录“/home/dyj/ros2_ws/build/stonefish_ros2”
+make[2]: 离开目录“/home/dyj/ros2_ws/build/stonefish_ros2”
+make[2]: 进入目录“/home/dyj/ros2_ws/build/stonefish_ros2”
+make[2]: 对“CMakeFiles/stonefish_ros2__rosidl_typesupport_introspection_cpp.dir/build”无需做任何事。
+make[2]: 离开目录“/home/dyj/ros2_ws/build/stonefish_ros2”
+/usr/bin/make -f CMakeFiles/stonefish_ros2__rosidl_typesupport_c.dir/build.make CMakeFiles/stonefish_ros2__rosidl_typesupport_c.dir/build
+make[2]: 离开目录“/home/dyj/ros2_ws/build/stonefish_ros2”
+/usr/bin/make -f CMakeFiles/stonefish_ros2__rosidl_typesupport_introspection_c.dir/build.make CMakeFiles/stonefish_ros2__rosidl_typesupport_introspection_c.dir/build
+make[2]: 离开目录“/home/dyj/ros2_ws/build/stonefish_ros2”
+/usr/bin/make -f CMakeFiles/ament_cmake_python_build_stonefish_ros2_egg.dir/build.make CMakeFiles/ament_cmake_python_build_stonefish_ros2_egg.dir/build
+make[2]: 进入目录“/home/dyj/ros2_ws/build/stonefish_ros2”
+cd /home/dyj/ros2_ws/build/stonefish_ros2/ament_cmake_python/stonefish_ros2 && /usr/bin/python3.8 setup.py egg_info
+[ 21%] Built target stonefish_ros2__rosidl_typesupport_cpp
+/usr/bin/make -f CMakeFiles/camera_test.dir/build.make CMakeFiles/camera_test.dir/depend
+/usr/bin/make -f CMakeFiles/stonefish_ros2_interface.dir/build.make CMakeFiles/stonefish_ros2_interface.dir/depend
+/usr/bin/make -f CMakeFiles/fluid_dynamics_test.dir/build.make CMakeFiles/fluid_dynamics_test.dir/depend
+[ 32%] Built target stonefish_ros2__rosidl_typesupport_introspection_cpp
+make[2]: 进入目录“/home/dyj/ros2_ws/build/stonefish_ros2”
+cd /home/dyj/ros2_ws/build/stonefish_ros2 && /usr/bin/cmake -E cmake_depends "Unix Makefiles" /home/dyj/ros2_ws/src/stonefish_ros2 /home/dyj/ros2_ws/src/stonefish_ros2 /home/dyj/ros2_ws/build/stonefish_ros2 /home/dyj/ros2_ws/build/stonefish_ros2 /home/dyj/ros2_ws/build/stonefish_ros2/CMakeFiles/camera_test.dir/DependInfo.cmake --color=
+make[2]: 进入目录“/home/dyj/ros2_ws/build/stonefish_ros2”
+make[2]: 对“CMakeFiles/stonefish_ros2__rosidl_typesupport_c.dir/build”无需做任何事。
+make[2]: 离开目录“/home/dyj/ros2_ws/build/stonefish_ros2”
+make[2]: 进入目录“/home/dyj/ros2_ws/build/stonefish_ros2”
+make[2]: 对“CMakeFiles/stonefish_ros2__rosidl_typesupport_fastrtps_cpp.dir/build”无需做任何事。
+make[2]: 离开目录“/home/dyj/ros2_ws/build/stonefish_ros2”
+make[2]: 进入目录“/home/dyj/ros2_ws/build/stonefish_ros2”
+make[2]: 对“CMakeFiles/stonefish_ros2__rosidl_typesupport_introspection_c.dir/build”无需做任何事。
+make[2]: 离开目录“/home/dyj/ros2_ws/build/stonefish_ros2”
+make[2]: 进入目录“/home/dyj/ros2_ws/build/stonefish_ros2”
+cd /home/dyj/ros2_ws/build/stonefish_ros2 && /usr/bin/cmake -E cmake_depends "Unix Makefiles" /home/dyj/ros2_ws/src/stonefish_ros2 /home/dyj/ros2_ws/src/stonefish_ros2 /home/dyj/ros2_ws/build/stonefish_ros2 /home/dyj/ros2_ws/build/stonefish_ros2 /home/dyj/ros2_ws/build/stonefish_ros2/CMakeFiles/fluid_dynamics_test.dir/DependInfo.cmake --color=
+[ 42%] Built target stonefish_ros2__rosidl_typesupport_c
+make[2]: 离开目录“/home/dyj/ros2_ws/build/stonefish_ros2”
+/usr/bin/make -f CMakeFiles/camera_test.dir/build.make CMakeFiles/camera_test.dir/build
+[ 52%] Built target stonefish_ros2__rosidl_typesupport_fastrtps_cpp
+make[2]: 进入目录“/home/dyj/ros2_ws/build/stonefish_ros2”
+cd /home/dyj/ros2_ws/build/stonefish_ros2 && /usr/bin/cmake -E cmake_depends "Unix Makefiles" /home/dyj/ros2_ws/src/stonefish_ros2 /home/dyj/ros2_ws/src/stonefish_ros2 /home/dyj/ros2_ws/build/stonefish_ros2 /home/dyj/ros2_ws/build/stonefish_ros2 /home/dyj/ros2_ws/build/stonefish_ros2/CMakeFiles/stonefish_ros2_interface.dir/DependInfo.cmake --color=
+/usr/bin/make -f CMakeFiles/stonefish_ros2__rosidl_typesupport_fastrtps_c.dir/build.make CMakeFiles/stonefish_ros2__rosidl_typesupport_fastrtps_c.dir/depend
+[ 63%] Built target stonefish_ros2__rosidl_typesupport_introspection_c
+Dependee "/home/dyj/ros2_ws/src/stonefish_ros2/src/FluidDynamicsTestManager.h" is newer than depends file "/home/dyj/ros2_ws/build/stonefish_ros2/CMakeFiles/fluid_dynamics_test.dir/depend.internal".
+make[2]: 进入目录“/home/dyj/ros2_ws/build/stonefish_ros2”
+make[2]: 对“CMakeFiles/camera_test.dir/build”无需做任何事。
+make[2]: 离开目录“/home/dyj/ros2_ws/build/stonefish_ros2”
+make[2]: 进入目录“/home/dyj/ros2_ws/build/stonefish_ros2”
+cd /home/dyj/ros2_ws/build/stonefish_ros2 && /usr/bin/cmake -E cmake_depends "Unix Makefiles" /home/dyj/ros2_ws/src/stonefish_ros2 /home/dyj/ros2_ws/src/stonefish_ros2 /home/dyj/ros2_ws/build/stonefish_ros2 /home/dyj/ros2_ws/build/stonefish_ros2 /home/dyj/ros2_ws/build/stonefish_ros2/CMakeFiles/stonefish_ros2__rosidl_typesupport_fastrtps_c.dir/DependInfo.cmake --color=
+Dependee "/home/dyj/ros2_ws/src/stonefish_ros2/src/FluidDynamicsTestManager.cpp" is newer than depends file "/home/dyj/ros2_ws/build/stonefish_ros2/CMakeFiles/fluid_dynamics_test.dir/depend.internal".
+Dependee "/home/dyj/ros2_ws/src/stonefish_ros2/src/FluidDynamicsTestManager.h" is newer than depends file "/home/dyj/ros2_ws/build/stonefish_ros2/CMakeFiles/fluid_dynamics_test.dir/depend.internal".
+Dependee "/home/dyj/ros2_ws/src/stonefish_ros2/src/FluidDynamicsTestManager.h" is newer than depends file "/home/dyj/ros2_ws/build/stonefish_ros2/CMakeFiles/fluid_dynamics_test.dir/depend.internal".
+Clearing dependencies in "/home/dyj/ros2_ws/build/stonefish_ros2/CMakeFiles/fluid_dynamics_test.dir/depend.make".
+[35m[1mScanning dependencies of target fluid_dynamics_test[0m
+[ 65%] Built target camera_test
+make[2]: 离开目录“/home/dyj/ros2_ws/build/stonefish_ros2”
+/usr/bin/make -f CMakeFiles/stonefish_ros2__rosidl_typesupport_fastrtps_c.dir/build.make CMakeFiles/stonefish_ros2__rosidl_typesupport_fastrtps_c.dir/build
+make[2]: 离开目录“/home/dyj/ros2_ws/build/stonefish_ros2”
+/usr/bin/make -f CMakeFiles/stonefish_ros2_interface.dir/build.make CMakeFiles/stonefish_ros2_interface.dir/build
+make[2]: 进入目录“/home/dyj/ros2_ws/build/stonefish_ros2”
+make[2]: 对“CMakeFiles/stonefish_ros2__rosidl_typesupport_fastrtps_c.dir/build”无需做任何事。
+make[2]: 离开目录“/home/dyj/ros2_ws/build/stonefish_ros2”
+[ 76%] Built target stonefish_ros2__rosidl_typesupport_fastrtps_c
+/usr/bin/make -f CMakeFiles/stonefish_ros2.dir/build.make CMakeFiles/stonefish_ros2.dir/depend
+make[2]: 进入目录“/home/dyj/ros2_ws/build/stonefish_ros2”
+cd /home/dyj/ros2_ws/build/stonefish_ros2 && /usr/bin/cmake -E cmake_depends "Unix Makefiles" /home/dyj/ros2_ws/src/stonefish_ros2 /home/dyj/ros2_ws/src/stonefish_ros2 /home/dyj/ros2_ws/build/stonefish_ros2 /home/dyj/ros2_ws/build/stonefish_ros2 /home/dyj/ros2_ws/build/stonefish_ros2/CMakeFiles/stonefish_ros2.dir/DependInfo.cmake --color=
+make[2]: 进入目录“/home/dyj/ros2_ws/build/stonefish_ros2”
+make[2]: 对“CMakeFiles/stonefish_ros2_interface.dir/build”无需做任何事。
+make[2]: 离开目录“/home/dyj/ros2_ws/build/stonefish_ros2”
+make[2]: 离开目录“/home/dyj/ros2_ws/build/stonefish_ros2”
+/usr/bin/make -f CMakeFiles/fluid_dynamics_test.dir/build.make CMakeFiles/fluid_dynamics_test.dir/build
+make[2]: 离开目录“/home/dyj/ros2_ws/build/stonefish_ros2”
+/usr/bin/make -f CMakeFiles/stonefish_ros2.dir/build.make CMakeFiles/stonefish_ros2.dir/build
+make[2]: 进入目录“/home/dyj/ros2_ws/build/stonefish_ros2”
+[ 80%] Built target stonefish_ros2_interface
+make[2]: 进入目录“/home/dyj/ros2_ws/build/stonefish_ros2”
+make[2]: 对“CMakeFiles/stonefish_ros2.dir/build”无需做任何事。
+make[2]: 离开目录“/home/dyj/ros2_ws/build/stonefish_ros2”
+/usr/bin/make -f CMakeFiles/stonefish_simulator_nogpu.dir/build.make CMakeFiles/stonefish_simulator_nogpu.dir/depend
+/usr/bin/make -f CMakeFiles/stonefish_simulator.dir/build.make CMakeFiles/stonefish_simulator.dir/depend
+make[2]: 进入目录“/home/dyj/ros2_ws/build/stonefish_ros2”
+cd /home/dyj/ros2_ws/build/stonefish_ros2 && /usr/bin/cmake -E cmake_depends "Unix Makefiles" /home/dyj/ros2_ws/src/stonefish_ros2 /home/dyj/ros2_ws/src/stonefish_ros2 /home/dyj/ros2_ws/build/stonefish_ros2 /home/dyj/ros2_ws/build/stonefish_ros2 /home/dyj/ros2_ws/build/stonefish_ros2/CMakeFiles/stonefish_simulator_nogpu.dir/DependInfo.cmake --color=
+make[2]: 进入目录“/home/dyj/ros2_ws/build/stonefish_ros2”
+cd /home/dyj/ros2_ws/build/stonefish_ros2 && /usr/bin/cmake -E cmake_depends "Unix Makefiles" /home/dyj/ros2_ws/src/stonefish_ros2 /home/dyj/ros2_ws/src/stonefish_ros2 /home/dyj/ros2_ws/build/stonefish_ros2 /home/dyj/ros2_ws/build/stonefish_ros2 /home/dyj/ros2_ws/build/stonefish_ros2/CMakeFiles/stonefish_simulator.dir/DependInfo.cmake --color=
+[ 82%] Built target stonefish_ros2
+[ 82%] [32mBuilding CXX object CMakeFiles/fluid_dynamics_test.dir/src/FluidDynamicsTestApp.cpp.o[0m
+[ 82%] [32mBuilding CXX object CMakeFiles/fluid_dynamics_test.dir/src/main.cpp.o[0m
+/usr/bin/c++  -DBT_EULER_DEFAULT_ZYX -DBT_USE_DOUBLE_PRECISION -DDATA_DIR_PATH=\"/home/dyj/ros2_ws/src/stonefish_ros2/Data/\" -DDEFAULT_RMW_IMPLEMENTATION=rmw_cyclonedds_cpp -DRCUTILS_ENABLE_FAULT_INJECTION -DROS_PACKAGE_NAME=\"stonefish_ros2\" -DSHADER_DIR_PATH=\"/usr/local/share/Stonefish/shaders/\" -Dqh_QHpointer -DvtkRenderingContext2D_AUTOINIT="1(vtkRenderingContextOpenGL2)" -DvtkRenderingCore_AUTOINIT="3(vtkInteractionStyle,vtkRenderingFreeType,vtkRenderingOpenGL2)" -I/usr/include/vtk-7.1 -I/usr/include/freetype2 -I/home/dyj/ros2_ws/build/stonefish_ros2/rosidl_generator_cpp -isystem /opt/ros/rolling/include -isystem /usr/local/include/Stonefish  -Wall -Wextra -Wpedantic -std=gnu++2a -o CMakeFiles/fluid_dynamics_test.dir/src/main.cpp.o -c /home/dyj/ros2_ws/src/stonefish_ros2/src/main.cpp
+/usr/bin/make -f stonefish_ros2__py/CMakeFiles/stonefish_ros2__py.dir/build.make stonefish_ros2__py/CMakeFiles/stonefish_ros2__py.dir/depend
+/usr/bin/c++  -DBT_EULER_DEFAULT_ZYX -DBT_USE_DOUBLE_PRECISION -DDATA_DIR_PATH=\"/home/dyj/ros2_ws/src/stonefish_ros2/Data/\" -DDEFAULT_RMW_IMPLEMENTATION=rmw_cyclonedds_cpp -DRCUTILS_ENABLE_FAULT_INJECTION -DROS_PACKAGE_NAME=\"stonefish_ros2\" -DSHADER_DIR_PATH=\"/usr/local/share/Stonefish/shaders/\" -Dqh_QHpointer -DvtkRenderingContext2D_AUTOINIT="1(vtkRenderingContextOpenGL2)" -DvtkRenderingCore_AUTOINIT="3(vtkInteractionStyle,vtkRenderingFreeType,vtkRenderingOpenGL2)" -I/usr/include/vtk-7.1 -I/usr/include/freetype2 -I/home/dyj/ros2_ws/build/stonefish_ros2/rosidl_generator_cpp -isystem /opt/ros/rolling/include -isystem /usr/local/include/Stonefish  -Wall -Wextra -Wpedantic -std=gnu++2a -o CMakeFiles/fluid_dynamics_test.dir/src/FluidDynamicsTestApp.cpp.o -c /home/dyj/ros2_ws/src/stonefish_ros2/src/FluidDynamicsTestApp.cpp
+make[2]: 进入目录“/home/dyj/ros2_ws/build/stonefish_ros2”
+cd /home/dyj/ros2_ws/build/stonefish_ros2 && /usr/bin/cmake -E cmake_depends "Unix Makefiles" /home/dyj/ros2_ws/src/stonefish_ros2 /home/dyj/ros2_ws/build/stonefish_ros2/stonefish_ros2__py /home/dyj/ros2_ws/build/stonefish_ros2 /home/dyj/ros2_ws/build/stonefish_ros2/stonefish_ros2__py /home/dyj/ros2_ws/build/stonefish_ros2/stonefish_ros2__py/CMakeFiles/stonefish_ros2__py.dir/DependInfo.cmake --color=
+make[2]: 离开目录“/home/dyj/ros2_ws/build/stonefish_ros2”
+/usr/bin/make -f CMakeFiles/stonefish_simulator_nogpu.dir/build.make CMakeFiles/stonefish_simulator_nogpu.dir/build
+[ 82%] [32mBuilding CXX object CMakeFiles/fluid_dynamics_test.dir/src/FluidDynamicsTestManager.cpp.o[0m
+/usr/bin/c++  -DBT_EULER_DEFAULT_ZYX -DBT_USE_DOUBLE_PRECISION -DDATA_DIR_PATH=\"/home/dyj/ros2_ws/src/stonefish_ros2/Data/\" -DDEFAULT_RMW_IMPLEMENTATION=rmw_cyclonedds_cpp -DRCUTILS_ENABLE_FAULT_INJECTION -DROS_PACKAGE_NAME=\"stonefish_ros2\" -DSHADER_DIR_PATH=\"/usr/local/share/Stonefish/shaders/\" -Dqh_QHpointer -DvtkRenderingContext2D_AUTOINIT="1(vtkRenderingContextOpenGL2)" -DvtkRenderingCore_AUTOINIT="3(vtkInteractionStyle,vtkRenderingFreeType,vtkRenderingOpenGL2)" -I/usr/include/vtk-7.1 -I/usr/include/freetype2 -I/home/dyj/ros2_ws/build/stonefish_ros2/rosidl_generator_cpp -isystem /opt/ros/rolling/include -isystem /usr/local/include/Stonefish  -Wall -Wextra -Wpedantic -std=gnu++2a -o CMakeFiles/fluid_dynamics_test.dir/src/FluidDynamicsTestManager.cpp.o -c /home/dyj/ros2_ws/src/stonefish_ros2/src/FluidDynamicsTestManager.cpp
+make[2]: 离开目录“/home/dyj/ros2_ws/build/stonefish_ros2”
+/usr/bin/make -f CMakeFiles/stonefish_simulator.dir/build.make CMakeFiles/stonefish_simulator.dir/build
+make[2]: 离开目录“/home/dyj/ros2_ws/build/stonefish_ros2”
+/usr/bin/make -f stonefish_ros2__py/CMakeFiles/stonefish_ros2__py.dir/build.make stonefish_ros2__py/CMakeFiles/stonefish_ros2__py.dir/build
+make[2]: 进入目录“/home/dyj/ros2_ws/build/stonefish_ros2”
+make[2]: 对“stonefish_ros2__py/CMakeFiles/stonefish_ros2__py.dir/build”无需做任何事。
+make[2]: 离开目录“/home/dyj/ros2_ws/build/stonefish_ros2”
+make[2]: 进入目录“/home/dyj/ros2_ws/build/stonefish_ros2”
+make[2]: 对“CMakeFiles/stonefish_simulator_nogpu.dir/build”无需做任何事。
+make[2]: 离开目录“/home/dyj/ros2_ws/build/stonefish_ros2”
+[ 84%] Built target stonefish_ros2__py
+[ 85%] Built target stonefish_simulator_nogpu
+make[2]: 进入目录“/home/dyj/ros2_ws/build/stonefish_ros2”
+make[2]: 对“CMakeFiles/stonefish_simulator.dir/build”无需做任何事。
+make[2]: 离开目录“/home/dyj/ros2_ws/build/stonefish_ros2”
+/usr/bin/make -f CMakeFiles/stonefish_ros2__rosidl_generator_py.dir/build.make CMakeFiles/stonefish_ros2__rosidl_generator_py.dir/depend
+make[2]: 进入目录“/home/dyj/ros2_ws/build/stonefish_ros2”
+cd /home/dyj/ros2_ws/build/stonefish_ros2 && /usr/bin/cmake -E cmake_depends "Unix Makefiles" /home/dyj/ros2_ws/src/stonefish_ros2 /home/dyj/ros2_ws/src/stonefish_ros2 /home/dyj/ros2_ws/build/stonefish_ros2 /home/dyj/ros2_ws/build/stonefish_ros2 /home/dyj/ros2_ws/build/stonefish_ros2/CMakeFiles/stonefish_ros2__rosidl_generator_py.dir/DependInfo.cmake --color=
+[ 86%] Built target stonefish_simulator
+make[2]: 离开目录“/home/dyj/ros2_ws/build/stonefish_ros2”
+/usr/bin/make -f CMakeFiles/stonefish_ros2__rosidl_generator_py.dir/build.make CMakeFiles/stonefish_ros2__rosidl_generator_py.dir/build
+make[2]: 进入目录“/home/dyj/ros2_ws/build/stonefish_ros2”
+make[2]: 对“CMakeFiles/stonefish_ros2__rosidl_generator_py.dir/build”无需做任何事。
+make[2]: 离开目录“/home/dyj/ros2_ws/build/stonefish_ros2”
+[ 96%] Built target stonefish_ros2__rosidl_generator_py
+/usr/bin/make -f CMakeFiles/stonefish_ros2__rosidl_typesupport_c__pyext.dir/build.make CMakeFiles/stonefish_ros2__rosidl_typesupport_c__pyext.dir/depend
+/usr/bin/make -f CMakeFiles/stonefish_ros2__rosidl_typesupport_fastrtps_c__pyext.dir/build.make CMakeFiles/stonefish_ros2__rosidl_typesupport_fastrtps_c__pyext.dir/depend
+/usr/bin/make -f CMakeFiles/stonefish_ros2__rosidl_typesupport_introspection_c__pyext.dir/build.make CMakeFiles/stonefish_ros2__rosidl_typesupport_introspection_c__pyext.dir/depend
+make[2]: 进入目录“/home/dyj/ros2_ws/build/stonefish_ros2”
+cd /home/dyj/ros2_ws/build/stonefish_ros2 && /usr/bin/cmake -E cmake_depends "Unix Makefiles" /home/dyj/ros2_ws/src/stonefish_ros2 /home/dyj/ros2_ws/src/stonefish_ros2 /home/dyj/ros2_ws/build/stonefish_ros2 /home/dyj/ros2_ws/build/stonefish_ros2 /home/dyj/ros2_ws/build/stonefish_ros2/CMakeFiles/stonefish_ros2__rosidl_typesupport_c__pyext.dir/DependInfo.cmake --color=
+make[2]: 进入目录“/home/dyj/ros2_ws/build/stonefish_ros2”
+cd /home/dyj/ros2_ws/build/stonefish_ros2 && /usr/bin/cmake -E cmake_depends "Unix Makefiles" /home/dyj/ros2_ws/src/stonefish_ros2 /home/dyj/ros2_ws/src/stonefish_ros2 /home/dyj/ros2_ws/build/stonefish_ros2 /home/dyj/ros2_ws/build/stonefish_ros2 /home/dyj/ros2_ws/build/stonefish_ros2/CMakeFiles/stonefish_ros2__rosidl_typesupport_introspection_c__pyext.dir/DependInfo.cmake --color=
+make[2]: 进入目录“/home/dyj/ros2_ws/build/stonefish_ros2”
+cd /home/dyj/ros2_ws/build/stonefish_ros2 && /usr/bin/cmake -E cmake_depends "Unix Makefiles" /home/dyj/ros2_ws/src/stonefish_ros2 /home/dyj/ros2_ws/src/stonefish_ros2 /home/dyj/ros2_ws/build/stonefish_ros2 /home/dyj/ros2_ws/build/stonefish_ros2 /home/dyj/ros2_ws/build/stonefish_ros2/CMakeFiles/stonefish_ros2__rosidl_typesupport_fastrtps_c__pyext.dir/DependInfo.cmake --color=
+make[2]: 离开目录“/home/dyj/ros2_ws/build/stonefish_ros2”
+/usr/bin/make -f CMakeFiles/stonefish_ros2__rosidl_typesupport_introspection_c__pyext.dir/build.make CMakeFiles/stonefish_ros2__rosidl_typesupport_introspection_c__pyext.dir/build
+make[2]: 离开目录“/home/dyj/ros2_ws/build/stonefish_ros2”
+/usr/bin/make -f CMakeFiles/stonefish_ros2__rosidl_typesupport_c__pyext.dir/build.make CMakeFiles/stonefish_ros2__rosidl_typesupport_c__pyext.dir/build
+make[2]: 离开目录“/home/dyj/ros2_ws/build/stonefish_ros2”
+/usr/bin/make -f CMakeFiles/stonefish_ros2__rosidl_typesupport_fastrtps_c__pyext.dir/build.make CMakeFiles/stonefish_ros2__rosidl_typesupport_fastrtps_c__pyext.dir/build
+make[2]: 进入目录“/home/dyj/ros2_ws/build/stonefish_ros2”
+make[2]: 对“CMakeFiles/stonefish_ros2__rosidl_typesupport_introspection_c__pyext.dir/build”无需做任何事。
+make[2]: 离开目录“/home/dyj/ros2_ws/build/stonefish_ros2”
+make[2]: 进入目录“/home/dyj/ros2_ws/build/stonefish_ros2”
+make[2]: 对“CMakeFiles/stonefish_ros2__rosidl_typesupport_c__pyext.dir/build”无需做任何事。
+make[2]: 离开目录“/home/dyj/ros2_ws/build/stonefish_ros2”
+[ 97%] Built target stonefish_ros2__rosidl_typesupport_introspection_c__pyext
+make[2]: 进入目录“/home/dyj/ros2_ws/build/stonefish_ros2”
+make[2]: 对“CMakeFiles/stonefish_ros2__rosidl_typesupport_fastrtps_c__pyext.dir/build”无需做任何事。
+make[2]: 离开目录“/home/dyj/ros2_ws/build/stonefish_ros2”
+[ 99%] Built target stonefish_ros2__rosidl_typesupport_c__pyext
+[100%] Built target stonefish_ros2__rosidl_typesupport_fastrtps_c__pyext
+running egg_info
+writing stonefish_ros2.egg-info/PKG-INFO
+writing dependency_links to stonefish_ros2.egg-info/dependency_links.txt
+writing top-level names to stonefish_ros2.egg-info/top_level.txt
+reading manifest file 'stonefish_ros2.egg-info/SOURCES.txt'
+writing manifest file 'stonefish_ros2.egg-info/SOURCES.txt'
+make[2]: 离开目录“/home/dyj/ros2_ws/build/stonefish_ros2”
+[100%] Built target ament_cmake_python_build_stonefish_ros2_egg
+In file included from [01m[K/home/dyj/ros2_ws/src/stonefish_ros2/src/FluidDynamicsTestManager.cpp:28[m[K:
+[01m[K/home/dyj/ros2_ws/src/stonefish_ros2/src/FluidDynamicsTestManager.h:22:1:[m[K [01;31m[Kerror: [m[Kexpected class-name before ‘[01m[K{[m[K’ token
+   22 | [01;31m[K{[m[K
+      | [01;31m[K^[m[K
+[01m[K/home/dyj/ros2_ws/src/stonefish_ros2/src/FluidDynamicsTestManager.h:25:10:[m[K [01;31m[Kerror: [m[K‘[01m[Kvoid FluidDynamicsTestManager::BuildScenario()[m[K’ marked ‘[01m[Koverride[m[K’, but does not override
+   25 |     void [01;31m[KBuildScenario[m[K() override;
+      |          [01;31m[K^~~~~~~~~~~~~[m[K
+[01m[K/home/dyj/ros2_ws/src/stonefish_ros2/src/FluidDynamicsTestManager.h:26:10:[m[K [01;31m[Kerror: [m[K‘[01m[Kvoid FluidDynamicsTestManager::SimulationStepCompleted(sf::Scalar)[m[K’ marked ‘[01m[Koverride[m[K’, but does not override
+   26 |     void [01;31m[KSimulationStepCompleted[m[K(sf::Scalar timeStep) override;
+      |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/home/dyj/ros2_ws/src/stonefish_ros2/src/FluidDynamicsTestApp.h:30[m[K,
+                 from [01m[K/home/dyj/ros2_ws/src/stonefish_ros2/src/main.cpp:26[m[K:
+[01m[K/home/dyj/ros2_ws/src/stonefish_ros2/src/FluidDynamicsTestManager.h:22:1:[m[K [01;31m[Kerror: [m[Kexpected class-name before ‘[01m[K{[m[K’ token
+   22 | [01;31m[K{[m[K
+      | [01;31m[K^[m[K
+In file included from [01m[K/home/dyj/ros2_ws/src/stonefish_ros2/src/FluidDynamicsTestApp.h:30[m[K,
+                 from [01m[K/home/dyj/ros2_ws/src/stonefish_ros2/src/FluidDynamicsTestApp.cpp:26[m[K:
+[01m[K/home/dyj/ros2_ws/src/stonefish_ros2/src/FluidDynamicsTestManager.h:22:1:[m[K [01;31m[Kerror: [m[Kexpected class-name before ‘[01m[K{[m[K’ token
+   22 | [01;31m[K{[m[K
+      | [01;31m[K^[m[K
+[01m[K/home/dyj/ros2_ws/src/stonefish_ros2/src/FluidDynamicsTestManager.h:25:10:[m[K [01;31m[Kerror: [m[K‘[01m[Kvoid FluidDynamicsTestManager::BuildScenario()[m[K’ marked ‘[01m[Koverride[m[K’, but does not override
+   25 |     void [01;31m[KBuildScenario[m[K() override;
+      |          [01;31m[K^~~~~~~~~~~~~[m[K
+[01m[K/home/dyj/ros2_ws/src/stonefish_ros2/src/FluidDynamicsTestManager.h:26:10:[m[K [01;31m[Kerror: [m[K‘[01m[Kvoid FluidDynamicsTestManager::SimulationStepCompleted(sf::Scalar)[m[K’ marked ‘[01m[Koverride[m[K’, but does not override
+   26 |     void [01;31m[KSimulationStepCompleted[m[K(sf::Scalar timeStep) override;
+      |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/dyj/ros2_ws/src/stonefish_ros2/src/FluidDynamicsTestManager.h:25:10:[m[K [01;31m[Kerror: [m[K‘[01m[Kvoid FluidDynamicsTestManager::BuildScenario()[m[K’ marked ‘[01m[Koverride[m[K’, but does not override
+   25 |     void [01;31m[KBuildScenario[m[K() override;
+      |          [01;31m[K^~~~~~~~~~~~~[m[K
+[01m[K/home/dyj/ros2_ws/src/stonefish_ros2/src/FluidDynamicsTestManager.h:26:10:[m[K [01;31m[Kerror: [m[K‘[01m[Kvoid FluidDynamicsTestManager::SimulationStepCompleted(sf::Scalar)[m[K’ marked ‘[01m[Koverride[m[K’, but does not override
+   26 |     void [01;31m[KSimulationStepCompleted[m[K(sf::Scalar timeStep) override;
+      |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/dyj/ros2_ws/src/stonefish_ros2/src/main.cpp:[m[K In function ‘[01m[Kint main(int, const char**)[m[K’:
+[01m[K/home/dyj/ros2_ws/src/stonefish_ros2/src/main.cpp:54:23:[m[K [01;31m[Kerror: [m[K‘[01m[Kclass FluidDynamicsTestManager[m[K’ has no member named ‘[01m[KsetRealtimeFactor[m[K’
+   54 |     simulationManager.[01;31m[KsetRealtimeFactor[m[K(1.0);
+      |                       [01;31m[K^~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/dyj/ros2_ws/src/stonefish_ros2/src/main.cpp:30:14:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kargc[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+   30 | int main([01;35m[Kint argc[m[K, const char * argv[])
+      |          [01;35m[K~~~~^~~~[m[K
+[01m[K/home/dyj/ros2_ws/src/stonefish_ros2/src/main.cpp:30:33:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kargv[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+   30 | int main(int argc, [01;35m[Kconst char * argv[][m[K)
+      |                    [01;35m[K~~~~~~~~~~~~~^~~~~~[m[K
+[01m[K/home/dyj/ros2_ws/src/stonefish_ros2/src/FluidDynamicsTestApp.cpp:[m[K In constructor ‘[01m[KFluidDynamicsTestApp::FluidDynamicsTestApp(std::string, sf::RenderSettings, sf::HelperSettings, FluidDynamicsTestManager*)[m[K’:
+[01m[K/home/dyj/ros2_ws/src/stonefish_ros2/src/FluidDynamicsTestApp.cpp:43:74:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[Ksf::GraphicalSimulationApp::GraphicalSimulationApp(const char [19], std::string&, sf::RenderSettings&, sf::HelperSettings&, FluidDynamicsTestManager*&)[m[K’
+   43 |     : GraphicalSimulationApp("FluidDynamics Test", dataDirPath, s, h, sim[01;31m[K)[m[K
+      |                                                                          [01;31m[K^[m[K
+In file included from [01m[K/home/dyj/ros2_ws/src/stonefish_ros2/src/FluidDynamicsTestApp.h:29[m[K,
+                 from [01m[K/home/dyj/ros2_ws/src/stonefish_ros2/src/FluidDynamicsTestApp.cpp:26[m[K:
+[01m[K/usr/local/include/Stonefish/core/GraphicalSimulationApp.h:53:9:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ksf::GraphicalSimulationApp::GraphicalSimulationApp(std::string, std::string, sf::RenderSettings, sf::HelperSettings, sf::SimulationManager*)[m[K’
+   53 |         [01;36m[KGraphicalSimulationApp[m[K(std::string title, std::string dataDirPath, RenderSettings s, HelperSettings h, SimulationManager* sim);
+      |         [01;36m[K^~~~~~~~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/home/dyj/ros2_ws/src/stonefish_ros2/src/FluidDynamicsTestApp.h:29[m[K,
+                 from [01m[K/home/dyj/ros2_ws/src/stonefish_ros2/src/FluidDynamicsTestApp.cpp:26[m[K:
+[01m[K/usr/local/include/Stonefish/core/GraphicalSimulationApp.h:53:131:[m[K [01;36m[Knote: [m[K  no known conversion for argument 5 from ‘[01m[KFluidDynamicsTestManager*[m[K’ to ‘[01m[Ksf::SimulationManager*[m[K’
+   53 |         GraphicalSimulationApp(std::string title, std::string dataDirPath, RenderSettings s, HelperSettings h, [01;36m[KSimulationManager* sim[m[K);
+      |                                                                                                                [01;36m[K~~~~~~~~~~~~~~~~~~~^~~[m[K
+In file included from [01m[K/home/dyj/ros2_ws/src/stonefish_ros2/src/FluidDynamicsTestApp.h:29[m[K,
+                 from [01m[K/home/dyj/ros2_ws/src/stonefish_ros2/src/FluidDynamicsTestApp.cpp:26[m[K:
+[01m[K/usr/local/include/Stonefish/core/GraphicalSimulationApp.h:42:11:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ksf::GraphicalSimulationApp::GraphicalSimulationApp(const sf::GraphicalSimulationApp&)[m[K’
+   42 |     class [01;36m[KGraphicalSimulationApp[m[K : public SimulationApp
+      |           [01;36m[K^~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/usr/local/include/Stonefish/core/GraphicalSimulationApp.h:42:11:[m[K [01;36m[Knote: [m[K  candidate expects 1 argument, 5 provided
+[01m[K/home/dyj/ros2_ws/src/stonefish_ros2/src/FluidDynamicsTestManager.cpp:[m[K In constructor ‘[01m[KFluidDynamicsTestManager::FluidDynamicsTestManager(sf::Scalar)[m[K’:
+[01m[K/home/dyj/ros2_ws/src/stonefish_ros2/src/FluidDynamicsTestManager.cpp:52:3:[m[K [01;31m[Kerror: [m[Kclass ‘[01m[KFluidDynamicsTestManager[m[K’ does not have any field named ‘[01m[KSimulationManager[m[K’
+   52 | : [01;31m[KSimulationManager[m[K(stepsPerSecond, sf::SolverType::SOLVER_SI, sf::CollisionFilteringType::COLLISION_EXCLUSIVE)
+      |   [01;31m[K^~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/dyj/ros2_ws/src/stonefish_ros2/src/FluidDynamicsTestManager.cpp:[m[K In member function ‘[01m[Kvoid FluidDynamicsTestManager::BuildScenario()[m[K’:
+[01m[K/home/dyj/ros2_ws/src/stonefish_ros2/src/FluidDynamicsTestManager.cpp:77:5:[m[K [01;31m[Kerror: [m[K‘[01m[KgetJointErp[m[K’ was not declared in this scope
+   77 |     [01;31m[KgetJointErp[m[K(erp, stopErp);
+      |     [01;31m[K^~~~~~~~~~~[m[K
+[01m[K/home/dyj/ros2_ws/src/stonefish_ros2/src/FluidDynamicsTestManager.cpp:78:23:[m[K [01;31m[Kerror: [m[K‘[01m[KgetDynamicsWorld[m[K’ was not declared in this scope; did you mean ‘[01m[KbtDynamicsWorld[m[K’?
+   78 |     sf::Scalar erp2 = [01;31m[KgetDynamicsWorld[m[K()->getSolverInfo().m_erp2;
+      |                       [01;31m[K^~~~~~~~~~~~~~~~[m[K
+      |                       [32m[KbtDynamicsWorld[m[K
+[01m[K/home/dyj/ros2_ws/src/stonefish_ros2/src/FluidDynamicsTestManager.cpp:82:5:[m[K [01;31m[Kerror: [m[K‘[01m[KgetSleepingThresholds[m[K’ was not declared in this scope
+   82 |     [01;31m[KgetSleepingThresholds[m[K(linSleep, angSleep);
+      |     [01;31m[K^~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/dyj/ros2_ws/src/stonefish_ros2/src/FluidDynamicsTestManager.cpp:85:5:[m[K [01;31m[Kerror: [m[K‘[01m[KsetSolverParams[m[K’ was not declared in this scope
+   85 |     [01;31m[KsetSolverParams[m[K(erp, stopErp, erp2, globalDamping, globalFriction, linSleep, angSleep);
+      |     [01;31m[K^~~~~~~~~~~~~~~[m[K
+[01m[K/home/dyj/ros2_ws/src/stonefish_ros2/src/FluidDynamicsTestManager.cpp:86:5:[m[K [01;31m[Kerror: [m[K‘[01m[KsetFluidDynamicsPrescaler[m[K’ was not declared in this scope
+   86 |     [01;31m[KsetFluidDynamicsPrescaler[m[K(1);
+      |     [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/dyj/ros2_ws/src/stonefish_ros2/src/FluidDynamicsTestManager.cpp:89:5:[m[K [01;31m[Kerror: [m[K‘[01m[KCreateMaterial[m[K’ was not declared in this scope
+   89 |     [01;31m[KCreateMaterial[m[K("Light", sf::UnitSystem::Density(sf::CGS, sf::MKS, 0.9), 0.3);
+      |     [01;31m[K^~~~~~~~~~~~~~[m[K
+[01m[K/home/dyj/ros2_ws/src/stonefish_ros2/src/FluidDynamicsTestManager.cpp:92:5:[m[K [01;31m[Kerror: [m[K‘[01m[KSetMaterialsInteraction[m[K’ was not declared in this scope
+   92 |     [01;31m[KSetMaterialsInteraction[m[K("Light", "Light", 0.5, 0.2);
+      |     [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/dyj/ros2_ws/src/stonefish_ros2/src/FluidDynamicsTestManager.cpp:100:5:[m[K [01;31m[Kerror: [m[K‘[01m[KCreateLook[m[K’ was not declared in this scope
+  100 |     [01;31m[KCreateLook[m[K("Yellow", sf::Color::RGB(1.f, 0.9f, 0.1f), 0.3f, 0.f);
+      |     [01;31m[K^~~~~~~~~~[m[K
+[01m[K/home/dyj/ros2_ws/src/stonefish_ros2/src/FluidDynamicsTestManager.cpp:104:5:[m[K [01;31m[Kerror: [m[K‘[01m[KEnableOcean[m[K’ was not declared in this scope
+  104 |     [01;31m[KEnableOcean[m[K(0.0);
+      |     [01;31m[K^~~~~~~~~~~[m[K
+[01m[K/home/dyj/ros2_ws/src/stonefish_ros2/src/FluidDynamicsTestManager.cpp:105:5:[m[K [01;31m[Kerror: [m[K‘[01m[KgetOcean[m[K’ was not declared in this scope
+  105 |     [01;31m[KgetOcean[m[K()->setWaterType(0.2);
+      |     [01;31m[K^~~~~~~~[m[K
+[01m[K/home/dyj/ros2_ws/src/stonefish_ros2/src/FluidDynamicsTestManager.cpp:106:5:[m[K [01;31m[Kerror: [m[K‘[01m[KgetAtmosphere[m[K’ was not declared in this scope
+  106 |     [01;31m[KgetAtmosphere[m[K()->SetSunPosition(0.0, 60.0);
+      |     [01;31m[K^~~~~~~~~~~~~[m[K
+[01m[K/home/dyj/ros2_ws/src/stonefish_ros2/src/FluidDynamicsTestManager.cpp:116:5:[m[K [01;31m[Kerror: [m[K‘[01m[KAddSolidEntity[m[K’ was not declared in this scope
+  116 |     [01;31m[KAddSolidEntity[m[K(AUV_body, sf::Transform(sf::Quaternion(0.0, 0.5, 0.0), sf::Vector3(0, 0, 6)));
+      |     [01;31m[K^~~~~~~~~~~~~~[m[K
+[01m[K/home/dyj/ros2_ws/src/stonefish_ros2/src/FluidDynamicsTestManager.cpp:[m[K In constructor ‘[01m[KFluidDynamicsTestManager::BuildScenario()::FluidDynamicsTestManager::FluidDynamicsTestManager(sf::Scalar, sf::Scalar, rclcpp::Node::SharedPtr)[m[K’:
+[01m[K/home/dyj/ros2_ws/src/stonefish_ros2/src/FluidDynamicsTestManager.cpp:199:68:[m[K [01;31m[Kerror: [m[K‘[01m[KCOLLISION_BULLET[m[K’ is not a member of ‘[01m[Ksf[m[K’
+  199 |         : sf::SimulationManager(stepsPerSecond, sf::SOLVER_SI, sf::[01;31m[KCOLLISION_BULLET[m[K, timeStep), ros_node_(node) {
+      |                                                                    [01;31m[K^~~~~~~~~~~~~~~~[m[K
+[01m[K/home/dyj/ros2_ws/src/stonefish_ros2/src/FluidDynamicsTestManager.cpp:[m[K In member function ‘[01m[Kvirtual void FluidDynamicsTestManager::BuildScenario()::FluidDynamicsTestManager::SimulationStepCompleted(sf::Scalar)[m[K’:
+[01m[K/home/dyj/ros2_ws/src/stonefish_ros2/src/FluidDynamicsTestManager.cpp:265:77:[m[K [01;31m[Kerror: [m[K‘[01m[Ksf::BodyFluidPosition sf::SolidEntity::CheckBodyFluidPosition(sf::Ocean*)[m[K’ is protected within this context
+  265 |         sf::BodyFluidPosition bf = sphere->CheckBodyFluidPosition(getOcean()[01;31m[K)[m[K;
+      |                                                                             [01;31m[K^[m[K
+In file included from [01m[K/usr/local/include/Stonefish/core/SimulationManager.h:32[m[K,
+                 from [01m[K/home/dyj/ros2_ws/src/stonefish_ros2/src/FluidDynamicsTestManager.h:7[m[K,
+                 from [01m[K/home/dyj/ros2_ws/src/stonefish_ros2/src/FluidDynamicsTestManager.cpp:28[m[K:
+[01m[K/usr/local/include/Stonefish/entities/SolidEntity.h:404:27:[m[K [01;36m[Knote: [m[Kdeclared protected here
+  404 |         BodyFluidPosition [01;36m[KCheckBodyFluidPosition[m[K(Ocean* ocn);
+      |                           [01;36m[K^~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/dyj/ros2_ws/src/stonefish_ros2/src/FluidDynamicsTestManager.cpp:[m[K In member function ‘[01m[Kvoid FluidDynamicsTestManager::BuildScenario()[m[K’:
+[01m[K/home/dyj/ros2_ws/src/stonefish_ros2/src/FluidDynamicsTestManager.cpp:310:2:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K}[m[K’ at end of input
+  310 | }[01;31m[K;[m[K
+      |  [01;31m[K^[m[K
+[01m[K/home/dyj/ros2_ws/src/stonefish_ros2/src/FluidDynamicsTestManager.cpp:74:1:[m[K [01;36m[Knote: [m[Kto match this ‘[01m[K{[m[K’
+   74 | [01;36m[K{[m[K
+      | [01;36m[K^[m[K
+make[2]: *** [CMakeFiles/fluid_dynamics_test.dir/build.make:92：CMakeFiles/fluid_dynamics_test.dir/src/main.cpp.o] 错误 1
+make[2]: *** 正在等待未完成的任务....
+make[2]: *** [CMakeFiles/fluid_dynamics_test.dir/build.make:79：CMakeFiles/fluid_dynamics_test.dir/src/FluidDynamicsTestApp.cpp.o] 错误 1
+make[2]: *** [CMakeFiles/fluid_dynamics_test.dir/build.make:66：CMakeFiles/fluid_dynamics_test.dir/src/FluidDynamicsTestManager.cpp.o] 错误 1
+make[2]: 离开目录“/home/dyj/ros2_ws/build/stonefish_ros2”
+make[1]: *** [CMakeFiles/Makefile2:390：CMakeFiles/fluid_dynamics_test.dir/all] 错误 2
+make[1]: 离开目录“/home/dyj/ros2_ws/build/stonefish_ros2”
+make: *** [Makefile:144：all] 错误 2

@@ -199,7 +199,7 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
      NOT IS_SYMLINK "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/libstonefish_ros2_interface.so")
     file(RPATH_CHANGE
          FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/libstonefish_ros2_interface.so"
-         OLD_RPATH "/home/dyj/stonefish/install/lib:/home/dyj/ros2_ws/build/stonefish_ros2:/opt/ros/rolling/lib/x86_64-linux-gnu:/opt/ros/rolling/lib:"
+         OLD_RPATH "/usr/local/lib:/home/dyj/ros2_ws/build/stonefish_ros2:/opt/ros/rolling/lib/x86_64-linux-gnu:/opt/ros/rolling/lib:"
          NEW_RPATH "")
     if(CMAKE_INSTALL_DO_STRIP)
       execute_process(COMMAND "/usr/bin/strip" "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/libstonefish_ros2_interface.so")

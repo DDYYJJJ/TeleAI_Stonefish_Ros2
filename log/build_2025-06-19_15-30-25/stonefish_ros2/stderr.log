@@ -1,0 +1,10 @@
+** WARNING ** io features related to pcap will be disabled
+** WARNING ** io features related to png will be disabled
+** WARNING ** io features related to libusb-1.0 will be disabled
+[01m[K/home/dyj/ros2_ws/src/stonefish_ros2/src/CameraTest/main.cpp:[m[K In function ‘[01m[Kint main(int, const char**)[m[K’:
+[01m[K/home/dyj/ros2_ws/src/stonefish_ros2/src/CameraTest/main.cpp:29:14:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kargc[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+   29 | int main([01;35m[Kint argc[m[K, const char * argv[])
+      |          [01;35m[K~~~~^~~~[m[K
+[01m[K/home/dyj/ros2_ws/src/stonefish_ros2/src/CameraTest/main.cpp:29:33:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kargv[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+   29 | int main(int argc, [01;35m[Kconst char * argv[][m[K)
+      |                    [01;35m[K~~~~~~~~~~~~~^~~~~~[m[K

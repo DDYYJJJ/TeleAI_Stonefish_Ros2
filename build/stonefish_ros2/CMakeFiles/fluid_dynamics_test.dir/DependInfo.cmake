@@ -18,7 +18,7 @@ set(CMAKE_TARGET_DEFINITIONS_CXX
   "DEFAULT_RMW_IMPLEMENTATION=rmw_cyclonedds_cpp"
   "RCUTILS_ENABLE_FAULT_INJECTION"
   "ROS_PACKAGE_NAME=\"stonefish_ros2\""
-  "SHADER_DIR_PATH=\"/home/dyj/stonefish/install/share/Stonefish/shaders/\""
+  "SHADER_DIR_PATH=\"/usr/local/share/Stonefish/shaders/\""
   "qh_QHpointer"
   "vtkRenderingContext2D_AUTOINIT=1(vtkRenderingContextOpenGL2)"
   "vtkRenderingCore_AUTOINIT=3(vtkInteractionStyle,vtkRenderingFreeType,vtkRenderingOpenGL2)"
@@ -28,11 +28,9 @@ set(CMAKE_TARGET_DEFINITIONS_CXX
 set(CMAKE_CXX_TARGET_INCLUDE_PATH
   "/usr/include/vtk-7.1"
   "/usr/include/freetype2"
-  "/home/dyj/ros2_ws/src/stonefish_ros2/include"
   "rosidl_generator_cpp"
-  "/home/dyj/stonefish/install/include"
   "/opt/ros/rolling/include"
-  "/home/dyj/stonefish/install/include/Stonefish"
+  "/usr/local/include/Stonefish"
   )
 
 # Targets to which this target links.

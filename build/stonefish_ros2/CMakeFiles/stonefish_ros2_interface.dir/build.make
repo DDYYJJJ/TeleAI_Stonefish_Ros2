@@ -18,6 +18,9 @@ SUFFIXES =
 .SUFFIXES: .hpux_make_needs_suffix_list
 
 
+# Produce verbose output by default.
+VERBOSE = 1
+
 # Suppress display of executed commands.
 $(VERBOSE).SILENT:
 
@@ -139,7 +142,7 @@ libstonefish_ros2_interface.so: CMakeFiles/stonefish_ros2_interface.dir/src/ston
 libstonefish_ros2_interface.so: CMakeFiles/stonefish_ros2_interface.dir/src/stonefish_ros2/ROS2ScenarioParser.cpp.o
 libstonefish_ros2_interface.so: CMakeFiles/stonefish_ros2_interface.dir/src/stonefish_ros2/ROS2Interface.cpp.o
 libstonefish_ros2_interface.so: CMakeFiles/stonefish_ros2_interface.dir/build.make
-libstonefish_ros2_interface.so: /home/dyj/stonefish/install/lib/libStonefish.so
+libstonefish_ros2_interface.so: /usr/local/lib/libStonefish.so
 libstonefish_ros2_interface.so: libstonefish_ros2__rosidl_typesupport_cpp.so
 libstonefish_ros2_interface.so: /opt/ros/rolling/lib/libstd_srvs__rosidl_typesupport_introspection_c.so
 libstonefish_ros2_interface.so: /opt/ros/rolling/lib/libstd_srvs__rosidl_typesupport_introspection_cpp.so

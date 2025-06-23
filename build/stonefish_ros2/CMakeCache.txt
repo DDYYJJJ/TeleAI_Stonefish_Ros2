@@ -274,7 +274,7 @@ CMAKE_STRIP:FILEPATH=/usr/bin/strip
 // .SILENT directive, and all commands will be echoed to the console
 // during the make.  This is useful for debugging only. With Visual
 // Studio IDE projects all commands are done without /nologo.
-CMAKE_VERBOSE_MAKEFILE:BOOL=FALSE
+CMAKE_VERBOSE_MAKEFILE:BOOL=ON
 
 //Path to a file.
 EIGEN_INCLUDE_DIR:PATH=/usr/include/eigen3
@@ -583,7 +583,7 @@ SDL2_DIR:PATH=/usr/lib/x86_64-linux-gnu/cmake/SDL2
 SITE:STRING=dyj-Jiaolong-Series-MRID6
 
 //The directory containing a CMake configuration file for Stonefish.
-Stonefish_DIR:PATH=/home/dyj/stonefish/install/lib/cmake/Stonefish
+Stonefish_DIR:PATH=/usr/local/lib/cmake/Stonefish
 
 //Path to a file.
 TINYXML2_INCLUDE_DIR:PATH=/usr/include

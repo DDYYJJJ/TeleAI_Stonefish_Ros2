@@ -32,8 +32,6 @@ set(CMAKE_TARGET_DEFINITIONS_CXX
 
 # The include file search paths:
 set(CMAKE_CXX_TARGET_INCLUDE_PATH
-  "/usr/include/vtk-7.1"
-  "/usr/include/freetype2"
   "rosidl_generator_c"
   "rosidl_generator_cpp"
   "rosidl_typesupport_fastrtps_c"
@@ -50,8 +48,8 @@ set(CMAKE_CXX_TARGET_INCLUDE_PATH
   "/opt/ros/rolling/include/geometry_msgs/msg/dds_fastrtps_c"
   "/opt/ros/rolling/include/geometry_msgs/srv/dds_fastrtps_c"
   "/opt/ros/rolling/include/geometry_msgs/action/dds_fastrtps_c"
-  "/home/dyj/stonefish/install/include"
-  "/home/dyj/ros2_ws/src/stonefish_ros2/include"
+  "/usr/include/vtk-7.1"
+  "/usr/include/freetype2"
   "/opt/ros/rolling/include"
   )
 

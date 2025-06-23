@@ -463,7 +463,7 @@ ament_cmake_symlink_install_files("/home/dyj/ros2_ws/src/stonefish_ros2" FILES "
 # install(DIRECTORY "include" "DESTINATION" "include")
 ament_cmake_symlink_install_directory("/home/dyj/ros2_ws/src/stonefish_ros2" DIRECTORY "include" "DESTINATION" "include")
 
-# install("TARGETS" "stonefish_simulator" "stonefish_simulator_nogpu" "fluid_dynamics_test" "DESTINATION" "lib/stonefish_ros2")
+# install("TARGETS" "stonefish_simulator" "stonefish_simulator_nogpu" "fluid_dynamics_test" "camera_test" "DESTINATION" "lib/stonefish_ros2")
 include("/home/dyj/ros2_ws/build/stonefish_ros2/ament_cmake_symlink_install_targets_5_${CMAKE_INSTALL_CONFIG_NAME}.cmake")
 
 # install(DIRECTORY "launch" "DESTINATION" "share/stonefish_ros2")

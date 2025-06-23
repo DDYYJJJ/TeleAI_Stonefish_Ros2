@@ -18,6 +18,9 @@ SUFFIXES =
 .SUFFIXES: .hpux_make_needs_suffix_list
 
 
+# Produce verbose output by default.
+VERBOSE = 1
+
 # Suppress display of executed commands.
 $(VERBOSE).SILENT:
 
@@ -80,7 +83,7 @@ stonefish_simulator_nogpu_EXTERNAL_OBJECTS =
 stonefish_simulator_nogpu: CMakeFiles/stonefish_simulator_nogpu.dir/src/stonefish_simulator_nogpu.cpp.o
 stonefish_simulator_nogpu: CMakeFiles/stonefish_simulator_nogpu.dir/build.make
 stonefish_simulator_nogpu: libstonefish_ros2_interface.so
-stonefish_simulator_nogpu: /home/dyj/stonefish/install/lib/libStonefish.so
+stonefish_simulator_nogpu: /usr/local/lib/libStonefish.so
 stonefish_simulator_nogpu: /usr/lib/x86_64-linux-gnu/libOpenGL.so
 stonefish_simulator_nogpu: /usr/lib/x86_64-linux-gnu/libGLX.so
 stonefish_simulator_nogpu: /usr/lib/x86_64-linux-gnu/libGLU.so

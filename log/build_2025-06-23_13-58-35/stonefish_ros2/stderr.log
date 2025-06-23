@@ -1,0 +1,190 @@
+In file included from [01m[K/home/dyj/ros2_ws/src/stonefish_ros2/src/FluidDynamicsTestApp.cpp:26[m[K:
+[01m[K/home/dyj/ros2_ws/src/stonefish_ros2/src/FluidDynamicsTestApp.h:35:95:[m[K [01;31m[Kerror: [m[K‘[01m[KFluidDynamicsTestManager[m[K’ has not been declared
+   35 |     FluidDynamicsTestApp(std::string dataDirPath, sf::RenderSettings s, sf::HelperSettings h, [01;31m[KFluidDynamicsTestManager[m[K* sim);
+      |                                                                                               [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/home/dyj/ros2_ws/src/stonefish_ros2/src/main.cpp:26[m[K:
+[01m[K/home/dyj/ros2_ws/src/stonefish_ros2/src/FluidDynamicsTestApp.h:35:95:[m[K [01;31m[Kerror: [m[K‘[01m[KFluidDynamicsTestManager[m[K’ has not been declared
+   35 |     FluidDynamicsTestApp(std::string dataDirPath, sf::RenderSettings s, sf::HelperSettings h, [01;31m[KFluidDynamicsTestManager[m[K* sim);
+      |                                                                                               [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/dyj/ros2_ws/src/stonefish_ros2/src/main.cpp:[m[K In function ‘[01m[Kint main(int, const char**)[m[K’:
+[01m[K/home/dyj/ros2_ws/src/stonefish_ros2/src/main.cpp:53:5:[m[K [01;31m[Kerror: [m[K‘[01m[KFluidDynamicsTestManager[m[K’ was not declared in this scope; did you mean ‘[01m[Ksf::FluidDynamicsTestManager[m[K’?
+   53 |     [01;31m[KFluidDynamicsTestManager[m[K simulationManager(500.0);
+      |     [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~[m[K
+      |     [32m[Ksf::FluidDynamicsTestManager[m[K
+In file included from [01m[K/home/dyj/ros2_ws/src/stonefish_ros2/src/FluidDynamicsTestApp.h:30[m[K,
+                 from [01m[K/home/dyj/ros2_ws/src/stonefish_ros2/src/main.cpp:26[m[K:
+[01m[K/home/dyj/ros2_ws/src/stonefish_ros2/src/FluidDynamicsTestManager.h:21:7:[m[K [01;36m[Knote: [m[K‘[01m[Ksf::FluidDynamicsTestManager[m[K’ declared here
+   21 | class [01;36m[KFluidDynamicsTestManager[m[K : public SimulationManager
+      |       [01;36m[K^~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/dyj/ros2_ws/src/stonefish_ros2/src/main.cpp:54:5:[m[K [01;31m[Kerror: [m[K‘[01m[KsimulationManager[m[K’ was not declared in this scope; did you mean ‘[01m[KbtSimulationIslandManager[m[K’?
+   54 |     [01;31m[KsimulationManager[m[K.setRealtimeFactor(1.0);
+      |     [01;31m[K^~~~~~~~~~~~~~~~~[m[K
+      |     [32m[KbtSimulationIslandManager[m[K
+[01m[K/home/dyj/ros2_ws/src/stonefish_ros2/src/main.cpp:30:14:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kargc[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+   30 | int main([01;35m[Kint argc[m[K, const char * argv[])
+      |          [01;35m[K~~~~^~~~[m[K
+[01m[K/home/dyj/ros2_ws/src/stonefish_ros2/src/main.cpp:30:33:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kargv[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+   30 | int main(int argc, [01;35m[Kconst char * argv[][m[K)
+      |                    [01;35m[K~~~~~~~~~~~~~^~~~~~[m[K
+[01m[K/home/dyj/ros2_ws/src/stonefish_ros2/src/FluidDynamicsTestApp.cpp:42:113:[m[K [01;31m[Kerror: [m[K‘[01m[KFluidDynamicsTestManager[m[K’ has not been declared
+   42 | FluidDynamicsTestApp::FluidDynamicsTestApp(std::string dataDirPath, sf::RenderSettings s, sf::HelperSettings h, [01;31m[KFluidDynamicsTestManager[m[K* sim)
+      |                                                                                                                 [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/dyj/ros2_ws/src/stonefish_ros2/src/FluidDynamicsTestApp.cpp:[m[K In constructor ‘[01m[KFluidDynamicsTestApp::FluidDynamicsTestApp(std::string, sf::RenderSettings, sf::HelperSettings, int*)[m[K’:
+[01m[K/home/dyj/ros2_ws/src/stonefish_ros2/src/FluidDynamicsTestApp.cpp:43:74:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[Ksf::GraphicalSimulationApp::GraphicalSimulationApp(const char [19], std::string&, sf::RenderSettings&, sf::HelperSettings&, int*&)[m[K’
+   43 |     : GraphicalSimulationApp("FluidDynamics Test", dataDirPath, s, h, sim[01;31m[K)[m[K
+      |                                                                          [01;31m[K^[m[K
+In file included from [01m[K/home/dyj/ros2_ws/src/stonefish_ros2/src/FluidDynamicsTestApp.h:29[m[K,
+                 from [01m[K/home/dyj/ros2_ws/src/stonefish_ros2/src/FluidDynamicsTestApp.cpp:26[m[K:
+[01m[K/usr/local/include/Stonefish/core/GraphicalSimulationApp.h:53:9:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ksf::GraphicalSimulationApp::GraphicalSimulationApp(std::string, std::string, sf::RenderSettings, sf::HelperSettings, sf::SimulationManager*)[m[K’
+   53 |         [01;36m[KGraphicalSimulationApp[m[K(std::string title, std::string dataDirPath, RenderSettings s, HelperSettings h, SimulationManager* sim);
+      |         [01;36m[K^~~~~~~~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/home/dyj/ros2_ws/src/stonefish_ros2/src/FluidDynamicsTestApp.h:29[m[K,
+                 from [01m[K/home/dyj/ros2_ws/src/stonefish_ros2/src/FluidDynamicsTestApp.cpp:26[m[K:
+[01m[K/usr/local/include/Stonefish/core/GraphicalSimulationApp.h:53:131:[m[K [01;36m[Knote: [m[K  no known conversion for argument 5 from ‘[01m[Kint*[m[K’ to ‘[01m[Ksf::SimulationManager*[m[K’
+   53 |         GraphicalSimulationApp(std::string title, std::string dataDirPath, RenderSettings s, HelperSettings h, [01;36m[KSimulationManager* sim[m[K);
+      |                                                                                                                [01;36m[K~~~~~~~~~~~~~~~~~~~^~~[m[K
+In file included from [01m[K/home/dyj/ros2_ws/src/stonefish_ros2/src/FluidDynamicsTestApp.h:29[m[K,
+                 from [01m[K/home/dyj/ros2_ws/src/stonefish_ros2/src/FluidDynamicsTestApp.cpp:26[m[K:
+[01m[K/usr/local/include/Stonefish/core/GraphicalSimulationApp.h:42:11:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ksf::GraphicalSimulationApp::GraphicalSimulationApp(const sf::GraphicalSimulationApp&)[m[K’
+   42 |     class [01;36m[KGraphicalSimulationApp[m[K : public SimulationApp
+      |           [01;36m[K^~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/usr/local/include/Stonefish/core/GraphicalSimulationApp.h:42:11:[m[K [01;36m[Knote: [m[K  candidate expects 1 argument, 5 provided
+In file included from [01m[K/home/dyj/ros2_ws/src/stonefish_ros2/src/FluidDynamicsTestManager.cpp:30[m[K:
+[01m[K/home/dyj/ros2_ws/src/stonefish_ros2/src/FluidDynamicsTestApp.h:35:95:[m[K [01;31m[Kerror: [m[K‘[01m[KFluidDynamicsTestManager[m[K’ has not been declared
+   35 |     FluidDynamicsTestApp(std::string dataDirPath, sf::RenderSettings s, sf::HelperSettings h, [01;31m[KFluidDynamicsTestManager[m[K* sim);
+      |                                                                                               [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/dyj/ros2_ws/src/stonefish_ros2/src/FluidDynamicsTestManager.cpp:51:1:[m[K [01;31m[Kerror: [m[K‘[01m[KFluidDynamicsTestManager[m[K’ does not name a type; did you mean ‘[01m[KFluidDynamicsTestApp[m[K’?
+   51 | [01;31m[KFluidDynamicsTestManager[m[K::FluidDynamicsTestManager(sf::Scalar stepsPerSecond)
+      | [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~[m[K
+      | [32m[KFluidDynamicsTestApp[m[K
+[01m[K/home/dyj/ros2_ws/src/stonefish_ros2/src/FluidDynamicsTestManager.cpp:62:6:[m[K [01;31m[Kerror: [m[K‘[01m[KFluidDynamicsTestManager[m[K’ has not been declared
+   62 | void [01;31m[KFluidDynamicsTestManager[m[K::cmdCallback(const geometry_msgs::msg::Twist::SharedPtr msg)
+      |      [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/dyj/ros2_ws/src/stonefish_ros2/src/FluidDynamicsTestManager.cpp:[m[K In function ‘[01m[Kvoid cmdCallback(geometry_msgs::msg::Twist_<std::allocator<void> >::SharedPtr)[m[K’:
+[01m[K/home/dyj/ros2_ws/src/stonefish_ros2/src/FluidDynamicsTestManager.cpp:64:9:[m[K [01;31m[Kerror: [m[K‘[01m[Kthruster1_[m[K’ was not declared in this scope
+   64 |     if ([01;31m[Kthruster1_[m[K && thruster2_) {
+      |         [01;31m[K^~~~~~~~~~[m[K
+[01m[K/home/dyj/ros2_ws/src/stonefish_ros2/src/FluidDynamicsTestManager.cpp:64:23:[m[K [01;31m[Kerror: [m[K‘[01m[Kthruster2_[m[K’ was not declared in this scope
+   64 |     if (thruster1_ && [01;31m[Kthruster2_[m[K) {
+      |                       [01;31m[K^~~~~~~~~~[m[K
+In file included from [01m[K/opt/ros/rolling/include/rclcpp/service.hpp:34[m[K,
+                 from [01m[K/opt/ros/rolling/include/rclcpp/callback_group.hpp:25[m[K,
+                 from [01m[K/opt/ros/rolling/include/rclcpp/any_executable.hpp:20[m[K,
+                 from [01m[K/opt/ros/rolling/include/rclcpp/memory_strategy.hpp:25[m[K,
+                 from [01m[K/opt/ros/rolling/include/rclcpp/memory_strategies.hpp:18[m[K,
+                 from [01m[K/opt/ros/rolling/include/rclcpp/executor_options.hpp:20[m[K,
+                 from [01m[K/opt/ros/rolling/include/rclcpp/executor.hpp:37[m[K,
+                 from [01m[K/opt/ros/rolling/include/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+                 from [01m[K/opt/ros/rolling/include/rclcpp/executors.hpp:21[m[K,
+                 from [01m[K/opt/ros/rolling/include/rclcpp/rclcpp.hpp:155[m[K,
+                 from [01m[K/home/dyj/ros2_ws/src/stonefish_ros2/src/FluidDynamicsTestManager.h:8[m[K,
+                 from [01m[K/home/dyj/ros2_ws/src/stonefish_ros2/src/FluidDynamicsTestManager.cpp:28[m[K:
+[01m[K/home/dyj/ros2_ws/src/stonefish_ros2/src/FluidDynamicsTestManager.cpp:69:21:[m[K [01;31m[Kerror: [m[K‘[01m[Kros_node_[m[K’ was not declared in this scope; did you mean ‘[01m[Krcl_node_t[m[K’?
+   69 |         RCLCPP_INFO([01;31m[Kros_node_[m[K->get_logger(), "Set thrust: %f", thrust);
+      |                     [01;31m[K^~~~~~~~~[m[K
+[01m[K/home/dyj/ros2_ws/src/stonefish_ros2/src/FluidDynamicsTestManager.cpp:69:9:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+   69 |         [01;31m[KRCLCPP_INFO[m[K(ros_node_->get_logger(), "Set thrust: %f", thrust);
+      |         [01;31m[K^~~~~~~~~~~[m[K
+[01m[K/home/dyj/ros2_ws/src/stonefish_ros2/src/FluidDynamicsTestManager.cpp:69:9:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+   69 |         [01;31m[KRCLCPP_INFO[m[K(ros_node_->get_logger(), "Set thrust: %f", thrust);
+      |         [01;31m[K^~~~~~~~~~~[m[K
+[01m[K/home/dyj/ros2_ws/src/stonefish_ros2/src/FluidDynamicsTestManager.cpp:69:9:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+   69 |         [01;31m[KRCLCPP_INFO[m[K(ros_node_->get_logger(), "Set thrust: %f", thrust);
+      |         [01;31m[K^~~~~~~~~~~[m[K
+[01m[K/home/dyj/ros2_ws/src/stonefish_ros2/src/FluidDynamicsTestManager.cpp:[m[K At global scope:
+[01m[K/home/dyj/ros2_ws/src/stonefish_ros2/src/FluidDynamicsTestManager.cpp:73:6:[m[K [01;31m[Kerror: [m[K‘[01m[KFluidDynamicsTestManager[m[K’ has not been declared
+   73 | void [01;31m[KFluidDynamicsTestManager[m[K::BuildScenario()
+      |      [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/dyj/ros2_ws/src/stonefish_ros2/src/FluidDynamicsTestManager.cpp:[m[K In function ‘[01m[Kvoid BuildScenario()[m[K’:
+[01m[K/home/dyj/ros2_ws/src/stonefish_ros2/src/FluidDynamicsTestManager.cpp:77:5:[m[K [01;31m[Kerror: [m[K‘[01m[KgetJointErp[m[K’ was not declared in this scope
+   77 |     [01;31m[KgetJointErp[m[K(erp, stopErp);
+      |     [01;31m[K^~~~~~~~~~~[m[K
+[01m[K/home/dyj/ros2_ws/src/stonefish_ros2/src/FluidDynamicsTestManager.cpp:78:23:[m[K [01;31m[Kerror: [m[K‘[01m[KgetDynamicsWorld[m[K’ was not declared in this scope; did you mean ‘[01m[KbtDynamicsWorld[m[K’?
+   78 |     sf::Scalar erp2 = [01;31m[KgetDynamicsWorld[m[K()->getSolverInfo().m_erp2;
+      |                       [01;31m[K^~~~~~~~~~~~~~~~[m[K
+      |                       [32m[KbtDynamicsWorld[m[K
+[01m[K/home/dyj/ros2_ws/src/stonefish_ros2/src/FluidDynamicsTestManager.cpp:82:5:[m[K [01;31m[Kerror: [m[K‘[01m[KgetSleepingThresholds[m[K’ was not declared in this scope
+   82 |     [01;31m[KgetSleepingThresholds[m[K(linSleep, angSleep);
+      |     [01;31m[K^~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/dyj/ros2_ws/src/stonefish_ros2/src/FluidDynamicsTestManager.cpp:85:5:[m[K [01;31m[Kerror: [m[K‘[01m[KsetSolverParams[m[K’ was not declared in this scope
+   85 |     [01;31m[KsetSolverParams[m[K(erp, stopErp, erp2, globalDamping, globalFriction, linSleep, angSleep);
+      |     [01;31m[K^~~~~~~~~~~~~~~[m[K
+[01m[K/home/dyj/ros2_ws/src/stonefish_ros2/src/FluidDynamicsTestManager.cpp:86:5:[m[K [01;31m[Kerror: [m[K‘[01m[KsetFluidDynamicsPrescaler[m[K’ was not declared in this scope
+   86 |     [01;31m[KsetFluidDynamicsPrescaler[m[K(1);
+      |     [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/dyj/ros2_ws/src/stonefish_ros2/src/FluidDynamicsTestManager.cpp:89:5:[m[K [01;31m[Kerror: [m[K‘[01m[KCreateMaterial[m[K’ was not declared in this scope
+   89 |     [01;31m[KCreateMaterial[m[K("Light", sf::UnitSystem::Density(sf::CGS, sf::MKS, 0.9), 0.3);
+      |     [01;31m[K^~~~~~~~~~~~~~[m[K
+[01m[K/home/dyj/ros2_ws/src/stonefish_ros2/src/FluidDynamicsTestManager.cpp:92:5:[m[K [01;31m[Kerror: [m[K‘[01m[KSetMaterialsInteraction[m[K’ was not declared in this scope
+   92 |     [01;31m[KSetMaterialsInteraction[m[K("Light", "Light", 0.5, 0.2);
+      |     [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/dyj/ros2_ws/src/stonefish_ros2/src/FluidDynamicsTestManager.cpp:100:5:[m[K [01;31m[Kerror: [m[K‘[01m[KCreateLook[m[K’ was not declared in this scope
+  100 |     [01;31m[KCreateLook[m[K("Yellow", sf::Color::RGB(1.f, 0.9f, 0.1f), 0.3f, 0.f);
+      |     [01;31m[K^~~~~~~~~~[m[K
+[01m[K/home/dyj/ros2_ws/src/stonefish_ros2/src/FluidDynamicsTestManager.cpp:104:5:[m[K [01;31m[Kerror: [m[K‘[01m[KEnableOcean[m[K’ was not declared in this scope
+  104 |     [01;31m[KEnableOcean[m[K(0.0);
+      |     [01;31m[K^~~~~~~~~~~[m[K
+[01m[K/home/dyj/ros2_ws/src/stonefish_ros2/src/FluidDynamicsTestManager.cpp:105:5:[m[K [01;31m[Kerror: [m[K‘[01m[KgetOcean[m[K’ was not declared in this scope
+  105 |     [01;31m[KgetOcean[m[K()->setWaterType(0.2);
+      |     [01;31m[K^~~~~~~~[m[K
+[01m[K/home/dyj/ros2_ws/src/stonefish_ros2/src/FluidDynamicsTestManager.cpp:106:5:[m[K [01;31m[Kerror: [m[K‘[01m[KgetAtmosphere[m[K’ was not declared in this scope
+  106 |     [01;31m[KgetAtmosphere[m[K()->SetSunPosition(0.0, 60.0);
+      |     [01;31m[K^~~~~~~~~~~~~[m[K
+[01m[K/home/dyj/ros2_ws/src/stonefish_ros2/src/FluidDynamicsTestManager.cpp:116:5:[m[K [01;31m[Kerror: [m[K‘[01m[KAddSolidEntity[m[K’ was not declared in this scope
+  116 |     [01;31m[KAddSolidEntity[m[K(AUV_body, sf::Transform(sf::Quaternion(0.0, 0.5, 0.0), sf::Vector3(0, 0, 6)));
+      |     [01;31m[K^~~~~~~~~~~~~~[m[K
+[01m[K/home/dyj/ros2_ws/src/stonefish_ros2/src/FluidDynamicsTestManager.cpp:150:5:[m[K [01;31m[Kerror: [m[K‘[01m[KAddRobot[m[K’ was not declared in this scope
+  150 |     [01;31m[KAddRobot[m[K(robot, sf::Transform(sf::IQ(), sf::Vector3(4, 0, 0)));
+      |     [01;31m[K^~~~~~~~[m[K
+[01m[K/home/dyj/ros2_ws/src/stonefish_ros2/src/FluidDynamicsTestManager.cpp:163:5:[m[K [01;31m[Kerror: [m[K‘[01m[Kthruster1_[m[K’ was not declared in this scope
+  163 |     [01;31m[Kthruster1_[m[K = new sf::SimpleThruster("Thruster1", propeller, true, false);
+      |     [01;31m[K^~~~~~~~~~[m[K
+[01m[K/home/dyj/ros2_ws/src/stonefish_ros2/src/FluidDynamicsTestManager.cpp:166:5:[m[K [01;31m[Kerror: [m[K‘[01m[KAddActuator[m[K’ was not declared in this scope
+  166 |     [01;31m[KAddActuator[m[K(thruster1_);
+      |     [01;31m[K^~~~~~~~~~~[m[K
+[01m[K/home/dyj/ros2_ws/src/stonefish_ros2/src/FluidDynamicsTestManager.cpp:168:5:[m[K [01;31m[Kerror: [m[K‘[01m[Kthruster2_[m[K’ was not declared in this scope
+  168 |     [01;31m[Kthruster2_[m[K = new sf::SimpleThruster("Thruster2", propeller, true, false);
+      |     [01;31m[K^~~~~~~~~~[m[K
+[01m[K/home/dyj/ros2_ws/src/stonefish_ros2/src/FluidDynamicsTestManager.cpp:185:9:[m[K [01;31m[Kerror: [m[K‘[01m[KAddSensor[m[K’ was not declared in this scope
+  185 |         [01;31m[KAddSensor[m[K(odometry);
+      |         [01;31m[K^~~~~~~~~[m[K
+[01m[K/home/dyj/ros2_ws/src/stonefish_ros2/src/FluidDynamicsTestManager.cpp:[m[K At global scope:
+[01m[K/home/dyj/ros2_ws/src/stonefish_ros2/src/FluidDynamicsTestManager.cpp:194:6:[m[K [01;31m[Kerror: [m[K‘[01m[KFluidDynamicsTestManager[m[K’ has not been declared
+  194 | void [01;31m[KFluidDynamicsTestManager[m[K::SimulationStepCompleted(sf::Scalar timeStep) {
+      |      [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/dyj/ros2_ws/src/stonefish_ros2/src/FluidDynamicsTestManager.cpp:[m[K In function ‘[01m[Kvoid SimulationStepCompleted(sf::Scalar)[m[K’:
+[01m[K/home/dyj/ros2_ws/src/stonefish_ros2/src/FluidDynamicsTestManager.cpp:195:23:[m[K [01;31m[Kerror: [m[K‘[01m[Kros_node_[m[K’ was not declared in this scope; did you mean ‘[01m[Krcl_node_t[m[K’?
+  195 |     rclcpp::spin_some([01;31m[Kros_node_[m[K);
+      |                       [01;31m[K^~~~~~~~~[m[K
+      |                       [32m[Krcl_node_t[m[K
+[01m[K/home/dyj/ros2_ws/src/stonefish_ros2/src/FluidDynamicsTestManager.cpp:197:56:[m[K [01;31m[Kerror: [m[K‘[01m[Kstd::filesystem[m[K’ has not been declared
+  197 |     std::cout << "Current working directory: " << std::[01;31m[Kfilesystem[m[K::current_path() << std::endl;
+      |                                                        [01;31m[K^~~~~~~~~~[m[K
+[01m[K/home/dyj/ros2_ws/src/stonefish_ros2/src/FluidDynamicsTestManager.cpp:200:22:[m[K [01;31m[Kerror: [m[K‘[01m[KgetOcean[m[K’ was not declared in this scope
+  200 |     sf::Scalar rho = [01;31m[KgetOcean[m[K()->getLiquid().density;
+      |                      [01;31m[K^~~~~~~~[m[K
+[01m[K/home/dyj/ros2_ws/src/stonefish_ros2/src/FluidDynamicsTestManager.cpp:203:39:[m[K [01;31m[Kerror: [m[K‘[01m[KgetEntity[m[K’ was not declared in this scope
+  203 |     sf::Sphere* sphere = (sf::Sphere*)[01;31m[KgetEntity[m[K("Sphere");
+      |                                       [01;31m[K^~~~~~~~~[m[K
+[01m[K/home/dyj/ros2_ws/src/stonefish_ros2/src/FluidDynamicsTestManager.cpp:234:5:[m[K [01;31m[Kerror: [m[K‘[01m[Ktotal_force_pub_[m[K’ was not declared in this scope; did you mean ‘[01m[Ktotal_force_msg[m[K’?
+  234 |     [01;31m[Ktotal_force_pub_[m[K->publish(total_force_msg);
+      |     [01;31m[K^~~~~~~~~~~~~~~~[m[K
+      |     [32m[Ktotal_force_msg[m[K
+[01m[K/home/dyj/ros2_ws/src/stonefish_ros2/src/FluidDynamicsTestManager.cpp:240:5:[m[K [01;31m[Kerror: [m[K‘[01m[Kbuoyancy_force_pub_[m[K’ was not declared in this scope; did you mean ‘[01m[Kbuoyancy_force_msg[m[K’?
+  240 |     [01;31m[Kbuoyancy_force_pub_[m[K->publish(buoyancy_force_msg);
+      |     [01;31m[K^~~~~~~~~~~~~~~~~~~[m[K
+      |     [32m[Kbuoyancy_force_msg[m[K
+[01m[K/home/dyj/ros2_ws/src/stonefish_ros2/src/FluidDynamicsTestManager.cpp:246:5:[m[K [01;31m[Kerror: [m[K‘[01m[Klinear_velocity_pub_[m[K’ was not declared in this scope; did you mean ‘[01m[Klinear_velocity_msg[m[K’?
+  246 |     [01;31m[Klinear_velocity_pub_[m[K->publish(linear_velocity_msg);
+      |     [01;31m[K^~~~~~~~~~~~~~~~~~~~[m[K
+      |     [32m[Klinear_velocity_msg[m[K
+[01m[K/home/dyj/ros2_ws/src/stonefish_ros2/src/FluidDynamicsTestManager.cpp:250:5:[m[K [01;31m[Kerror: [m[K‘[01m[Ksubmerged_volume_pub_[m[K’ was not declared in this scope; did you mean ‘[01m[Ksubmerged_volume_msg[m[K’?
+  250 |     [01;31m[Ksubmerged_volume_pub_[m[K->publish(submerged_volume_msg);
+      |     [01;31m[K^~~~~~~~~~~~~~~~~~~~~[m[K
+      |     [32m[Ksubmerged_volume_msg[m[K
+make[2]: *** [CMakeFiles/fluid_dynamics_test.dir/build.make:92：CMakeFiles/fluid_dynamics_test.dir/src/main.cpp.o] 错误 1
+make[2]: *** 正在等待未完成的任务....
+make[2]: *** [CMakeFiles/fluid_dynamics_test.dir/build.make:79：CMakeFiles/fluid_dynamics_test.dir/src/FluidDynamicsTestApp.cpp.o] 错误 1
+make[2]: *** [CMakeFiles/fluid_dynamics_test.dir/build.make:66：CMakeFiles/fluid_dynamics_test.dir/src/FluidDynamicsTestManager.cpp.o] 错误 1
+make[1]: *** [CMakeFiles/Makefile2:390：CMakeFiles/fluid_dynamics_test.dir/all] 错误 2
+make: *** [Makefile:144：all] 错误 2

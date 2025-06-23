@@ -248,6 +248,7 @@
 /home/dyj/ros2_ws/install/stonefish_ros2/lib/stonefish_ros2/stonefish_simulator
 /home/dyj/ros2_ws/install/stonefish_ros2/lib/stonefish_ros2/stonefish_simulator_nogpu
 /home/dyj/ros2_ws/install/stonefish_ros2/lib/stonefish_ros2/fluid_dynamics_test
+/home/dyj/ros2_ws/install/stonefish_ros2/lib/stonefish_ros2/camera_test
 /home/dyj/ros2_ws/install/stonefish_ros2/share/stonefish_ros2/launch/stonefish_simulator.launch.py
 /home/dyj/ros2_ws/install/stonefish_ros2/share/stonefish_ros2/launch/stonefish_simulator_nogpu.launch.py
 /home/dyj/ros2_ws/install/stonefish_ros2/share/ament_index/resource_index/package_run_dependencies/stonefish_ros2

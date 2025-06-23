@@ -1,0 +1,18 @@
+** WARNING ** io features related to pcap will be disabled
+** WARNING ** io features related to png will be disabled
+** WARNING ** io features related to libusb-1.0 will be disabled
+In file included from [01m[K/home/dyj/ros2_ws/src/stonefish_ros2/src/CameraTest/CameraTestManager.cpp:26[m[K:
+[01m[K/home/dyj/ros2_ws/src/stonefish_ros2/src/CameraTest/CameraTestManager.h:29:10:[m[K [01;31m[Kfatal error: [m[Kcore/SimulationManager.h: 没有那个文件或目录
+   29 | #include [01;31m[K<core/SimulationManager.h>[m[K
+      |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+compilation terminated.
+[01m[K/home/dyj/ros2_ws/src/stonefish_ros2/src/CameraTest/main.cpp:26:10:[m[K [01;31m[Kfatal error: [m[Kcore/GraphicalSimulationApp.h: 没有那个文件或目录
+   26 | #include [01;31m[K<core/GraphicalSimulationApp.h>[m[K
+      |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+compilation terminated.
+make[2]: *** [CMakeFiles/camera_test.dir/build.make:66：CMakeFiles/camera_test.dir/src/CameraTest/CameraTestManager.cpp.o] 错误 1
+make[2]: *** 正在等待未完成的任务....
+make[2]: *** [CMakeFiles/camera_test.dir/build.make:79：CMakeFiles/camera_test.dir/src/CameraTest/main.cpp.o] 错误 1
+make[1]: *** [CMakeFiles/Makefile2:137：CMakeFiles/camera_test.dir/all] 错误 2
+make[1]: *** 正在等待未完成的任务....
+make: *** [Makefile:144：all] 错误 2

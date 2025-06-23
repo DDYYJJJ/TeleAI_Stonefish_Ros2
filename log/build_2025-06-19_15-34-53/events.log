@@ -1,0 +1,646 @@
+[0.000000] (-) TimerEvent: {}
+[0.000249] (stonefish_ros2) JobQueued: {'identifier': 'stonefish_ros2', 'dependencies': OrderedDict()}
+[0.000287] (stonefish_ros2) JobStarted: {'identifier': 'stonefish_ros2'}
+[0.004604] (stonefish_ros2) JobProgress: {'identifier': 'stonefish_ros2', 'progress': 'cmake'}
+[0.005049] (stonefish_ros2) JobProgress: {'identifier': 'stonefish_ros2', 'progress': 'build'}
+[0.005552] (stonefish_ros2) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/dyj/ros2_ws/build/stonefish_ros2', '--', '-j16', '-l16'], 'cwd': '/home/dyj/ros2_ws/build/stonefish_ros2', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('HTTPS_PROXY', 'http://127.0.0.1:7890/'), ('no_proxy', 'localhost,127.0.0.0/8,::1'), ('LANGUAGE', 'zh_CN:zh'), ('USER', 'dyj'), ('all_proxy', 'socks://127.0.0.1:7891/'), ('SSH_AGENT_PID', '1316'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/dyj/ros2_ws/install/stonefish_ros2/lib:/opt/ros/rolling/lib:/usr/local/lib:/usr/local/lib:/opt/ros/rolling/opt/yaml_cpp_vendor/lib:/opt/ros/rolling/opt/rviz_ogre_vendor/lib:/opt/ros/rolling/lib/x86_64-linux-gnu:/opt/ros/rolling/libb'), ('HOME', '/home/dyj'), ('OLDPWD', '/home/dyj/桌面'), ('DESKTOP_SESSION', 'ubuntu'), ('NO_PROXY', 'localhost,127.0.0.0/8,::1'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('MANAGERPID', '1034'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('https_proxy', 'http://127.0.0.1:7890/'), ('COLCON_PREFIX_PATH', '/home/dyj/ros2_ws/install'), ('ROS_DISTRO', 'rolling'), ('LOGNAME', 'dyj'), ('ALL_PROXY', 'socks://127.0.0.1:7891/'), ('http_proxy', 'http://127.0.0.1:7890/'), ('JOURNAL_STREAM', '8:22463'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('PKG_CONFIG_PATH', '/usr/local/lib/pkgconfig:/usr/local/lib/pkgconfig:'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'dyj'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/rolling/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/dyj-Jiaolong-Series-MRID6:@/tmp/.ICE-unix/1351,unix/dyj-Jiaolong-Series-MRID6:/tmp/.ICE-unix/1351'), ('INVOCATION_ID', '1e2c4741891f4831a4256cf58742dd8a'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/36ca1945_5fe6_4047_8919_1f4a5a8b24d6'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'zh_CN.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.109'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/dyj/ros2_ws/install/stonefish_ros2:/opt/ros/rolling'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/dyj/ros2_ws/build/stonefish_ros2'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/dyj/ros2_ws/install/stonefish_ros2/lib/python3.8/site-packages:/opt/ros/rolling/lib/python3.8/site-packages'), ('HTTP_PROXY', 'http://127.0.0.1:7890/'), ('COLCON', '1'), ('VTE_VERSION', '6003'), ('CMAKE_PREFIX_PATH', '/home/dyj/ros2_ws/install/stonefish_ros2:/usr/local:/usr/local::/opt/ros/rolling')]), 'shell': False}
+[0.031815] (stonefish_ros2) StdoutLine: {'line': b'/usr/bin/cmake -S/home/dyj/ros2_ws/src/stonefish_ros2 -B/home/dyj/ros2_ws/build/stonefish_ros2 --check-build-system CMakeFiles/Makefile.cmake 0\n'}
+[0.040180] (stonefish_ros2) StdoutLine: {'line': b'Re-run cmake file: Makefile older than: /home/dyj/ros2_ws/src/stonefish_ros2/CMakeLists.txt\n'}
+[0.042741] (stonefish_ros2) StdoutLine: {'line': b'-- Found ament_cmake: 1.2.1 (/opt/ros/rolling/share/ament_cmake/cmake)\n'}
+[0.099678] (-) TimerEvent: {}
+[0.124052] (stonefish_ros2) StdoutLine: {'line': b'-- Override CMake install command with custom implementation using symlinks instead of copying resources\n'}
+[0.133281] (stonefish_ros2) StdoutLine: {'line': b'-- Found rclcpp: 15.0.0 (/opt/ros/rolling/share/rclcpp/cmake)\n'}
+[0.150565] (stonefish_ros2) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.152125] (stonefish_ros2) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.0.1 (/opt/ros/rolling/share/rosidl_adapter/cmake)\n'}
+[0.168204] (stonefish_ros2) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.195264] (stonefish_ros2) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 5.1.0 (/opt/ros/rolling/share/rmw_implementation_cmake/cmake)\n'}
+[0.196029] (stonefish_ros2) StdoutLine: {'line': b'-- Found rmw_cyclonedds_cpp: 1.1.2 (/opt/ros/rolling/share/rmw_cyclonedds_cpp/cmake)\n'}
+[0.199768] (-) TimerEvent: {}
+[0.205671] (stonefish_ros2) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_cyclonedds_cpp' as default\n"}
+[0.286083] (stonefish_ros2) StdoutLine: {'line': b'-- Found std_srvs: 4.0.0 (/opt/ros/rolling/share/std_srvs/cmake)\n'}
+[0.290649] (stonefish_ros2) StdoutLine: {'line': b'-- Found geometry_msgs: 4.0.0 (/opt/ros/rolling/share/geometry_msgs/cmake)\n'}
+[0.299863] (-) TimerEvent: {}
+[0.310862] (stonefish_ros2) StdoutLine: {'line': b'-- Found nav_msgs: 4.0.0 (/opt/ros/rolling/share/nav_msgs/cmake)\n'}
+[0.356751] (stonefish_ros2) StdoutLine: {'line': b'-- Found sensor_msgs: 4.0.0 (/opt/ros/rolling/share/sensor_msgs/cmake)\n'}
+[0.399953] (-) TimerEvent: {}
+[0.402634] (stonefish_ros2) StdoutLine: {'line': b'-- Found visualization_msgs: 4.0.0 (/opt/ros/rolling/share/visualization_msgs/cmake)\n'}
+[0.487768] (stonefish_ros2) StdoutLine: {'line': b'-- Found rosidl_default_generators: 1.1.1 (/opt/ros/rolling/share/rosidl_default_generators/cmake)\n'}
+[0.491804] (stonefish_ros2) StdoutLine: {'line': b'-- Found pcl_conversions: 2.4.0 (/opt/ros/rolling/share/pcl_conversions/cmake)\n'}
+[0.500043] (-) TimerEvent: {}
+[0.600221] (-) TimerEvent: {}
+[0.607252] (stonefish_ros2) StdoutLine: {'line': b'-- Found image_transport: 3.1.2 (/opt/ros/rolling/share/image_transport/cmake)\n'}
+[0.625450] (stonefish_ros2) StdoutLine: {'line': b'-- Found tf2: 0.21.0 (/opt/ros/rolling/share/tf2/cmake)\n'}
+[0.631366] (stonefish_ros2) StdoutLine: {'line': b'-- Found tf2_ros: 0.21.0 (/opt/ros/rolling/share/tf2_ros/cmake)\n'}
+[0.700312] (-) TimerEvent: {}
+[0.800527] (-) TimerEvent: {}
+[0.900738] (-) TimerEvent: {}
+[1.000980] (-) TimerEvent: {}
+[1.094540] (stonefish_ros2) StdoutLine: {'line': b'-- Found ament_cmake_ros: 0.10.0 (/opt/ros/rolling/share/ament_cmake_ros/cmake)\n'}
+[1.101065] (-) TimerEvent: {}
+[1.201293] (-) TimerEvent: {}
+[1.301582] (-) TimerEvent: {}
+[1.382162] (stonefish_ros2) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[1.401667] (-) TimerEvent: {}
+[1.501893] (-) TimerEvent: {}
+[1.598284] (stonefish_ros2) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[1.601997] (-) TimerEvent: {}
+[1.613669] (stonefish_ros2) StdoutLine: {'line': b'-- Found python_cmake_module: 0.8.1 (/opt/ros/rolling/share/python_cmake_module/cmake)\n'}
+[1.626835] (stonefish_ros2) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[1.626960] (stonefish_ros2) StdoutLine: {'line': b'-- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.8\n'}
+[1.627037] (stonefish_ros2) StdoutLine: {'line': b'-- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.8.so\n'}
+[1.666262] (stonefish_ros2) StdoutLine: {'line': b'-- Eigen found (include: /usr/include/eigen3, version: 3.3.7)\n'}
+[1.702084] (-) TimerEvent: {}
+[1.710461] (stonefish_ros2) StdoutLine: {'line': b'-- The imported target "vtkParseOGLExt" references the file\n'}
+[1.710600] (stonefish_ros2) StdoutLine: {'line': b'   "/usr/bin/vtkParseOGLExt-7.1"\n'}
+[1.710681] (stonefish_ros2) StdoutLine: {'line': b'but this file does not exist.  Possible reasons include:\n'}
+[1.710743] (stonefish_ros2) StdoutLine: {'line': b'* The file was deleted, renamed, or moved to another location.\n'}
+[1.710802] (stonefish_ros2) StdoutLine: {'line': b'* An install or uninstall procedure did not complete successfully.\n'}
+[1.710861] (stonefish_ros2) StdoutLine: {'line': b'* The installation package was faulty and contained\n'}
+[1.710917] (stonefish_ros2) StdoutLine: {'line': b'   "/usr/lib/cmake/vtk-7.1/VTKTargets.cmake"\n'}
+[1.710974] (stonefish_ros2) StdoutLine: {'line': b'but not all the files it references.\n'}
+[1.711030] (stonefish_ros2) StdoutLine: {'line': b'\n'}
+[1.711162] (stonefish_ros2) StdoutLine: {'line': b'-- The imported target "vtkRenderingPythonTkWidgets" references the file\n'}
+[1.711226] (stonefish_ros2) StdoutLine: {'line': b'   "/usr/lib/x86_64-linux-gnu/libvtkRenderingPythonTkWidgets.so"\n'}
+[1.711282] (stonefish_ros2) StdoutLine: {'line': b'but this file does not exist.  Possible reasons include:\n'}
+[1.711335] (stonefish_ros2) StdoutLine: {'line': b'* The file was deleted, renamed, or moved to another location.\n'}
+[1.711395] (stonefish_ros2) StdoutLine: {'line': b'* An install or uninstall procedure did not complete successfully.\n'}
+[1.711453] (stonefish_ros2) StdoutLine: {'line': b'* The installation package was faulty and contained\n'}
+[1.711507] (stonefish_ros2) StdoutLine: {'line': b'   "/usr/lib/cmake/vtk-7.1/VTKTargets.cmake"\n'}
+[1.711565] (stonefish_ros2) StdoutLine: {'line': b'but not all the files it references.\n'}
+[1.711620] (stonefish_ros2) StdoutLine: {'line': b'\n'}
+[1.711757] (stonefish_ros2) StdoutLine: {'line': b'-- The imported target "vtk" references the file\n'}
+[1.711817] (stonefish_ros2) StdoutLine: {'line': b'   "/usr/bin/vtk"\n'}
+[1.711869] (stonefish_ros2) StdoutLine: {'line': b'but this file does not exist.  Possible reasons include:\n'}
+[1.711921] (stonefish_ros2) StdoutLine: {'line': b'* The file was deleted, renamed, or moved to another location.\n'}
+[1.711981] (stonefish_ros2) StdoutLine: {'line': b'* An install or uninstall procedure did not complete successfully.\n'}
+[1.712035] (stonefish_ros2) StdoutLine: {'line': b'* The installation package was faulty and contained\n'}
+[1.712086] (stonefish_ros2) StdoutLine: {'line': b'   "/usr/lib/cmake/vtk-7.1/VTKTargets.cmake"\n'}
+[1.712142] (stonefish_ros2) StdoutLine: {'line': b'but not all the files it references.\n'}
+[1.712195] (stonefish_ros2) StdoutLine: {'line': b'\n'}
+[1.712247] (stonefish_ros2) StdoutLine: {'line': b'-- The imported target "pvtk" references the file\n'}
+[1.712299] (stonefish_ros2) StdoutLine: {'line': b'   "/usr/bin/pvtk"\n'}
+[1.712350] (stonefish_ros2) StdoutLine: {'line': b'but this file does not exist.  Possible reasons include:\n'}
+[1.712401] (stonefish_ros2) StdoutLine: {'line': b'* The file was deleted, renamed, or moved to another location.\n'}
+[1.712452] (stonefish_ros2) StdoutLine: {'line': b'* An install or uninstall procedure did not complete successfully.\n'}
+[1.712503] (stonefish_ros2) StdoutLine: {'line': b'* The installation package was faulty and contained\n'}
+[1.712553] (stonefish_ros2) StdoutLine: {'line': b'   "/usr/lib/cmake/vtk-7.1/VTKTargets.cmake"\n'}
+[1.712604] (stonefish_ros2) StdoutLine: {'line': b'but not all the files it references.\n'}
+[1.712675] (stonefish_ros2) StdoutLine: {'line': b'\n'}
+[1.722069] (stonefish_ros2) StdoutLine: {'line': b'-- OpenNI found (include: /usr/include/ni, lib: /usr/lib/libOpenNI.so)\n'}
+[1.725485] (stonefish_ros2) StdoutLine: {'line': b'-- OpenNI2 found (include: /usr/include/openni2, lib: /usr/lib/libOpenNI2.so)\n'}
+[1.725682] (stonefish_ros2) StderrLine: {'line': b'** WARNING ** io features related to pcap will be disabled\n'}
+[1.725810] (stonefish_ros2) StderrLine: {'line': b'** WARNING ** io features related to png will be disabled\n'}
+[1.731864] (stonefish_ros2) StderrLine: {'line': b'** WARNING ** io features related to libusb-1.0 will be disabled\n'}
+[1.735241] (stonefish_ros2) StdoutLine: {'line': b'-- OpenNI found (include: /usr/include/ni, lib: /usr/lib/libOpenNI.so)\n'}
+[1.738637] (stonefish_ros2) StdoutLine: {'line': b'-- OpenNI2 found (include: /usr/include/openni2, lib: /usr/lib/libOpenNI2.so)\n'}
+[1.745402] (stonefish_ros2) StdoutLine: {'line': b'-- QHULL found (include: /usr/include, lib: optimized;/usr/lib/x86_64-linux-gnu/libqhull.so;debug;/usr/lib/x86_64-linux-gnu/libqhull.so)\n'}
+[1.748810] (stonefish_ros2) StdoutLine: {'line': b'-- OpenNI found (include: /usr/include/ni, lib: /usr/lib/libOpenNI.so)\n'}
+[1.755032] (stonefish_ros2) StdoutLine: {'line': b'-- looking for PCL_COMMON\n'}
+[1.755262] (stonefish_ros2) StdoutLine: {'line': b'-- looking for PCL_KDTREE\n'}
+[1.755520] (stonefish_ros2) StdoutLine: {'line': b'-- looking for PCL_OCTREE\n'}
+[1.755705] (stonefish_ros2) StdoutLine: {'line': b'-- looking for PCL_SEARCH\n'}
+[1.755969] (stonefish_ros2) StdoutLine: {'line': b'-- looking for PCL_SAMPLE_CONSENSUS\n'}
+[1.756169] (stonefish_ros2) StdoutLine: {'line': b'-- looking for PCL_FILTERS\n'}
+[1.756423] (stonefish_ros2) StdoutLine: {'line': b'-- looking for PCL_2D\n'}
+[1.756605] (stonefish_ros2) StdoutLine: {'line': b'-- looking for PCL_GEOMETRY\n'}
+[1.756763] (stonefish_ros2) StdoutLine: {'line': b'-- looking for PCL_IO\n'}
+[1.757011] (stonefish_ros2) StdoutLine: {'line': b'-- looking for PCL_FEATURES\n'}
+[1.757282] (stonefish_ros2) StdoutLine: {'line': b'-- looking for PCL_ML\n'}
+[1.757498] (stonefish_ros2) StdoutLine: {'line': b'-- looking for PCL_SEGMENTATION\n'}
+[1.757786] (stonefish_ros2) StdoutLine: {'line': b'-- looking for PCL_VISUALIZATION\n'}
+[1.758057] (stonefish_ros2) StdoutLine: {'line': b'-- looking for PCL_SURFACE\n'}
+[1.758297] (stonefish_ros2) StdoutLine: {'line': b'-- looking for PCL_REGISTRATION\n'}
+[1.758570] (stonefish_ros2) StdoutLine: {'line': b'-- looking for PCL_KEYPOINTS\n'}
+[1.758827] (stonefish_ros2) StdoutLine: {'line': b'-- looking for PCL_TRACKING\n'}
+[1.759066] (stonefish_ros2) StdoutLine: {'line': b'-- looking for PCL_RECOGNITION\n'}
+[1.759387] (stonefish_ros2) StdoutLine: {'line': b'-- looking for PCL_STEREO\n'}
+[1.759617] (stonefish_ros2) StdoutLine: {'line': b'-- looking for PCL_APPS\n'}
+[1.760084] (stonefish_ros2) StdoutLine: {'line': b'-- looking for PCL_IN_HAND_SCANNER\n'}
+[1.760267] (stonefish_ros2) StdoutLine: {'line': b'-- looking for PCL_POINT_CLOUD_EDITOR\n'}
+[1.760442] (stonefish_ros2) StdoutLine: {'line': b'-- looking for PCL_OUTOFCORE\n'}
+[1.760716] (stonefish_ros2) StdoutLine: {'line': b'-- looking for PCL_PEOPLE\n'}
+[1.802185] (-) TimerEvent: {}
+[1.802964] (stonefish_ros2) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.11.4 (/opt/ros/rolling/share/ament_lint_auto/cmake)\n'}
+[1.809753] (stonefish_ros2) StdoutLine: {'line': b"-- Added test 'cppcheck' to perform static code analysis on C / C++ code\n"}
+[1.811388] (stonefish_ros2) StdoutLine: {'line': b'-- Configured cppcheck include dirs: $<BUILD_INTERFACE:/home/dyj/ros2_ws/src/stonefish_ros2/include>\n'}
+[1.811515] (stonefish_ros2) StdoutLine: {'line': b'-- Configured cppcheck exclude dirs and/or files: \n'}
+[1.811807] (stonefish_ros2) StdoutLine: {'line': b"-- Added test 'flake8' to check Python code syntax and style conventions\n"}
+[1.812418] (stonefish_ros2) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[1.812812] (stonefish_ros2) StdoutLine: {'line': b"-- Added test 'pep257' to check Python code against some of the style conventions in PEP 257\n"}
+[1.814682] (stonefish_ros2) StdoutLine: {'line': b"-- Added test 'uncrustify' to check C / C++ code style\n"}
+[1.814809] (stonefish_ros2) StdoutLine: {'line': b'-- Configured uncrustify additional arguments: \n'}
+[1.815078] (stonefish_ros2) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[1.817902] (stonefish_ros2) StdoutLine: {'line': b'-- Configuring done\n'}
+[1.902293] (-) TimerEvent: {}
+[1.906677] (stonefish_ros2) StdoutLine: {'line': b'-- Generating done\n'}
+[1.940143] (stonefish_ros2) StdoutLine: {'line': b'-- Build files have been written to: /home/dyj/ros2_ws/build/stonefish_ros2\n'}
+[1.947994] (stonefish_ros2) StdoutLine: {'line': b'/usr/bin/cmake -E cmake_progress_start /home/dyj/ros2_ws/build/stonefish_ros2/CMakeFiles /home/dyj/ros2_ws/build/stonefish_ros2/CMakeFiles/progress.marks\n'}
+[1.955530] (stonefish_ros2) StdoutLine: {'line': b'/usr/bin/make -f CMakeFiles/Makefile2 all\n'}
+[1.956236] (stonefish_ros2) StdoutLine: {'line': b'make[1]: \xe8\xbf\x9b\xe5\x85\xa5\xe7\x9b\xae\xe5\xbd\x95\xe2\x80\x9c/home/dyj/ros2_ws/build/stonefish_ros2\xe2\x80\x9d\n'}
+[1.956375] (stonefish_ros2) StdoutLine: {'line': b'/usr/bin/make -f CMakeFiles/stonefish_ros2__cpp.dir/build.make CMakeFiles/stonefish_ros2__cpp.dir/depend\n'}
+[1.956493] (stonefish_ros2) StdoutLine: {'line': b'/usr/bin/make -f CMakeFiles/stonefish_ros2__rosidl_generator_c.dir/build.make CMakeFiles/stonefish_ros2__rosidl_generator_c.dir/depend\n'}
+[1.956564] (stonefish_ros2) StdoutLine: {'line': b'/usr/bin/make -f CMakeFiles/ament_cmake_python_symlink_stonefish_ros2.dir/build.make CMakeFiles/ament_cmake_python_symlink_stonefish_ros2.dir/depend\n'}
+[1.957047] (stonefish_ros2) StdoutLine: {'line': b'make[2]: \xe8\xbf\x9b\xe5\x85\xa5\xe7\x9b\xae\xe5\xbd\x95\xe2\x80\x9c/home/dyj/ros2_ws/build/stonefish_ros2\xe2\x80\x9d\n'}
+[1.957182] (stonefish_ros2) StdoutLine: {'line': b'cd /home/dyj/ros2_ws/build/stonefish_ros2 && /usr/bin/cmake -E cmake_depends "Unix Makefiles" /home/dyj/ros2_ws/src/stonefish_ros2 /home/dyj/ros2_ws/src/stonefish_ros2 /home/dyj/ros2_ws/build/stonefish_ros2 /home/dyj/ros2_ws/build/stonefish_ros2 /home/dyj/ros2_ws/build/stonefish_ros2/CMakeFiles/ament_cmake_python_symlink_stonefish_ros2.dir/DependInfo.cmake --color=\n'}
+[1.957768] (stonefish_ros2) StdoutLine: {'line': b'make[2]: \xe8\xbf\x9b\xe5\x85\xa5\xe7\x9b\xae\xe5\xbd\x95\xe2\x80\x9c/home/dyj/ros2_ws/build/stonefish_ros2\xe2\x80\x9d\n'}
+[1.957895] (stonefish_ros2) StdoutLine: {'line': b'cd /home/dyj/ros2_ws/build/stonefish_ros2 && /usr/bin/cmake -E cmake_depends "Unix Makefiles" /home/dyj/ros2_ws/src/stonefish_ros2 /home/dyj/ros2_ws/src/stonefish_ros2 /home/dyj/ros2_ws/build/stonefish_ros2 /home/dyj/ros2_ws/build/stonefish_ros2 /home/dyj/ros2_ws/build/stonefish_ros2/CMakeFiles/stonefish_ros2__cpp.dir/DependInfo.cmake --color=\n'}
+[1.960501] (stonefish_ros2) StdoutLine: {'line': b'make[2]: \xe8\xbf\x9b\xe5\x85\xa5\xe7\x9b\xae\xe5\xbd\x95\xe2\x80\x9c/home/dyj/ros2_ws/build/stonefish_ros2\xe2\x80\x9d\n'}
+[1.960709] (stonefish_ros2) StdoutLine: {'line': b'cd /home/dyj/ros2_ws/build/stonefish_ros2 && /usr/bin/cmake -E cmake_depends "Unix Makefiles" /home/dyj/ros2_ws/src/stonefish_ros2 /home/dyj/ros2_ws/src/stonefish_ros2 /home/dyj/ros2_ws/build/stonefish_ros2 /home/dyj/ros2_ws/build/stonefish_ros2 /home/dyj/ros2_ws/build/stonefish_ros2/CMakeFiles/stonefish_ros2__rosidl_generator_c.dir/DependInfo.cmake --color=\n'}
+[1.965363] (stonefish_ros2) StdoutLine: {'line': b'make[2]: \xe7\xa6\xbb\xe5\xbc\x80\xe7\x9b\xae\xe5\xbd\x95\xe2\x80\x9c/home/dyj/ros2_ws/build/stonefish_ros2\xe2\x80\x9d\n'}
+[1.965513] (stonefish_ros2) StdoutLine: {'line': b'/usr/bin/make -f CMakeFiles/stonefish_ros2__rosidl_generator_c.dir/build.make CMakeFiles/stonefish_ros2__rosidl_generator_c.dir/build\n'}
+[1.966434] (stonefish_ros2) StdoutLine: {'line': b'make[2]: \xe7\xa6\xbb\xe5\xbc\x80\xe7\x9b\xae\xe5\xbd\x95\xe2\x80\x9c/home/dyj/ros2_ws/build/stonefish_ros2\xe2\x80\x9d\n'}
+[1.966600] (stonefish_ros2) StdoutLine: {'line': b'/usr/bin/make -f CMakeFiles/ament_cmake_python_symlink_stonefish_ros2.dir/build.make CMakeFiles/ament_cmake_python_symlink_stonefish_ros2.dir/build\n'}
+[1.966709] (stonefish_ros2) StdoutLine: {'line': b'make[2]: \xe7\xa6\xbb\xe5\xbc\x80\xe7\x9b\xae\xe5\xbd\x95\xe2\x80\x9c/home/dyj/ros2_ws/build/stonefish_ros2\xe2\x80\x9d\n'}
+[1.966803] (stonefish_ros2) StdoutLine: {'line': b'/usr/bin/make -f CMakeFiles/stonefish_ros2__cpp.dir/build.make CMakeFiles/stonefish_ros2__cpp.dir/build\n'}
+[1.967454] (stonefish_ros2) StdoutLine: {'line': b'make[2]: \xe8\xbf\x9b\xe5\x85\xa5\xe7\x9b\xae\xe5\xbd\x95\xe2\x80\x9c/home/dyj/ros2_ws/build/stonefish_ros2\xe2\x80\x9d\n'}
+[1.967512] (stonefish_ros2) StdoutLine: {'line': b'/usr/bin/cmake -E create_symlink /home/dyj/ros2_ws/build/stonefish_ros2/rosidl_generator_py/stonefish_ros2 /home/dyj/ros2_ws/build/stonefish_ros2/ament_cmake_python/stonefish_ros2/stonefish_ros2\n'}
+[1.967779] (stonefish_ros2) StdoutLine: {'line': b'make[2]: \xe8\xbf\x9b\xe5\x85\xa5\xe7\x9b\xae\xe5\xbd\x95\xe2\x80\x9c/home/dyj/ros2_ws/build/stonefish_ros2\xe2\x80\x9d\n'}
+[1.967838] (stonefish_ros2) StdoutLine: {'line': b'make[2]: \xe5\xaf\xb9\xe2\x80\x9cCMakeFiles/stonefish_ros2__cpp.dir/build\xe2\x80\x9d\xe6\x97\xa0\xe9\x9c\x80\xe5\x81\x9a\xe4\xbb\xbb\xe4\xbd\x95\xe4\xba\x8b\xe3\x80\x82\n'}
+[1.967894] (stonefish_ros2) StdoutLine: {'line': b'make[2]: \xe7\xa6\xbb\xe5\xbc\x80\xe7\x9b\xae\xe5\xbd\x95\xe2\x80\x9c/home/dyj/ros2_ws/build/stonefish_ros2\xe2\x80\x9d\n'}
+[1.970975] (stonefish_ros2) StdoutLine: {'line': b'[  1%] Built target stonefish_ros2__cpp\n'}
+[1.971276] (stonefish_ros2) StdoutLine: {'line': b'/usr/bin/make -f CMakeFiles/stonefish_ros2__rosidl_typesupport_cpp.dir/build.make CMakeFiles/stonefish_ros2__rosidl_typesupport_cpp.dir/depend\n'}
+[1.971370] (stonefish_ros2) StdoutLine: {'line': b'/usr/bin/make -f CMakeFiles/stonefish_ros2__rosidl_typesupport_fastrtps_cpp.dir/build.make CMakeFiles/stonefish_ros2__rosidl_typesupport_fastrtps_cpp.dir/depend\n'}
+[1.971487] (stonefish_ros2) StdoutLine: {'line': b'/usr/bin/make -f CMakeFiles/stonefish_ros2__rosidl_typesupport_introspection_cpp.dir/build.make CMakeFiles/stonefish_ros2__rosidl_typesupport_introspection_cpp.dir/depend\n'}
+[1.972339] (stonefish_ros2) StdoutLine: {'line': b'make[2]: \xe8\xbf\x9b\xe5\x85\xa5\xe7\x9b\xae\xe5\xbd\x95\xe2\x80\x9c/home/dyj/ros2_ws/build/stonefish_ros2\xe2\x80\x9d\n'}
+[1.972471] (stonefish_ros2) StdoutLine: {'line': b'make[2]: \xe5\xaf\xb9\xe2\x80\x9cCMakeFiles/stonefish_ros2__rosidl_generator_c.dir/build\xe2\x80\x9d\xe6\x97\xa0\xe9\x9c\x80\xe5\x81\x9a\xe4\xbb\xbb\xe4\xbd\x95\xe4\xba\x8b\xe3\x80\x82\n'}
+[1.972551] (stonefish_ros2) StdoutLine: {'line': b'make[2]: \xe7\xa6\xbb\xe5\xbc\x80\xe7\x9b\xae\xe5\xbd\x95\xe2\x80\x9c/home/dyj/ros2_ws/build/stonefish_ros2\xe2\x80\x9d\n'}
+[1.972913] (stonefish_ros2) StdoutLine: {'line': b'make[2]: \xe8\xbf\x9b\xe5\x85\xa5\xe7\x9b\xae\xe5\xbd\x95\xe2\x80\x9c/home/dyj/ros2_ws/build/stonefish_ros2\xe2\x80\x9d\n'}
+[1.973047] (stonefish_ros2) StdoutLine: {'line': b'cd /home/dyj/ros2_ws/build/stonefish_ros2 && /usr/bin/cmake -E cmake_depends "Unix Makefiles" /home/dyj/ros2_ws/src/stonefish_ros2 /home/dyj/ros2_ws/src/stonefish_ros2 /home/dyj/ros2_ws/build/stonefish_ros2 /home/dyj/ros2_ws/build/stonefish_ros2 /home/dyj/ros2_ws/build/stonefish_ros2/CMakeFiles/stonefish_ros2__rosidl_typesupport_cpp.dir/DependInfo.cmake --color=\n'}
+[1.973401] (stonefish_ros2) StdoutLine: {'line': b'make[2]: \xe8\xbf\x9b\xe5\x85\xa5\xe7\x9b\xae\xe5\xbd\x95\xe2\x80\x9c/home/dyj/ros2_ws/build/stonefish_ros2\xe2\x80\x9d\n'}
+[1.973530] (stonefish_ros2) StdoutLine: {'line': b'cd /home/dyj/ros2_ws/build/stonefish_ros2 && /usr/bin/cmake -E cmake_depends "Unix Makefiles" /home/dyj/ros2_ws/src/stonefish_ros2 /home/dyj/ros2_ws/src/stonefish_ros2 /home/dyj/ros2_ws/build/stonefish_ros2 /home/dyj/ros2_ws/build/stonefish_ros2 /home/dyj/ros2_ws/build/stonefish_ros2/CMakeFiles/stonefish_ros2__rosidl_typesupport_fastrtps_cpp.dir/DependInfo.cmake --color=\n'}
+[1.974971] (stonefish_ros2) StdoutLine: {'line': b'make[2]: \xe7\xa6\xbb\xe5\xbc\x80\xe7\x9b\xae\xe5\xbd\x95\xe2\x80\x9c/home/dyj/ros2_ws/build/stonefish_ros2\xe2\x80\x9d\n'}
+[1.975349] (stonefish_ros2) StdoutLine: {'line': b'make[2]: \xe8\xbf\x9b\xe5\x85\xa5\xe7\x9b\xae\xe5\xbd\x95\xe2\x80\x9c/home/dyj/ros2_ws/build/stonefish_ros2\xe2\x80\x9d\n'}
+[1.975472] (stonefish_ros2) StdoutLine: {'line': b'cd /home/dyj/ros2_ws/build/stonefish_ros2 && /usr/bin/cmake -E cmake_depends "Unix Makefiles" /home/dyj/ros2_ws/src/stonefish_ros2 /home/dyj/ros2_ws/src/stonefish_ros2 /home/dyj/ros2_ws/build/stonefish_ros2 /home/dyj/ros2_ws/build/stonefish_ros2 /home/dyj/ros2_ws/build/stonefish_ros2/CMakeFiles/stonefish_ros2__rosidl_typesupport_introspection_cpp.dir/DependInfo.cmake --color=\n'}
+[1.976950] (stonefish_ros2) StdoutLine: {'line': b'make[2]: \xe7\xa6\xbb\xe5\xbc\x80\xe7\x9b\xae\xe5\xbd\x95\xe2\x80\x9c/home/dyj/ros2_ws/build/stonefish_ros2\xe2\x80\x9d\n'}
+[1.977018] (stonefish_ros2) StdoutLine: {'line': b'/usr/bin/make -f CMakeFiles/stonefish_ros2__rosidl_typesupport_cpp.dir/build.make CMakeFiles/stonefish_ros2__rosidl_typesupport_cpp.dir/build\n'}
+[1.977323] (stonefish_ros2) StdoutLine: {'line': b'make[2]: \xe7\xa6\xbb\xe5\xbc\x80\xe7\x9b\xae\xe5\xbd\x95\xe2\x80\x9c/home/dyj/ros2_ws/build/stonefish_ros2\xe2\x80\x9d\n'}
+[1.977397] (stonefish_ros2) StdoutLine: {'line': b'/usr/bin/make -f CMakeFiles/stonefish_ros2__rosidl_typesupport_fastrtps_cpp.dir/build.make CMakeFiles/stonefish_ros2__rosidl_typesupport_fastrtps_cpp.dir/build\n'}
+[1.979569] (stonefish_ros2) StdoutLine: {'line': b'[ 11%] Built target stonefish_ros2__rosidl_generator_c\n'}
+[1.980190] (stonefish_ros2) StdoutLine: {'line': b'/usr/bin/make -f CMakeFiles/stonefish_ros2__rosidl_typesupport_c.dir/build.make CMakeFiles/stonefish_ros2__rosidl_typesupport_c.dir/depend\n'}
+[1.980326] (stonefish_ros2) StdoutLine: {'line': b'/usr/bin/make -f CMakeFiles/stonefish_ros2__rosidl_typesupport_introspection_c.dir/build.make CMakeFiles/stonefish_ros2__rosidl_typesupport_introspection_c.dir/depend\n'}
+[1.980984] (stonefish_ros2) StdoutLine: {'line': b'make[2]: \xe8\xbf\x9b\xe5\x85\xa5\xe7\x9b\xae\xe5\xbd\x95\xe2\x80\x9c/home/dyj/ros2_ws/build/stonefish_ros2\xe2\x80\x9d\n'}
+[1.981118] (stonefish_ros2) StdoutLine: {'line': b'make[2]: \xe5\xaf\xb9\xe2\x80\x9cCMakeFiles/stonefish_ros2__rosidl_typesupport_cpp.dir/build\xe2\x80\x9d\xe6\x97\xa0\xe9\x9c\x80\xe5\x81\x9a\xe4\xbb\xbb\xe4\xbd\x95\xe4\xba\x8b\xe3\x80\x82\n'}
+[1.981217] (stonefish_ros2) StdoutLine: {'line': b'make[2]: \xe7\xa6\xbb\xe5\xbc\x80\xe7\x9b\xae\xe5\xbd\x95\xe2\x80\x9c/home/dyj/ros2_ws/build/stonefish_ros2\xe2\x80\x9d\n'}
+[1.981620] (stonefish_ros2) StdoutLine: {'line': b'[ 11%] Built target ament_cmake_python_symlink_stonefish_ros2\n'}
+[1.981948] (stonefish_ros2) StdoutLine: {'line': b'/usr/bin/make -f CMakeFiles/ament_cmake_python_build_stonefish_ros2_egg.dir/build.make CMakeFiles/ament_cmake_python_build_stonefish_ros2_egg.dir/depend\n'}
+[1.982014] (stonefish_ros2) StdoutLine: {'line': b'make[2]: \xe8\xbf\x9b\xe5\x85\xa5\xe7\x9b\xae\xe5\xbd\x95\xe2\x80\x9c/home/dyj/ros2_ws/build/stonefish_ros2\xe2\x80\x9d\n'}
+[1.982050] (stonefish_ros2) StdoutLine: {'line': b'cd /home/dyj/ros2_ws/build/stonefish_ros2 && /usr/bin/cmake -E cmake_depends "Unix Makefiles" /home/dyj/ros2_ws/src/stonefish_ros2 /home/dyj/ros2_ws/src/stonefish_ros2 /home/dyj/ros2_ws/build/stonefish_ros2 /home/dyj/ros2_ws/build/stonefish_ros2 /home/dyj/ros2_ws/build/stonefish_ros2/CMakeFiles/stonefish_ros2__rosidl_typesupport_c.dir/DependInfo.cmake --color=\n'}
+[1.982100] (stonefish_ros2) StdoutLine: {'line': b'make[2]: \xe8\xbf\x9b\xe5\x85\xa5\xe7\x9b\xae\xe5\xbd\x95\xe2\x80\x9c/home/dyj/ros2_ws/build/stonefish_ros2\xe2\x80\x9d\n'}
+[1.982128] (stonefish_ros2) StdoutLine: {'line': b'make[2]: \xe5\xaf\xb9\xe2\x80\x9cCMakeFiles/stonefish_ros2__rosidl_typesupport_fastrtps_cpp.dir/build\xe2\x80\x9d\xe6\x97\xa0\xe9\x9c\x80\xe5\x81\x9a\xe4\xbb\xbb\xe4\xbd\x95\xe4\xba\x8b\xe3\x80\x82\n'}
+[1.982151] (stonefish_ros2) StdoutLine: {'line': b'make[2]: \xe7\xa6\xbb\xe5\xbc\x80\xe7\x9b\xae\xe5\xbd\x95\xe2\x80\x9c/home/dyj/ros2_ws/build/stonefish_ros2\xe2\x80\x9d\n'}
+[1.982207] (stonefish_ros2) StdoutLine: {'line': b'make[2]: \xe8\xbf\x9b\xe5\x85\xa5\xe7\x9b\xae\xe5\xbd\x95\xe2\x80\x9c/home/dyj/ros2_ws/build/stonefish_ros2\xe2\x80\x9d\n'}
+[1.982231] (stonefish_ros2) StdoutLine: {'line': b'cd /home/dyj/ros2_ws/build/stonefish_ros2 && /usr/bin/cmake -E cmake_depends "Unix Makefiles" /home/dyj/ros2_ws/src/stonefish_ros2 /home/dyj/ros2_ws/src/stonefish_ros2 /home/dyj/ros2_ws/build/stonefish_ros2 /home/dyj/ros2_ws/build/stonefish_ros2 /home/dyj/ros2_ws/build/stonefish_ros2/CMakeFiles/stonefish_ros2__rosidl_typesupport_introspection_c.dir/DependInfo.cmake --color=\n'}
+[1.982375] (stonefish_ros2) StdoutLine: {'line': b'make[2]: \xe8\xbf\x9b\xe5\x85\xa5\xe7\x9b\xae\xe5\xbd\x95\xe2\x80\x9c/home/dyj/ros2_ws/build/stonefish_ros2\xe2\x80\x9d\n'}
+[1.982432] (stonefish_ros2) StdoutLine: {'line': b'cd /home/dyj/ros2_ws/build/stonefish_ros2 && /usr/bin/cmake -E cmake_depends "Unix Makefiles" /home/dyj/ros2_ws/src/stonefish_ros2 /home/dyj/ros2_ws/src/stonefish_ros2 /home/dyj/ros2_ws/build/stonefish_ros2 /home/dyj/ros2_ws/build/stonefish_ros2 /home/dyj/ros2_ws/build/stonefish_ros2/CMakeFiles/ament_cmake_python_build_stonefish_ros2_egg.dir/DependInfo.cmake --color=\n'}
+[1.984226] (stonefish_ros2) StdoutLine: {'line': b'make[2]: \xe7\xa6\xbb\xe5\xbc\x80\xe7\x9b\xae\xe5\xbd\x95\xe2\x80\x9c/home/dyj/ros2_ws/build/stonefish_ros2\xe2\x80\x9d\n'}
+[1.984334] (stonefish_ros2) StdoutLine: {'line': b'[ 21%] Built target stonefish_ros2__rosidl_typesupport_cpp\n'}
+[1.984388] (stonefish_ros2) StdoutLine: {'line': b'/usr/bin/make -f CMakeFiles/stonefish_ros2__rosidl_typesupport_introspection_cpp.dir/build.make CMakeFiles/stonefish_ros2__rosidl_typesupport_introspection_cpp.dir/build\n'}
+[1.984594] (stonefish_ros2) StdoutLine: {'line': b'/usr/bin/make -f CMakeFiles/camera_test.dir/build.make CMakeFiles/camera_test.dir/depend\n'}
+[1.984664] (stonefish_ros2) StdoutLine: {'line': b'/usr/bin/make -f CMakeFiles/stonefish_ros2_interface.dir/build.make CMakeFiles/stonefish_ros2_interface.dir/depend\n'}
+[1.984759] (stonefish_ros2) StdoutLine: {'line': b'/usr/bin/make -f CMakeFiles/fluid_dynamics_test.dir/build.make CMakeFiles/fluid_dynamics_test.dir/depend\n'}
+[1.985088] (stonefish_ros2) StdoutLine: {'line': b'make[2]: \xe8\xbf\x9b\xe5\x85\xa5\xe7\x9b\xae\xe5\xbd\x95\xe2\x80\x9c/home/dyj/ros2_ws/build/stonefish_ros2\xe2\x80\x9d\n'}
+[1.985120] (stonefish_ros2) StdoutLine: {'line': b'cd /home/dyj/ros2_ws/build/stonefish_ros2 && /usr/bin/cmake -E cmake_depends "Unix Makefiles" /home/dyj/ros2_ws/src/stonefish_ros2 /home/dyj/ros2_ws/src/stonefish_ros2 /home/dyj/ros2_ws/build/stonefish_ros2 /home/dyj/ros2_ws/build/stonefish_ros2 /home/dyj/ros2_ws/build/stonefish_ros2/CMakeFiles/camera_test.dir/DependInfo.cmake --color=\n'}
+[1.985398] (stonefish_ros2) StdoutLine: {'line': b'[ 31%] Built target stonefish_ros2__rosidl_typesupport_fastrtps_cpp\n'}
+[1.985698] (stonefish_ros2) StdoutLine: {'line': b'/usr/bin/make -f CMakeFiles/stonefish_ros2__rosidl_typesupport_fastrtps_c.dir/build.make CMakeFiles/stonefish_ros2__rosidl_typesupport_fastrtps_c.dir/depend\n'}
+[1.986187] (stonefish_ros2) StdoutLine: {'line': b'make[2]: \xe7\xa6\xbb\xe5\xbc\x80\xe7\x9b\xae\xe5\xbd\x95\xe2\x80\x9c/home/dyj/ros2_ws/build/stonefish_ros2\xe2\x80\x9d\n'}
+[1.986261] (stonefish_ros2) StdoutLine: {'line': b'/usr/bin/make -f CMakeFiles/stonefish_ros2__rosidl_typesupport_c.dir/build.make CMakeFiles/stonefish_ros2__rosidl_typesupport_c.dir/build\n'}
+[1.986349] (stonefish_ros2) StdoutLine: {'line': b'make[2]: \xe7\xa6\xbb\xe5\xbc\x80\xe7\x9b\xae\xe5\xbd\x95\xe2\x80\x9c/home/dyj/ros2_ws/build/stonefish_ros2\xe2\x80\x9d\n'}
+[1.986406] (stonefish_ros2) StdoutLine: {'line': b'/usr/bin/make -f CMakeFiles/stonefish_ros2__rosidl_typesupport_introspection_c.dir/build.make CMakeFiles/stonefish_ros2__rosidl_typesupport_introspection_c.dir/build\n'}
+[1.987690] (stonefish_ros2) StdoutLine: {'line': b'make[2]: \xe8\xbf\x9b\xe5\x85\xa5\xe7\x9b\xae\xe5\xbd\x95\xe2\x80\x9c/home/dyj/ros2_ws/build/stonefish_ros2\xe2\x80\x9d\n'}
+[1.987740] (stonefish_ros2) StdoutLine: {'line': b'cd /home/dyj/ros2_ws/build/stonefish_ros2 && /usr/bin/cmake -E cmake_depends "Unix Makefiles" /home/dyj/ros2_ws/src/stonefish_ros2 /home/dyj/ros2_ws/src/stonefish_ros2 /home/dyj/ros2_ws/build/stonefish_ros2 /home/dyj/ros2_ws/build/stonefish_ros2 /home/dyj/ros2_ws/build/stonefish_ros2/CMakeFiles/stonefish_ros2__rosidl_typesupport_fastrtps_c.dir/DependInfo.cmake --color=\n'}
+[1.988768] (stonefish_ros2) StdoutLine: {'line': b'make[2]: \xe8\xbf\x9b\xe5\x85\xa5\xe7\x9b\xae\xe5\xbd\x95\xe2\x80\x9c/home/dyj/ros2_ws/build/stonefish_ros2\xe2\x80\x9d\n'}
+[1.988832] (stonefish_ros2) StdoutLine: {'line': b'cd /home/dyj/ros2_ws/build/stonefish_ros2 && /usr/bin/cmake -E cmake_depends "Unix Makefiles" /home/dyj/ros2_ws/src/stonefish_ros2 /home/dyj/ros2_ws/src/stonefish_ros2 /home/dyj/ros2_ws/build/stonefish_ros2 /home/dyj/ros2_ws/build/stonefish_ros2 /home/dyj/ros2_ws/build/stonefish_ros2/CMakeFiles/fluid_dynamics_test.dir/DependInfo.cmake --color=\n'}
+[1.989021] (stonefish_ros2) StdoutLine: {'line': b'make[2]: \xe7\xa6\xbb\xe5\xbc\x80\xe7\x9b\xae\xe5\xbd\x95\xe2\x80\x9c/home/dyj/ros2_ws/build/stonefish_ros2\xe2\x80\x9d\n'}
+[1.989097] (stonefish_ros2) StdoutLine: {'line': b'/usr/bin/make -f CMakeFiles/camera_test.dir/build.make CMakeFiles/camera_test.dir/build\n'}
+[1.989700] (stonefish_ros2) StdoutLine: {'line': b'make[2]: \xe8\xbf\x9b\xe5\x85\xa5\xe7\x9b\xae\xe5\xbd\x95\xe2\x80\x9c/home/dyj/ros2_ws/build/stonefish_ros2\xe2\x80\x9d\n'}
+[1.989756] (stonefish_ros2) StdoutLine: {'line': b'cd /home/dyj/ros2_ws/build/stonefish_ros2 && /usr/bin/cmake -E cmake_depends "Unix Makefiles" /home/dyj/ros2_ws/src/stonefish_ros2 /home/dyj/ros2_ws/src/stonefish_ros2 /home/dyj/ros2_ws/build/stonefish_ros2 /home/dyj/ros2_ws/build/stonefish_ros2 /home/dyj/ros2_ws/build/stonefish_ros2/CMakeFiles/stonefish_ros2_interface.dir/DependInfo.cmake --color=\n'}
+[1.989902] (stonefish_ros2) StdoutLine: {'line': b'make[2]: \xe8\xbf\x9b\xe5\x85\xa5\xe7\x9b\xae\xe5\xbd\x95\xe2\x80\x9c/home/dyj/ros2_ws/build/stonefish_ros2\xe2\x80\x9d\n'}
+[1.989951] (stonefish_ros2) StdoutLine: {'line': b'make[2]: \xe5\xaf\xb9\xe2\x80\x9cCMakeFiles/stonefish_ros2__rosidl_typesupport_introspection_cpp.dir/build\xe2\x80\x9d\xe6\x97\xa0\xe9\x9c\x80\xe5\x81\x9a\xe4\xbb\xbb\xe4\xbd\x95\xe4\xba\x8b\xe3\x80\x82\n'}
+[1.989992] (stonefish_ros2) StdoutLine: {'line': b'make[2]: \xe8\xbf\x9b\xe5\x85\xa5\xe7\x9b\xae\xe5\xbd\x95\xe2\x80\x9c/home/dyj/ros2_ws/build/stonefish_ros2\xe2\x80\x9d\n'}
+[1.990027] (stonefish_ros2) StdoutLine: {'line': b'make[2]: \xe7\xa6\xbb\xe5\xbc\x80\xe7\x9b\xae\xe5\xbd\x95\xe2\x80\x9c/home/dyj/ros2_ws/build/stonefish_ros2\xe2\x80\x9d\n'}
+[1.990061] (stonefish_ros2) StdoutLine: {'line': b'make[2]: \xe5\xaf\xb9\xe2\x80\x9cCMakeFiles/stonefish_ros2__rosidl_typesupport_c.dir/build\xe2\x80\x9d\xe6\x97\xa0\xe9\x9c\x80\xe5\x81\x9a\xe4\xbb\xbb\xe4\xbd\x95\xe4\xba\x8b\xe3\x80\x82\n'}
+[1.990095] (stonefish_ros2) StdoutLine: {'line': b'make[2]: \xe7\xa6\xbb\xe5\xbc\x80\xe7\x9b\xae\xe5\xbd\x95\xe2\x80\x9c/home/dyj/ros2_ws/build/stonefish_ros2\xe2\x80\x9d\n'}
+[1.990284] (stonefish_ros2) StdoutLine: {'line': b'make[2]: \xe7\xa6\xbb\xe5\xbc\x80\xe7\x9b\xae\xe5\xbd\x95\xe2\x80\x9c/home/dyj/ros2_ws/build/stonefish_ros2\xe2\x80\x9d\n'}
+[1.990354] (stonefish_ros2) StdoutLine: {'line': b'/usr/bin/make -f CMakeFiles/ament_cmake_python_build_stonefish_ros2_egg.dir/build.make CMakeFiles/ament_cmake_python_build_stonefish_ros2_egg.dir/build\n'}
+[1.990754] (stonefish_ros2) StdoutLine: {'line': b'make[2]: \xe8\xbf\x9b\xe5\x85\xa5\xe7\x9b\xae\xe5\xbd\x95\xe2\x80\x9c/home/dyj/ros2_ws/build/stonefish_ros2\xe2\x80\x9d\n'}
+[1.990798] (stonefish_ros2) StdoutLine: {'line': b'cd /home/dyj/ros2_ws/build/stonefish_ros2/ament_cmake_python/stonefish_ros2 && /usr/bin/python3.8 setup.py egg_info\n'}
+[1.991591] (stonefish_ros2) StdoutLine: {'line': b'make[2]: \xe8\xbf\x9b\xe5\x85\xa5\xe7\x9b\xae\xe5\xbd\x95\xe2\x80\x9c/home/dyj/ros2_ws/build/stonefish_ros2\xe2\x80\x9d\n'}
+[1.991637] (stonefish_ros2) StdoutLine: {'line': b'make[2]: \xe5\xaf\xb9\xe2\x80\x9cCMakeFiles/camera_test.dir/build\xe2\x80\x9d\xe6\x97\xa0\xe9\x9c\x80\xe5\x81\x9a\xe4\xbb\xbb\xe4\xbd\x95\xe4\xba\x8b\xe3\x80\x82\n'}
+[1.991675] (stonefish_ros2) StdoutLine: {'line': b'make[2]: \xe7\xa6\xbb\xe5\xbc\x80\xe7\x9b\xae\xe5\xbd\x95\xe2\x80\x9c/home/dyj/ros2_ws/build/stonefish_ros2\xe2\x80\x9d\n'}
+[1.991744] (stonefish_ros2) StdoutLine: {'line': b'make[2]: \xe7\xa6\xbb\xe5\xbc\x80\xe7\x9b\xae\xe5\xbd\x95\xe2\x80\x9c/home/dyj/ros2_ws/build/stonefish_ros2\xe2\x80\x9d\n'}
+[1.991802] (stonefish_ros2) StdoutLine: {'line': b'/usr/bin/make -f CMakeFiles/stonefish_ros2__rosidl_typesupport_fastrtps_c.dir/build.make CMakeFiles/stonefish_ros2__rosidl_typesupport_fastrtps_c.dir/build\n'}
+[1.992741] (stonefish_ros2) StdoutLine: {'line': b'make[2]: \xe8\xbf\x9b\xe5\x85\xa5\xe7\x9b\xae\xe5\xbd\x95\xe2\x80\x9c/home/dyj/ros2_ws/build/stonefish_ros2\xe2\x80\x9d\n'}
+[1.992805] (stonefish_ros2) StdoutLine: {'line': b'make[2]: \xe5\xaf\xb9\xe2\x80\x9cCMakeFiles/stonefish_ros2__rosidl_typesupport_introspection_c.dir/build\xe2\x80\x9d\xe6\x97\xa0\xe9\x9c\x80\xe5\x81\x9a\xe4\xbb\xbb\xe4\xbd\x95\xe4\xba\x8b\xe3\x80\x82\n'}
+[1.992849] (stonefish_ros2) StdoutLine: {'line': b'make[2]: \xe7\xa6\xbb\xe5\xbc\x80\xe7\x9b\xae\xe5\xbd\x95\xe2\x80\x9c/home/dyj/ros2_ws/build/stonefish_ros2\xe2\x80\x9d\n'}
+[1.993356] (stonefish_ros2) StdoutLine: {'line': b'[ 42%] Built target stonefish_ros2__rosidl_typesupport_introspection_cpp\n'}
+[1.993430] (stonefish_ros2) StdoutLine: {'line': b'[ 52%] Built target stonefish_ros2__rosidl_typesupport_c\n'}
+[1.993587] (stonefish_ros2) StdoutLine: {'line': b'make[2]: \xe7\xa6\xbb\xe5\xbc\x80\xe7\x9b\xae\xe5\xbd\x95\xe2\x80\x9c/home/dyj/ros2_ws/build/stonefish_ros2\xe2\x80\x9d\n'}
+[1.993745] (stonefish_ros2) StdoutLine: {'line': b'/usr/bin/make -f CMakeFiles/fluid_dynamics_test.dir/build.make CMakeFiles/fluid_dynamics_test.dir/build\n'}
+[1.994973] (stonefish_ros2) StdoutLine: {'line': b'[ 54%] Built target camera_test\n'}
+[1.996859] (stonefish_ros2) StdoutLine: {'line': b'[ 65%] Built target stonefish_ros2__rosidl_typesupport_introspection_c\n'}
+[1.996898] (stonefish_ros2) StdoutLine: {'line': b'make[2]: \xe7\xa6\xbb\xe5\xbc\x80\xe7\x9b\xae\xe5\xbd\x95\xe2\x80\x9c/home/dyj/ros2_ws/build/stonefish_ros2\xe2\x80\x9d\n'}
+[1.996946] (stonefish_ros2) StdoutLine: {'line': b'/usr/bin/make -f CMakeFiles/stonefish_ros2_interface.dir/build.make CMakeFiles/stonefish_ros2_interface.dir/build\n'}
+[1.996993] (stonefish_ros2) StdoutLine: {'line': b'make[2]: \xe8\xbf\x9b\xe5\x85\xa5\xe7\x9b\xae\xe5\xbd\x95\xe2\x80\x9c/home/dyj/ros2_ws/build/stonefish_ros2\xe2\x80\x9d\n'}
+[1.997033] (stonefish_ros2) StdoutLine: {'line': b'make[2]: \xe5\xaf\xb9\xe2\x80\x9cCMakeFiles/stonefish_ros2__rosidl_typesupport_fastrtps_c.dir/build\xe2\x80\x9d\xe6\x97\xa0\xe9\x9c\x80\xe5\x81\x9a\xe4\xbb\xbb\xe4\xbd\x95\xe4\xba\x8b\xe3\x80\x82\n'}
+[1.997090] (stonefish_ros2) StdoutLine: {'line': b'make[2]: \xe7\xa6\xbb\xe5\xbc\x80\xe7\x9b\xae\xe5\xbd\x95\xe2\x80\x9c/home/dyj/ros2_ws/build/stonefish_ros2\xe2\x80\x9d\n'}
+[2.000350] (stonefish_ros2) StdoutLine: {'line': b'[ 76%] Built target stonefish_ros2__rosidl_typesupport_fastrtps_c\n'}
+[2.000644] (stonefish_ros2) StdoutLine: {'line': b'/usr/bin/make -f CMakeFiles/stonefish_ros2.dir/build.make CMakeFiles/stonefish_ros2.dir/depend\n'}
+[2.001128] (stonefish_ros2) StdoutLine: {'line': b'make[2]: \xe8\xbf\x9b\xe5\x85\xa5\xe7\x9b\xae\xe5\xbd\x95\xe2\x80\x9c/home/dyj/ros2_ws/build/stonefish_ros2\xe2\x80\x9d\n'}
+[2.001155] (stonefish_ros2) StdoutLine: {'line': b'cd /home/dyj/ros2_ws/build/stonefish_ros2 && /usr/bin/cmake -E cmake_depends "Unix Makefiles" /home/dyj/ros2_ws/src/stonefish_ros2 /home/dyj/ros2_ws/src/stonefish_ros2 /home/dyj/ros2_ws/build/stonefish_ros2 /home/dyj/ros2_ws/build/stonefish_ros2 /home/dyj/ros2_ws/build/stonefish_ros2/CMakeFiles/stonefish_ros2.dir/DependInfo.cmake --color=\n'}
+[2.001199] (stonefish_ros2) StdoutLine: {'line': b'make[2]: \xe8\xbf\x9b\xe5\x85\xa5\xe7\x9b\xae\xe5\xbd\x95\xe2\x80\x9c/home/dyj/ros2_ws/build/stonefish_ros2\xe2\x80\x9d\n'}
+[2.001226] (stonefish_ros2) StdoutLine: {'line': b'make[2]: \xe5\xaf\xb9\xe2\x80\x9cCMakeFiles/fluid_dynamics_test.dir/build\xe2\x80\x9d\xe6\x97\xa0\xe9\x9c\x80\xe5\x81\x9a\xe4\xbb\xbb\xe4\xbd\x95\xe4\xba\x8b\xe3\x80\x82\n'}
+[2.001264] (stonefish_ros2) StdoutLine: {'line': b'make[2]: \xe7\xa6\xbb\xe5\xbc\x80\xe7\x9b\xae\xe5\xbd\x95\xe2\x80\x9c/home/dyj/ros2_ws/build/stonefish_ros2\xe2\x80\x9d\n'}
+[2.002344] (-) TimerEvent: {}
+[2.004610] (stonefish_ros2) StdoutLine: {'line': b'[ 78%] Built target fluid_dynamics_test\n'}
+[2.005020] (stonefish_ros2) StdoutLine: {'line': b'make[2]: \xe7\xa6\xbb\xe5\xbc\x80\xe7\x9b\xae\xe5\xbd\x95\xe2\x80\x9c/home/dyj/ros2_ws/build/stonefish_ros2\xe2\x80\x9d\n'}
+[2.005068] (stonefish_ros2) StdoutLine: {'line': b'/usr/bin/make -f CMakeFiles/stonefish_ros2.dir/build.make CMakeFiles/stonefish_ros2.dir/build\n'}
+[2.005842] (stonefish_ros2) StdoutLine: {'line': b'make[2]: \xe8\xbf\x9b\xe5\x85\xa5\xe7\x9b\xae\xe5\xbd\x95\xe2\x80\x9c/home/dyj/ros2_ws/build/stonefish_ros2\xe2\x80\x9d\n'}
+[2.005873] (stonefish_ros2) StdoutLine: {'line': b'make[2]: \xe5\xaf\xb9\xe2\x80\x9cCMakeFiles/stonefish_ros2.dir/build\xe2\x80\x9d\xe6\x97\xa0\xe9\x9c\x80\xe5\x81\x9a\xe4\xbb\xbb\xe4\xbd\x95\xe4\xba\x8b\xe3\x80\x82\n'}
+[2.005896] (stonefish_ros2) StdoutLine: {'line': b'make[2]: \xe7\xa6\xbb\xe5\xbc\x80\xe7\x9b\xae\xe5\xbd\x95\xe2\x80\x9c/home/dyj/ros2_ws/build/stonefish_ros2\xe2\x80\x9d\n'}
+[2.009493] (stonefish_ros2) StdoutLine: {'line': b'make[2]: \xe8\xbf\x9b\xe5\x85\xa5\xe7\x9b\xae\xe5\xbd\x95\xe2\x80\x9c/home/dyj/ros2_ws/build/stonefish_ros2\xe2\x80\x9d\n'}
+[2.009558] (stonefish_ros2) StdoutLine: {'line': b'make[2]: \xe5\xaf\xb9\xe2\x80\x9cCMakeFiles/stonefish_ros2_interface.dir/build\xe2\x80\x9d\xe6\x97\xa0\xe9\x9c\x80\xe5\x81\x9a\xe4\xbb\xbb\xe4\xbd\x95\xe4\xba\x8b\xe3\x80\x82\n'}
+[2.009614] (stonefish_ros2) StdoutLine: {'line': b'make[2]: \xe7\xa6\xbb\xe5\xbc\x80\xe7\x9b\xae\xe5\xbd\x95\xe2\x80\x9c/home/dyj/ros2_ws/build/stonefish_ros2\xe2\x80\x9d\n'}
+[2.012908] (stonefish_ros2) StdoutLine: {'line': b'[ 82%] Built target stonefish_ros2_interface\n'}
+[2.013082] (stonefish_ros2) StdoutLine: {'line': b'[ 82%] Built target stonefish_ros2\n'}
+[2.013473] (stonefish_ros2) StdoutLine: {'line': b'/usr/bin/make -f CMakeFiles/stonefish_simulator_nogpu.dir/build.make CMakeFiles/stonefish_simulator_nogpu.dir/depend\n'}
+[2.013614] (stonefish_ros2) StdoutLine: {'line': b'/usr/bin/make -f CMakeFiles/stonefish_simulator.dir/build.make CMakeFiles/stonefish_simulator.dir/depend\n'}
+[2.013745] (stonefish_ros2) StdoutLine: {'line': b'/usr/bin/make -f stonefish_ros2__py/CMakeFiles/stonefish_ros2__py.dir/build.make stonefish_ros2__py/CMakeFiles/stonefish_ros2__py.dir/depend\n'}
+[2.014550] (stonefish_ros2) StdoutLine: {'line': b'make[2]: \xe8\xbf\x9b\xe5\x85\xa5\xe7\x9b\xae\xe5\xbd\x95\xe2\x80\x9c/home/dyj/ros2_ws/build/stonefish_ros2\xe2\x80\x9d\n'}
+[2.014692] (stonefish_ros2) StdoutLine: {'line': b'cd /home/dyj/ros2_ws/build/stonefish_ros2 && /usr/bin/cmake -E cmake_depends "Unix Makefiles" /home/dyj/ros2_ws/src/stonefish_ros2 /home/dyj/ros2_ws/build/stonefish_ros2/stonefish_ros2__py /home/dyj/ros2_ws/build/stonefish_ros2 /home/dyj/ros2_ws/build/stonefish_ros2/stonefish_ros2__py /home/dyj/ros2_ws/build/stonefish_ros2/stonefish_ros2__py/CMakeFiles/stonefish_ros2__py.dir/DependInfo.cmake --color=\n'}
+[2.014837] (stonefish_ros2) StdoutLine: {'line': b'make[2]: \xe8\xbf\x9b\xe5\x85\xa5\xe7\x9b\xae\xe5\xbd\x95\xe2\x80\x9c/home/dyj/ros2_ws/build/stonefish_ros2\xe2\x80\x9d\n'}
+[2.014925] (stonefish_ros2) StdoutLine: {'line': b'cd /home/dyj/ros2_ws/build/stonefish_ros2 && /usr/bin/cmake -E cmake_depends "Unix Makefiles" /home/dyj/ros2_ws/src/stonefish_ros2 /home/dyj/ros2_ws/src/stonefish_ros2 /home/dyj/ros2_ws/build/stonefish_ros2 /home/dyj/ros2_ws/build/stonefish_ros2 /home/dyj/ros2_ws/build/stonefish_ros2/CMakeFiles/stonefish_simulator_nogpu.dir/DependInfo.cmake --color=\n'}
+[2.016976] (stonefish_ros2) StdoutLine: {'line': b'make[2]: \xe8\xbf\x9b\xe5\x85\xa5\xe7\x9b\xae\xe5\xbd\x95\xe2\x80\x9c/home/dyj/ros2_ws/build/stonefish_ros2\xe2\x80\x9d\n'}
+[2.017086] (stonefish_ros2) StdoutLine: {'line': b'cd /home/dyj/ros2_ws/build/stonefish_ros2 && /usr/bin/cmake -E cmake_depends "Unix Makefiles" /home/dyj/ros2_ws/src/stonefish_ros2 /home/dyj/ros2_ws/src/stonefish_ros2 /home/dyj/ros2_ws/build/stonefish_ros2 /home/dyj/ros2_ws/build/stonefish_ros2 /home/dyj/ros2_ws/build/stonefish_ros2/CMakeFiles/stonefish_simulator.dir/DependInfo.cmake --color=\n'}
+[2.019179] (stonefish_ros2) StdoutLine: {'line': b'make[2]: \xe7\xa6\xbb\xe5\xbc\x80\xe7\x9b\xae\xe5\xbd\x95\xe2\x80\x9c/home/dyj/ros2_ws/build/stonefish_ros2\xe2\x80\x9d\n'}
+[2.019283] (stonefish_ros2) StdoutLine: {'line': b'/usr/bin/make -f CMakeFiles/stonefish_simulator_nogpu.dir/build.make CMakeFiles/stonefish_simulator_nogpu.dir/build\n'}
+[2.022863] (stonefish_ros2) StdoutLine: {'line': b'make[2]: \xe7\xa6\xbb\xe5\xbc\x80\xe7\x9b\xae\xe5\xbd\x95\xe2\x80\x9c/home/dyj/ros2_ws/build/stonefish_ros2\xe2\x80\x9d\n'}
+[2.022933] (stonefish_ros2) StdoutLine: {'line': b'/usr/bin/make -f stonefish_ros2__py/CMakeFiles/stonefish_ros2__py.dir/build.make stonefish_ros2__py/CMakeFiles/stonefish_ros2__py.dir/build\n'}
+[2.023315] (stonefish_ros2) StdoutLine: {'line': b'make[2]: \xe7\xa6\xbb\xe5\xbc\x80\xe7\x9b\xae\xe5\xbd\x95\xe2\x80\x9c/home/dyj/ros2_ws/build/stonefish_ros2\xe2\x80\x9d\n'}
+[2.023457] (stonefish_ros2) StdoutLine: {'line': b'/usr/bin/make -f CMakeFiles/stonefish_simulator.dir/build.make CMakeFiles/stonefish_simulator.dir/build\n'}
+[2.023974] (stonefish_ros2) StdoutLine: {'line': b'make[2]: \xe8\xbf\x9b\xe5\x85\xa5\xe7\x9b\xae\xe5\xbd\x95\xe2\x80\x9c/home/dyj/ros2_ws/build/stonefish_ros2\xe2\x80\x9d\n'}
+[2.024047] (stonefish_ros2) StdoutLine: {'line': b'make[2]: \xe5\xaf\xb9\xe2\x80\x9cstonefish_ros2__py/CMakeFiles/stonefish_ros2__py.dir/build\xe2\x80\x9d\xe6\x97\xa0\xe9\x9c\x80\xe5\x81\x9a\xe4\xbb\xbb\xe4\xbd\x95\xe4\xba\x8b\xe3\x80\x82\n'}
+[2.024107] (stonefish_ros2) StdoutLine: {'line': b'make[2]: \xe7\xa6\xbb\xe5\xbc\x80\xe7\x9b\xae\xe5\xbd\x95\xe2\x80\x9c/home/dyj/ros2_ws/build/stonefish_ros2\xe2\x80\x9d\n'}
+[2.025985] (stonefish_ros2) StdoutLine: {'line': b'make[2]: \xe8\xbf\x9b\xe5\x85\xa5\xe7\x9b\xae\xe5\xbd\x95\xe2\x80\x9c/home/dyj/ros2_ws/build/stonefish_ros2\xe2\x80\x9d\n'}
+[2.026120] (stonefish_ros2) StdoutLine: {'line': b'make[2]: \xe5\xaf\xb9\xe2\x80\x9cCMakeFiles/stonefish_simulator_nogpu.dir/build\xe2\x80\x9d\xe6\x97\xa0\xe9\x9c\x80\xe5\x81\x9a\xe4\xbb\xbb\xe4\xbd\x95\xe4\xba\x8b\xe3\x80\x82\n'}
+[2.026201] (stonefish_ros2) StdoutLine: {'line': b'make[2]: \xe7\xa6\xbb\xe5\xbc\x80\xe7\x9b\xae\xe5\xbd\x95\xe2\x80\x9c/home/dyj/ros2_ws/build/stonefish_ros2\xe2\x80\x9d\n'}
+[2.027265] (stonefish_ros2) StdoutLine: {'line': b'[ 83%] Built target stonefish_ros2__py\n'}
+[2.027599] (stonefish_ros2) StdoutLine: {'line': b'/usr/bin/make -f CMakeFiles/stonefish_ros2__rosidl_generator_py.dir/build.make CMakeFiles/stonefish_ros2__rosidl_generator_py.dir/depend\n'}
+[2.029223] (stonefish_ros2) StdoutLine: {'line': b'[ 85%] Built target stonefish_simulator_nogpu\n'}
+[2.030152] (stonefish_ros2) StdoutLine: {'line': b'make[2]: \xe8\xbf\x9b\xe5\x85\xa5\xe7\x9b\xae\xe5\xbd\x95\xe2\x80\x9c/home/dyj/ros2_ws/build/stonefish_ros2\xe2\x80\x9d\n'}
+[2.030227] (stonefish_ros2) StdoutLine: {'line': b'make[2]: \xe5\xaf\xb9\xe2\x80\x9cCMakeFiles/stonefish_simulator.dir/build\xe2\x80\x9d\xe6\x97\xa0\xe9\x9c\x80\xe5\x81\x9a\xe4\xbb\xbb\xe4\xbd\x95\xe4\xba\x8b\xe3\x80\x82\n'}
+[2.030286] (stonefish_ros2) StdoutLine: {'line': b'make[2]: \xe7\xa6\xbb\xe5\xbc\x80\xe7\x9b\xae\xe5\xbd\x95\xe2\x80\x9c/home/dyj/ros2_ws/build/stonefish_ros2\xe2\x80\x9d\n'}
+[2.030341] (stonefish_ros2) StdoutLine: {'line': b'make[2]: \xe8\xbf\x9b\xe5\x85\xa5\xe7\x9b\xae\xe5\xbd\x95\xe2\x80\x9c/home/dyj/ros2_ws/build/stonefish_ros2\xe2\x80\x9d\n'}
+[2.030397] (stonefish_ros2) StdoutLine: {'line': b'cd /home/dyj/ros2_ws/build/stonefish_ros2 && /usr/bin/cmake -E cmake_depends "Unix Makefiles" /home/dyj/ros2_ws/src/stonefish_ros2 /home/dyj/ros2_ws/src/stonefish_ros2 /home/dyj/ros2_ws/build/stonefish_ros2 /home/dyj/ros2_ws/build/stonefish_ros2 /home/dyj/ros2_ws/build/stonefish_ros2/CMakeFiles/stonefish_ros2__rosidl_generator_py.dir/DependInfo.cmake --color=\n'}
+[2.033578] (stonefish_ros2) StdoutLine: {'line': b'[ 86%] Built target stonefish_simulator\n'}
+[2.036585] (stonefish_ros2) StdoutLine: {'line': b'make[2]: \xe7\xa6\xbb\xe5\xbc\x80\xe7\x9b\xae\xe5\xbd\x95\xe2\x80\x9c/home/dyj/ros2_ws/build/stonefish_ros2\xe2\x80\x9d\n'}
+[2.036696] (stonefish_ros2) StdoutLine: {'line': b'/usr/bin/make -f CMakeFiles/stonefish_ros2__rosidl_generator_py.dir/build.make CMakeFiles/stonefish_ros2__rosidl_generator_py.dir/build\n'}
+[2.042107] (stonefish_ros2) StdoutLine: {'line': b'make[2]: \xe8\xbf\x9b\xe5\x85\xa5\xe7\x9b\xae\xe5\xbd\x95\xe2\x80\x9c/home/dyj/ros2_ws/build/stonefish_ros2\xe2\x80\x9d\n'}
+[2.042178] (stonefish_ros2) StdoutLine: {'line': b'make[2]: \xe5\xaf\xb9\xe2\x80\x9cCMakeFiles/stonefish_ros2__rosidl_generator_py.dir/build\xe2\x80\x9d\xe6\x97\xa0\xe9\x9c\x80\xe5\x81\x9a\xe4\xbb\xbb\xe4\xbd\x95\xe4\xba\x8b\xe3\x80\x82\n'}
+[2.042240] (stonefish_ros2) StdoutLine: {'line': b'make[2]: \xe7\xa6\xbb\xe5\xbc\x80\xe7\x9b\xae\xe5\xbd\x95\xe2\x80\x9c/home/dyj/ros2_ws/build/stonefish_ros2\xe2\x80\x9d\n'}
+[2.045395] (stonefish_ros2) StdoutLine: {'line': b'[ 96%] Built target stonefish_ros2__rosidl_generator_py\n'}
+[2.045712] (stonefish_ros2) StdoutLine: {'line': b'/usr/bin/make -f CMakeFiles/stonefish_ros2__rosidl_typesupport_c__pyext.dir/build.make CMakeFiles/stonefish_ros2__rosidl_typesupport_c__pyext.dir/depend\n'}
+[2.045810] (stonefish_ros2) StdoutLine: {'line': b'/usr/bin/make -f CMakeFiles/stonefish_ros2__rosidl_typesupport_fastrtps_c__pyext.dir/build.make CMakeFiles/stonefish_ros2__rosidl_typesupport_fastrtps_c__pyext.dir/depend\n'}
+[2.045935] (stonefish_ros2) StdoutLine: {'line': b'/usr/bin/make -f CMakeFiles/stonefish_ros2__rosidl_typesupport_introspection_c__pyext.dir/build.make CMakeFiles/stonefish_ros2__rosidl_typesupport_introspection_c__pyext.dir/depend\n'}
+[2.046443] (stonefish_ros2) StdoutLine: {'line': b'make[2]: \xe8\xbf\x9b\xe5\x85\xa5\xe7\x9b\xae\xe5\xbd\x95\xe2\x80\x9c/home/dyj/ros2_ws/build/stonefish_ros2\xe2\x80\x9d\n'}
+[2.046506] (stonefish_ros2) StdoutLine: {'line': b'cd /home/dyj/ros2_ws/build/stonefish_ros2 && /usr/bin/cmake -E cmake_depends "Unix Makefiles" /home/dyj/ros2_ws/src/stonefish_ros2 /home/dyj/ros2_ws/src/stonefish_ros2 /home/dyj/ros2_ws/build/stonefish_ros2 /home/dyj/ros2_ws/build/stonefish_ros2 /home/dyj/ros2_ws/build/stonefish_ros2/CMakeFiles/stonefish_ros2__rosidl_typesupport_c__pyext.dir/DependInfo.cmake --color=\n'}
+[2.047714] (stonefish_ros2) StdoutLine: {'line': b'make[2]: \xe8\xbf\x9b\xe5\x85\xa5\xe7\x9b\xae\xe5\xbd\x95\xe2\x80\x9c/home/dyj/ros2_ws/build/stonefish_ros2\xe2\x80\x9d\n'}
+[2.047789] (stonefish_ros2) StdoutLine: {'line': b'cd /home/dyj/ros2_ws/build/stonefish_ros2 && /usr/bin/cmake -E cmake_depends "Unix Makefiles" /home/dyj/ros2_ws/src/stonefish_ros2 /home/dyj/ros2_ws/src/stonefish_ros2 /home/dyj/ros2_ws/build/stonefish_ros2 /home/dyj/ros2_ws/build/stonefish_ros2 /home/dyj/ros2_ws/build/stonefish_ros2/CMakeFiles/stonefish_ros2__rosidl_typesupport_fastrtps_c__pyext.dir/DependInfo.cmake --color=\n'}
+[2.047892] (stonefish_ros2) StdoutLine: {'line': b'make[2]: \xe8\xbf\x9b\xe5\x85\xa5\xe7\x9b\xae\xe5\xbd\x95\xe2\x80\x9c/home/dyj/ros2_ws/build/stonefish_ros2\xe2\x80\x9d\n'}
+[2.047953] (stonefish_ros2) StdoutLine: {'line': b'cd /home/dyj/ros2_ws/build/stonefish_ros2 && /usr/bin/cmake -E cmake_depends "Unix Makefiles" /home/dyj/ros2_ws/src/stonefish_ros2 /home/dyj/ros2_ws/src/stonefish_ros2 /home/dyj/ros2_ws/build/stonefish_ros2 /home/dyj/ros2_ws/build/stonefish_ros2 /home/dyj/ros2_ws/build/stonefish_ros2/CMakeFiles/stonefish_ros2__rosidl_typesupport_introspection_c__pyext.dir/DependInfo.cmake --color=\n'}
+[2.054232] (stonefish_ros2) StdoutLine: {'line': b'make[2]: \xe7\xa6\xbb\xe5\xbc\x80\xe7\x9b\xae\xe5\xbd\x95\xe2\x80\x9c/home/dyj/ros2_ws/build/stonefish_ros2\xe2\x80\x9d\n'}
+[2.054369] (stonefish_ros2) StdoutLine: {'line': b'/usr/bin/make -f CMakeFiles/stonefish_ros2__rosidl_typesupport_c__pyext.dir/build.make CMakeFiles/stonefish_ros2__rosidl_typesupport_c__pyext.dir/build\n'}
+[2.055009] (stonefish_ros2) StdoutLine: {'line': b'make[2]: \xe7\xa6\xbb\xe5\xbc\x80\xe7\x9b\xae\xe5\xbd\x95\xe2\x80\x9c/home/dyj/ros2_ws/build/stonefish_ros2\xe2\x80\x9d\n'}
+[2.055154] (stonefish_ros2) StdoutLine: {'line': b'/usr/bin/make -f CMakeFiles/stonefish_ros2__rosidl_typesupport_introspection_c__pyext.dir/build.make CMakeFiles/stonefish_ros2__rosidl_typesupport_introspection_c__pyext.dir/build\n'}
+[2.055249] (stonefish_ros2) StdoutLine: {'line': b'make[2]: \xe7\xa6\xbb\xe5\xbc\x80\xe7\x9b\xae\xe5\xbd\x95\xe2\x80\x9c/home/dyj/ros2_ws/build/stonefish_ros2\xe2\x80\x9d\n'}
+[2.055332] (stonefish_ros2) StdoutLine: {'line': b'/usr/bin/make -f CMakeFiles/stonefish_ros2__rosidl_typesupport_fastrtps_c__pyext.dir/build.make CMakeFiles/stonefish_ros2__rosidl_typesupport_fastrtps_c__pyext.dir/build\n'}
+[2.058579] (stonefish_ros2) StdoutLine: {'line': b'make[2]: \xe8\xbf\x9b\xe5\x85\xa5\xe7\x9b\xae\xe5\xbd\x95\xe2\x80\x9c/home/dyj/ros2_ws/build/stonefish_ros2\xe2\x80\x9d\n'}
+[2.058712] (stonefish_ros2) StdoutLine: {'line': b'make[2]: \xe5\xaf\xb9\xe2\x80\x9cCMakeFiles/stonefish_ros2__rosidl_typesupport_introspection_c__pyext.dir/build\xe2\x80\x9d\xe6\x97\xa0\xe9\x9c\x80\xe5\x81\x9a\xe4\xbb\xbb\xe4\xbd\x95\xe4\xba\x8b\xe3\x80\x82\n'}
+[2.058795] (stonefish_ros2) StdoutLine: {'line': b'make[2]: \xe7\xa6\xbb\xe5\xbc\x80\xe7\x9b\xae\xe5\xbd\x95\xe2\x80\x9c/home/dyj/ros2_ws/build/stonefish_ros2\xe2\x80\x9d\n'}
+[2.059057] (stonefish_ros2) StdoutLine: {'line': b'make[2]: \xe8\xbf\x9b\xe5\x85\xa5\xe7\x9b\xae\xe5\xbd\x95\xe2\x80\x9c/home/dyj/ros2_ws/build/stonefish_ros2\xe2\x80\x9d\n'}
+[2.059187] (stonefish_ros2) StdoutLine: {'line': b'make[2]: \xe5\xaf\xb9\xe2\x80\x9cCMakeFiles/stonefish_ros2__rosidl_typesupport_fastrtps_c__pyext.dir/build\xe2\x80\x9d\xe6\x97\xa0\xe9\x9c\x80\xe5\x81\x9a\xe4\xbb\xbb\xe4\xbd\x95\xe4\xba\x8b\xe3\x80\x82\n'}
+[2.059270] (stonefish_ros2) StdoutLine: {'line': b'make[2]: \xe7\xa6\xbb\xe5\xbc\x80\xe7\x9b\xae\xe5\xbd\x95\xe2\x80\x9c/home/dyj/ros2_ws/build/stonefish_ros2\xe2\x80\x9d\n'}
+[2.059923] (stonefish_ros2) StdoutLine: {'line': b'make[2]: \xe8\xbf\x9b\xe5\x85\xa5\xe7\x9b\xae\xe5\xbd\x95\xe2\x80\x9c/home/dyj/ros2_ws/build/stonefish_ros2\xe2\x80\x9d\n'}
+[2.060050] (stonefish_ros2) StdoutLine: {'line': b'make[2]: \xe5\xaf\xb9\xe2\x80\x9cCMakeFiles/stonefish_ros2__rosidl_typesupport_c__pyext.dir/build\xe2\x80\x9d\xe6\x97\xa0\xe9\x9c\x80\xe5\x81\x9a\xe4\xbb\xbb\xe4\xbd\x95\xe4\xba\x8b\xe3\x80\x82\n'}
+[2.060134] (stonefish_ros2) StdoutLine: {'line': b'make[2]: \xe7\xa6\xbb\xe5\xbc\x80\xe7\x9b\xae\xe5\xbd\x95\xe2\x80\x9c/home/dyj/ros2_ws/build/stonefish_ros2\xe2\x80\x9d\n'}
+[2.061882] (stonefish_ros2) StdoutLine: {'line': b'[ 97%] Built target stonefish_ros2__rosidl_typesupport_introspection_c__pyext\n'}
+[2.062575] (stonefish_ros2) StdoutLine: {'line': b'[ 98%] Built target stonefish_ros2__rosidl_typesupport_fastrtps_c__pyext\n'}
+[2.066002] (stonefish_ros2) StdoutLine: {'line': b'[100%] Built target stonefish_ros2__rosidl_typesupport_c__pyext\n'}
+[2.082054] (stonefish_ros2) StdoutLine: {'line': b'running egg_info\n'}
+[2.082383] (stonefish_ros2) StdoutLine: {'line': b'writing stonefish_ros2.egg-info/PKG-INFO\n'}
+[2.082552] (stonefish_ros2) StdoutLine: {'line': b'writing dependency_links to stonefish_ros2.egg-info/dependency_links.txt\n'}
+[2.082662] (stonefish_ros2) StdoutLine: {'line': b'writing top-level names to stonefish_ros2.egg-info/top_level.txt\n'}
+[2.100115] (stonefish_ros2) StdoutLine: {'line': b"reading manifest file 'stonefish_ros2.egg-info/SOURCES.txt'\n"}
+[2.100495] (stonefish_ros2) StdoutLine: {'line': b"writing manifest file 'stonefish_ros2.egg-info/SOURCES.txt'\n"}
+[2.102446] (-) TimerEvent: {}
+[2.108346] (stonefish_ros2) StdoutLine: {'line': b'make[2]: \xe7\xa6\xbb\xe5\xbc\x80\xe7\x9b\xae\xe5\xbd\x95\xe2\x80\x9c/home/dyj/ros2_ws/build/stonefish_ros2\xe2\x80\x9d\n'}
+[2.118430] (stonefish_ros2) StdoutLine: {'line': b'[100%] Built target ament_cmake_python_build_stonefish_ros2_egg\n'}
+[2.118816] (stonefish_ros2) StdoutLine: {'line': b'make[1]: \xe7\xa6\xbb\xe5\xbc\x80\xe7\x9b\xae\xe5\xbd\x95\xe2\x80\x9c/home/dyj/ros2_ws/build/stonefish_ros2\xe2\x80\x9d\n'}
+[2.118981] (stonefish_ros2) StdoutLine: {'line': b'/usr/bin/cmake -E cmake_progress_start /home/dyj/ros2_ws/build/stonefish_ros2/CMakeFiles 0\n'}
+[2.126474] (stonefish_ros2) CommandEnded: {'returncode': 0}
+[2.127580] (stonefish_ros2) JobProgress: {'identifier': 'stonefish_ros2', 'progress': 'install'}
+[2.134308] (stonefish_ros2) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/dyj/ros2_ws/build/stonefish_ros2'], 'cwd': '/home/dyj/ros2_ws/build/stonefish_ros2', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('HTTPS_PROXY', 'http://127.0.0.1:7890/'), ('no_proxy', 'localhost,127.0.0.0/8,::1'), ('LANGUAGE', 'zh_CN:zh'), ('USER', 'dyj'), ('all_proxy', 'socks://127.0.0.1:7891/'), ('SSH_AGENT_PID', '1316'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/dyj/ros2_ws/install/stonefish_ros2/lib:/opt/ros/rolling/lib:/usr/local/lib:/usr/local/lib:/opt/ros/rolling/opt/yaml_cpp_vendor/lib:/opt/ros/rolling/opt/rviz_ogre_vendor/lib:/opt/ros/rolling/lib/x86_64-linux-gnu:/opt/ros/rolling/libb'), ('HOME', '/home/dyj'), ('OLDPWD', '/home/dyj/桌面'), ('DESKTOP_SESSION', 'ubuntu'), ('NO_PROXY', 'localhost,127.0.0.0/8,::1'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('MANAGERPID', '1034'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('https_proxy', 'http://127.0.0.1:7890/'), ('COLCON_PREFIX_PATH', '/home/dyj/ros2_ws/install'), ('ROS_DISTRO', 'rolling'), ('LOGNAME', 'dyj'), ('ALL_PROXY', 'socks://127.0.0.1:7891/'), ('http_proxy', 'http://127.0.0.1:7890/'), ('JOURNAL_STREAM', '8:22463'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('PKG_CONFIG_PATH', '/usr/local/lib/pkgconfig:/usr/local/lib/pkgconfig:'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'dyj'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/rolling/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/dyj-Jiaolong-Series-MRID6:@/tmp/.ICE-unix/1351,unix/dyj-Jiaolong-Series-MRID6:/tmp/.ICE-unix/1351'), ('INVOCATION_ID', '1e2c4741891f4831a4256cf58742dd8a'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/36ca1945_5fe6_4047_8919_1f4a5a8b24d6'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'zh_CN.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.109'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/dyj/ros2_ws/install/stonefish_ros2:/opt/ros/rolling'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/dyj/ros2_ws/build/stonefish_ros2'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/dyj/ros2_ws/install/stonefish_ros2/lib/python3.8/site-packages:/opt/ros/rolling/lib/python3.8/site-packages'), ('HTTP_PROXY', 'http://127.0.0.1:7890/'), ('COLCON', '1'), ('VTE_VERSION', '6003'), ('CMAKE_PREFIX_PATH', '/home/dyj/ros2_ws/install/stonefish_ros2:/usr/local:/usr/local::/opt/ros/rolling')]), 'shell': False}
+[2.139104] (stonefish_ros2) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[2.139482] (stonefish_ros2) StdoutLine: {'line': b'-- Execute custom install script\n'}
+[2.139625] (stonefish_ros2) StdoutLine: {'line': b'-- Up-to-date symlink: /home/dyj/ros2_ws/install/stonefish_ros2/share/ament_index/resource_index/rosidl_interfaces/stonefish_ros2\n'}
+[2.140067] (stonefish_ros2) StdoutLine: {'line': b'-- Up-to-date symlink: /home/dyj/ros2_ws/install/stonefish_ros2/include/stonefish_ros2/msg/beacon_info.h\n'}
+[2.140150] (stonefish_ros2) StdoutLine: {'line': b'-- Up-to-date symlink: /home/dyj/ros2_ws/install/stonefish_ros2/include/stonefish_ros2/msg/debug_physics.h\n'}
+[2.140235] (stonefish_ros2) StdoutLine: {'line': b'-- Up-to-date symlink: /home/dyj/ros2_ws/install/stonefish_ros2/include/stonefish_ros2/msg/detail/beacon_info__functions.h\n'}
+[2.140332] (stonefish_ros2) StdoutLine: {'line': b'-- Up-to-date symlink: /home/dyj/ros2_ws/install/stonefish_ros2/include/stonefish_ros2/msg/detail/beacon_info__struct.h\n'}
+[2.140391] (stonefish_ros2) StdoutLine: {'line': b'-- Up-to-date symlink: /home/dyj/ros2_ws/install/stonefish_ros2/include/stonefish_ros2/msg/detail/beacon_info__type_support.h\n'}
+[2.140472] (stonefish_ros2) StdoutLine: {'line': b'-- Up-to-date symlink: /home/dyj/ros2_ws/install/stonefish_ros2/include/stonefish_ros2/msg/detail/debug_physics__functions.h\n'}
+[2.140530] (stonefish_ros2) StdoutLine: {'line': b'-- Up-to-date symlink: /home/dyj/ros2_ws/install/stonefish_ros2/include/stonefish_ros2/msg/detail/debug_physics__struct.h\n'}
+[2.140607] (stonefish_ros2) StdoutLine: {'line': b'-- Up-to-date symlink: /home/dyj/ros2_ws/install/stonefish_ros2/include/stonefish_ros2/msg/detail/debug_physics__type_support.h\n'}
+[2.140692] (stonefish_ros2) StdoutLine: {'line': b'-- Up-to-date symlink: /home/dyj/ros2_ws/install/stonefish_ros2/include/stonefish_ros2/msg/detail/dvl__functions.h\n'}
+[2.140756] (stonefish_ros2) StdoutLine: {'line': b'-- Up-to-date symlink: /home/dyj/ros2_ws/install/stonefish_ros2/include/stonefish_ros2/msg/detail/dvl__struct.h\n'}
+[2.140814] (stonefish_ros2) StdoutLine: {'line': b'-- Up-to-date symlink: /home/dyj/ros2_ws/install/stonefish_ros2/include/stonefish_ros2/msg/detail/dvl__type_support.h\n'}
+[2.140870] (stonefish_ros2) StdoutLine: {'line': b'-- Up-to-date symlink: /home/dyj/ros2_ws/install/stonefish_ros2/include/stonefish_ros2/msg/detail/dvl_beam__functions.h\n'}
+[2.140953] (stonefish_ros2) StdoutLine: {'line': b'-- Up-to-date symlink: /home/dyj/ros2_ws/install/stonefish_ros2/include/stonefish_ros2/msg/detail/dvl_beam__struct.h\n'}
+[2.141009] (stonefish_ros2) StdoutLine: {'line': b'-- Up-to-date symlink: /home/dyj/ros2_ws/install/stonefish_ros2/include/stonefish_ros2/msg/detail/dvl_beam__type_support.h\n'}
+[2.141065] (stonefish_ros2) StdoutLine: {'line': b'-- Up-to-date symlink: /home/dyj/ros2_ws/install/stonefish_ros2/include/stonefish_ros2/msg/detail/event__functions.h\n'}
+[2.141176] (stonefish_ros2) StdoutLine: {'line': b'-- Up-to-date symlink: /home/dyj/ros2_ws/install/stonefish_ros2/include/stonefish_ros2/msg/detail/event__struct.h\n'}
+[2.141345] (stonefish_ros2) StdoutLine: {'line': b'-- Up-to-date symlink: /home/dyj/ros2_ws/install/stonefish_ros2/include/stonefish_ros2/msg/detail/event__type_support.h\n'}
+[2.141428] (stonefish_ros2) StdoutLine: {'line': b'-- Up-to-date symlink: /home/dyj/ros2_ws/install/stonefish_ros2/include/stonefish_ros2/msg/detail/event_array__functions.h\n'}
+[2.141496] (stonefish_ros2) StdoutLine: {'line': b'-- Up-to-date symlink: /home/dyj/ros2_ws/install/stonefish_ros2/include/stonefish_ros2/msg/detail/event_array__struct.h\n'}
+[2.141556] (stonefish_ros2) StdoutLine: {'line': b'-- Up-to-date symlink: /home/dyj/ros2_ws/install/stonefish_ros2/include/stonefish_ros2/msg/detail/event_array__type_support.h\n'}
+[2.141662] (stonefish_ros2) StdoutLine: {'line': b'-- Up-to-date symlink: /home/dyj/ros2_ws/install/stonefish_ros2/include/stonefish_ros2/msg/detail/ins__functions.h\n'}
+[2.141724] (stonefish_ros2) StdoutLine: {'line': b'-- Up-to-date symlink: /home/dyj/ros2_ws/install/stonefish_ros2/include/stonefish_ros2/msg/detail/ins__struct.h\n'}
+[2.141780] (stonefish_ros2) StdoutLine: {'line': b'-- Up-to-date symlink: /home/dyj/ros2_ws/install/stonefish_ros2/include/stonefish_ros2/msg/detail/ins__type_support.h\n'}
+[2.141836] (stonefish_ros2) StdoutLine: {'line': b'-- Up-to-date symlink: /home/dyj/ros2_ws/install/stonefish_ros2/include/stonefish_ros2/msg/detail/int32_stamped__functions.h\n'}
+[2.141893] (stonefish_ros2) StdoutLine: {'line': b'-- Up-to-date symlink: /home/dyj/ros2_ws/install/stonefish_ros2/include/stonefish_ros2/msg/detail/int32_stamped__struct.h\n'}
+[2.141950] (stonefish_ros2) StdoutLine: {'line': b'-- Up-to-date symlink: /home/dyj/ros2_ws/install/stonefish_ros2/include/stonefish_ros2/msg/detail/int32_stamped__type_support.h\n'}
+[2.142046] (stonefish_ros2) StdoutLine: {'line': b'-- Up-to-date symlink: /home/dyj/ros2_ws/install/stonefish_ros2/include/stonefish_ros2/msg/detail/ned_pose__functions.h\n'}
+[2.142108] (stonefish_ros2) StdoutLine: {'line': b'-- Up-to-date symlink: /home/dyj/ros2_ws/install/stonefish_ros2/include/stonefish_ros2/msg/detail/ned_pose__struct.h\n'}
+[2.142165] (stonefish_ros2) StdoutLine: {'line': b'-- Up-to-date symlink: /home/dyj/ros2_ws/install/stonefish_ros2/include/stonefish_ros2/msg/detail/ned_pose__type_support.h\n'}
+[2.142230] (stonefish_ros2) StdoutLine: {'line': b'-- Up-to-date symlink: /home/dyj/ros2_ws/install/stonefish_ros2/include/stonefish_ros2/msg/detail/thruster_state__functions.h\n'}
+[2.142290] (stonefish_ros2) StdoutLine: {'line': b'-- Up-to-date symlink: /home/dyj/ros2_ws/install/stonefish_ros2/include/stonefish_ros2/msg/detail/thruster_state__struct.h\n'}
+[2.142382] (stonefish_ros2) StdoutLine: {'line': b'-- Up-to-date symlink: /home/dyj/ros2_ws/install/stonefish_ros2/include/stonefish_ros2/msg/detail/thruster_state__type_support.h\n'}
+[2.142449] (stonefish_ros2) StdoutLine: {'line': b'-- Up-to-date symlink: /home/dyj/ros2_ws/install/stonefish_ros2/include/stonefish_ros2/msg/dvl.h\n'}
+[2.142509] (stonefish_ros2) StdoutLine: {'line': b'-- Up-to-date symlink: /home/dyj/ros2_ws/install/stonefish_ros2/include/stonefish_ros2/msg/dvl_beam.h\n'}
+[2.142565] (stonefish_ros2) StdoutLine: {'line': b'-- Up-to-date symlink: /home/dyj/ros2_ws/install/stonefish_ros2/include/stonefish_ros2/msg/event.h\n'}
+[2.142619] (stonefish_ros2) StdoutLine: {'line': b'-- Up-to-date symlink: /home/dyj/ros2_ws/install/stonefish_ros2/include/stonefish_ros2/msg/event_array.h\n'}
+[2.142673] (stonefish_ros2) StdoutLine: {'line': b'-- Up-to-date symlink: /home/dyj/ros2_ws/install/stonefish_ros2/include/stonefish_ros2/msg/ins.h\n'}
+[2.142726] (stonefish_ros2) StdoutLine: {'line': b'-- Up-to-date symlink: /home/dyj/ros2_ws/install/stonefish_ros2/include/stonefish_ros2/msg/int32_stamped.h\n'}
+[2.142779] (stonefish_ros2) StdoutLine: {'line': b'-- Up-to-date symlink: /home/dyj/ros2_ws/install/stonefish_ros2/include/stonefish_ros2/msg/ned_pose.h\n'}
+[2.142851] (stonefish_ros2) StdoutLine: {'line': b'-- Up-to-date symlink: /home/dyj/ros2_ws/install/stonefish_ros2/include/stonefish_ros2/msg/rosidl_generator_c__visibility_control.h\n'}
+[2.142946] (stonefish_ros2) StdoutLine: {'line': b'-- Up-to-date symlink: /home/dyj/ros2_ws/install/stonefish_ros2/include/stonefish_ros2/msg/thruster_state.h\n'}
+[2.143003] (stonefish_ros2) StdoutLine: {'line': b'-- Up-to-date symlink: /home/dyj/ros2_ws/install/stonefish_ros2/include/stonefish_ros2/srv/detail/respawn__functions.h\n'}
+[2.143058] (stonefish_ros2) StdoutLine: {'line': b'-- Up-to-date symlink: /home/dyj/ros2_ws/install/stonefish_ros2/include/stonefish_ros2/srv/detail/respawn__struct.h\n'}
+[2.143113] (stonefish_ros2) StdoutLine: {'line': b'-- Up-to-date symlink: /home/dyj/ros2_ws/install/stonefish_ros2/include/stonefish_ros2/srv/detail/respawn__type_support.h\n'}
+[2.143167] (stonefish_ros2) StdoutLine: {'line': b'-- Up-to-date symlink: /home/dyj/ros2_ws/install/stonefish_ros2/include/stonefish_ros2/srv/detail/sonar_settings2__functions.h\n'}
+[2.143221] (stonefish_ros2) StdoutLine: {'line': b'-- Up-to-date symlink: /home/dyj/ros2_ws/install/stonefish_ros2/include/stonefish_ros2/srv/detail/sonar_settings2__struct.h\n'}
+[2.143275] (stonefish_ros2) StdoutLine: {'line': b'-- Up-to-date symlink: /home/dyj/ros2_ws/install/stonefish_ros2/include/stonefish_ros2/srv/detail/sonar_settings2__type_support.h\n'}
+[2.143344] (stonefish_ros2) StdoutLine: {'line': b'-- Up-to-date symlink: /home/dyj/ros2_ws/install/stonefish_ros2/include/stonefish_ros2/srv/detail/sonar_settings__functions.h\n'}
+[2.143437] (stonefish_ros2) StdoutLine: {'line': b'-- Up-to-date symlink: /home/dyj/ros2_ws/install/stonefish_ros2/include/stonefish_ros2/srv/detail/sonar_settings__struct.h\n'}
+[2.143489] (stonefish_ros2) StdoutLine: {'line': b'-- Up-to-date symlink: /home/dyj/ros2_ws/install/stonefish_ros2/include/stonefish_ros2/srv/detail/sonar_settings__type_support.h\n'}
+[2.143544] (stonefish_ros2) StdoutLine: {'line': b'-- Up-to-date symlink: /home/dyj/ros2_ws/install/stonefish_ros2/include/stonefish_ros2/srv/respawn.h\n'}
+[2.143599] (stonefish_ros2) StdoutLine: {'line': b'-- Up-to-date symlink: /home/dyj/ros2_ws/install/stonefish_ros2/include/stonefish_ros2/srv/sonar_settings.h\n'}
+[2.143653] (stonefish_ros2) StdoutLine: {'line': b'-- Up-to-date symlink: /home/dyj/ros2_ws/install/stonefish_ros2/include/stonefish_ros2/srv/sonar_settings2.h\n'}
+[2.143706] (stonefish_ros2) StdoutLine: {'line': b'-- Up-to-date symlink: /home/dyj/ros2_ws/install/stonefish_ros2/share/stonefish_ros2/environment/library_path.sh\n'}
+[2.143776] (stonefish_ros2) StdoutLine: {'line': b'-- Up-to-date symlink: /home/dyj/ros2_ws/install/stonefish_ros2/share/stonefish_ros2/environment/library_path.dsv\n'}
+[2.143897] (stonefish_ros2) StdoutLine: {'line': b'-- Up-to-date symlink: /home/dyj/ros2_ws/install/stonefish_ros2/include/stonefish_ros2/msg/detail/beacon_info__rosidl_typesupport_fastrtps_c.h\n'}
+[2.143964] (stonefish_ros2) StdoutLine: {'line': b'-- Up-to-date symlink: /home/dyj/ros2_ws/install/stonefish_ros2/include/stonefish_ros2/msg/detail/debug_physics__rosidl_typesupport_fastrtps_c.h\n'}
+[2.144037] (stonefish_ros2) StdoutLine: {'line': b'-- Up-to-date symlink: /home/dyj/ros2_ws/install/stonefish_ros2/include/stonefish_ros2/msg/detail/dvl__rosidl_typesupport_fastrtps_c.h\n'}
+[2.144106] (stonefish_ros2) StdoutLine: {'line': b'-- Up-to-date symlink: /home/dyj/ros2_ws/install/stonefish_ros2/include/stonefish_ros2/msg/detail/dvl_beam__rosidl_typesupport_fastrtps_c.h\n'}
+[2.144169] (stonefish_ros2) StdoutLine: {'line': b'-- Up-to-date symlink: /home/dyj/ros2_ws/install/stonefish_ros2/include/stonefish_ros2/msg/detail/event__rosidl_typesupport_fastrtps_c.h\n'}
+[2.144238] (stonefish_ros2) StdoutLine: {'line': b'-- Up-to-date symlink: /home/dyj/ros2_ws/install/stonefish_ros2/include/stonefish_ros2/msg/detail/event_array__rosidl_typesupport_fastrtps_c.h\n'}
+[2.144313] (stonefish_ros2) StdoutLine: {'line': b'-- Up-to-date symlink: /home/dyj/ros2_ws/install/stonefish_ros2/include/stonefish_ros2/msg/detail/ins__rosidl_typesupport_fastrtps_c.h\n'}
+[2.144391] (stonefish_ros2) StdoutLine: {'line': b'-- Up-to-date symlink: /home/dyj/ros2_ws/install/stonefish_ros2/include/stonefish_ros2/msg/detail/int32_stamped__rosidl_typesupport_fastrtps_c.h\n'}
+[2.144504] (stonefish_ros2) StdoutLine: {'line': b'-- Up-to-date symlink: /home/dyj/ros2_ws/install/stonefish_ros2/include/stonefish_ros2/msg/detail/ned_pose__rosidl_typesupport_fastrtps_c.h\n'}
+[2.144586] (stonefish_ros2) StdoutLine: {'line': b'-- Up-to-date symlink: /home/dyj/ros2_ws/install/stonefish_ros2/include/stonefish_ros2/msg/detail/thruster_state__rosidl_typesupport_fastrtps_c.h\n'}
+[2.144646] (stonefish_ros2) StdoutLine: {'line': b'-- Up-to-date symlink: /home/dyj/ros2_ws/install/stonefish_ros2/include/stonefish_ros2/msg/rosidl_typesupport_fastrtps_c__visibility_control.h\n'}
+[2.144733] (stonefish_ros2) StdoutLine: {'line': b'-- Up-to-date symlink: /home/dyj/ros2_ws/install/stonefish_ros2/include/stonefish_ros2/srv/detail/respawn__rosidl_typesupport_fastrtps_c.h\n'}
+[2.144789] (stonefish_ros2) StdoutLine: {'line': b'-- Up-to-date symlink: /home/dyj/ros2_ws/install/stonefish_ros2/include/stonefish_ros2/srv/detail/sonar_settings2__rosidl_typesupport_fastrtps_c.h\n'}
+[2.144843] (stonefish_ros2) StdoutLine: {'line': b'-- Up-to-date symlink: /home/dyj/ros2_ws/install/stonefish_ros2/include/stonefish_ros2/srv/detail/sonar_settings__rosidl_typesupport_fastrtps_c.h\n'}
+[2.144915] (stonefish_ros2) StdoutLine: {'line': b'-- Up-to-date symlink: /home/dyj/ros2_ws/install/stonefish_ros2/lib/libstonefish_ros2__rosidl_typesupport_fastrtps_c.so\n'}
+[2.145331] (stonefish_ros2) StdoutLine: {'line': b'-- Up-to-date symlink: /home/dyj/ros2_ws/install/stonefish_ros2/include/stonefish_ros2/msg/detail/beacon_info__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[2.145409] (stonefish_ros2) StdoutLine: {'line': b'-- Up-to-date symlink: /home/dyj/ros2_ws/install/stonefish_ros2/include/stonefish_ros2/msg/detail/debug_physics__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[2.145481] (stonefish_ros2) StdoutLine: {'line': b'-- Up-to-date symlink: /home/dyj/ros2_ws/install/stonefish_ros2/include/stonefish_ros2/msg/detail/dvl__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[2.145546] (stonefish_ros2) StdoutLine: {'line': b'-- Up-to-date symlink: /home/dyj/ros2_ws/install/stonefish_ros2/include/stonefish_ros2/msg/detail/dvl_beam__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[2.145609] (stonefish_ros2) StdoutLine: {'line': b'-- Up-to-date symlink: /home/dyj/ros2_ws/install/stonefish_ros2/include/stonefish_ros2/msg/detail/event__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[2.145677] (stonefish_ros2) StdoutLine: {'line': b'-- Up-to-date symlink: /home/dyj/ros2_ws/install/stonefish_ros2/include/stonefish_ros2/msg/detail/event_array__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[2.145739] (stonefish_ros2) StdoutLine: {'line': b'-- Up-to-date symlink: /home/dyj/ros2_ws/install/stonefish_ros2/include/stonefish_ros2/msg/detail/ins__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[2.145802] (stonefish_ros2) StdoutLine: {'line': b'-- Up-to-date symlink: /home/dyj/ros2_ws/install/stonefish_ros2/include/stonefish_ros2/msg/detail/int32_stamped__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[2.145885] (stonefish_ros2) StdoutLine: {'line': b'-- Up-to-date symlink: /home/dyj/ros2_ws/install/stonefish_ros2/include/stonefish_ros2/msg/detail/ned_pose__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[2.145984] (stonefish_ros2) StdoutLine: {'line': b'-- Up-to-date symlink: /home/dyj/ros2_ws/install/stonefish_ros2/include/stonefish_ros2/msg/detail/thruster_state__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[2.146078] (stonefish_ros2) StdoutLine: {'line': b'-- Up-to-date symlink: /home/dyj/ros2_ws/install/stonefish_ros2/include/stonefish_ros2/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h\n'}
+[2.146141] (stonefish_ros2) StdoutLine: {'line': b'-- Up-to-date symlink: /home/dyj/ros2_ws/install/stonefish_ros2/include/stonefish_ros2/srv/detail/respawn__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[2.146222] (stonefish_ros2) StdoutLine: {'line': b'-- Up-to-date symlink: /home/dyj/ros2_ws/install/stonefish_ros2/include/stonefish_ros2/srv/detail/sonar_settings2__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[2.146279] (stonefish_ros2) StdoutLine: {'line': b'-- Up-to-date symlink: /home/dyj/ros2_ws/install/stonefish_ros2/include/stonefish_ros2/srv/detail/sonar_settings__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[2.146350] (stonefish_ros2) StdoutLine: {'line': b'-- Up-to-date symlink: /home/dyj/ros2_ws/install/stonefish_ros2/lib/libstonefish_ros2__rosidl_typesupport_fastrtps_cpp.so\n'}
+[2.146597] (stonefish_ros2) StdoutLine: {'line': b'-- Up-to-date symlink: /home/dyj/ros2_ws/install/stonefish_ros2/include/stonefish_ros2/msg/detail/beacon_info__rosidl_typesupport_introspection_c.h\n'}
+[2.146666] (stonefish_ros2) StdoutLine: {'line': b'-- Up-to-date symlink: /home/dyj/ros2_ws/install/stonefish_ros2/include/stonefish_ros2/msg/detail/debug_physics__rosidl_typesupport_introspection_c.h\n'}
+[2.146735] (stonefish_ros2) StdoutLine: {'line': b'-- Up-to-date symlink: /home/dyj/ros2_ws/install/stonefish_ros2/include/stonefish_ros2/msg/detail/dvl__rosidl_typesupport_introspection_c.h\n'}
+[2.146805] (stonefish_ros2) StdoutLine: {'line': b'-- Up-to-date symlink: /home/dyj/ros2_ws/install/stonefish_ros2/include/stonefish_ros2/msg/detail/dvl_beam__rosidl_typesupport_introspection_c.h\n'}
+[2.146875] (stonefish_ros2) StdoutLine: {'line': b'-- Up-to-date symlink: /home/dyj/ros2_ws/install/stonefish_ros2/include/stonefish_ros2/msg/detail/event__rosidl_typesupport_introspection_c.h\n'}
+[2.146945] (stonefish_ros2) StdoutLine: {'line': b'-- Up-to-date symlink: /home/dyj/ros2_ws/install/stonefish_ros2/include/stonefish_ros2/msg/detail/event_array__rosidl_typesupport_introspection_c.h\n'}
+[2.147011] (stonefish_ros2) StdoutLine: {'line': b'-- Up-to-date symlink: /home/dyj/ros2_ws/install/stonefish_ros2/include/stonefish_ros2/msg/detail/ins__rosidl_typesupport_introspection_c.h\n'}
+[2.147078] (stonefish_ros2) StdoutLine: {'line': b'-- Up-to-date symlink: /home/dyj/ros2_ws/install/stonefish_ros2/include/stonefish_ros2/msg/detail/int32_stamped__rosidl_typesupport_introspection_c.h\n'}
+[2.147144] (stonefish_ros2) StdoutLine: {'line': b'-- Up-to-date symlink: /home/dyj/ros2_ws/install/stonefish_ros2/include/stonefish_ros2/msg/detail/ned_pose__rosidl_typesupport_introspection_c.h\n'}
+[2.147222] (stonefish_ros2) StdoutLine: {'line': b'-- Up-to-date symlink: /home/dyj/ros2_ws/install/stonefish_ros2/include/stonefish_ros2/msg/detail/thruster_state__rosidl_typesupport_introspection_c.h\n'}
+[2.147275] (stonefish_ros2) StdoutLine: {'line': b'-- Up-to-date symlink: /home/dyj/ros2_ws/install/stonefish_ros2/include/stonefish_ros2/msg/rosidl_typesupport_introspection_c__visibility_control.h\n'}
+[2.147352] (stonefish_ros2) StdoutLine: {'line': b'-- Up-to-date symlink: /home/dyj/ros2_ws/install/stonefish_ros2/include/stonefish_ros2/srv/detail/respawn__rosidl_typesupport_introspection_c.h\n'}
+[2.147404] (stonefish_ros2) StdoutLine: {'line': b'-- Up-to-date symlink: /home/dyj/ros2_ws/install/stonefish_ros2/include/stonefish_ros2/srv/detail/sonar_settings2__rosidl_typesupport_introspection_c.h\n'}
+[2.147474] (stonefish_ros2) StdoutLine: {'line': b'-- Up-to-date symlink: /home/dyj/ros2_ws/install/stonefish_ros2/include/stonefish_ros2/srv/detail/sonar_settings__rosidl_typesupport_introspection_c.h\n'}
+[2.147787] (stonefish_ros2) StdoutLine: {'line': b'-- Up-to-date symlink: /home/dyj/ros2_ws/install/stonefish_ros2/include/stonefish_ros2/msg/beacon_info.hpp\n'}
+[2.147856] (stonefish_ros2) StdoutLine: {'line': b'-- Up-to-date symlink: /home/dyj/ros2_ws/install/stonefish_ros2/include/stonefish_ros2/msg/debug_physics.hpp\n'}
+[2.147921] (stonefish_ros2) StdoutLine: {'line': b'-- Up-to-date symlink: /home/dyj/ros2_ws/install/stonefish_ros2/include/stonefish_ros2/msg/detail/beacon_info__builder.hpp\n'}
+[2.147990] (stonefish_ros2) StdoutLine: {'line': b'-- Up-to-date symlink: /home/dyj/ros2_ws/install/stonefish_ros2/include/stonefish_ros2/msg/detail/beacon_info__struct.hpp\n'}
+[2.148059] (stonefish_ros2) StdoutLine: {'line': b'-- Up-to-date symlink: /home/dyj/ros2_ws/install/stonefish_ros2/include/stonefish_ros2/msg/detail/beacon_info__traits.hpp\n'}
+[2.148129] (stonefish_ros2) StdoutLine: {'line': b'-- Up-to-date symlink: /home/dyj/ros2_ws/install/stonefish_ros2/include/stonefish_ros2/msg/detail/debug_physics__builder.hpp\n'}
+[2.148199] (stonefish_ros2) StdoutLine: {'line': b'-- Up-to-date symlink: /home/dyj/ros2_ws/install/stonefish_ros2/include/stonefish_ros2/msg/detail/debug_physics__struct.hpp\n'}
+[2.148275] (stonefish_ros2) StdoutLine: {'line': b'-- Up-to-date symlink: /home/dyj/ros2_ws/install/stonefish_ros2/include/stonefish_ros2/msg/detail/debug_physics__traits.hpp\n'}
+[2.148328] (stonefish_ros2) StdoutLine: {'line': b'-- Up-to-date symlink: /home/dyj/ros2_ws/install/stonefish_ros2/include/stonefish_ros2/msg/detail/dvl__builder.hpp\n'}
+[2.148403] (stonefish_ros2) StdoutLine: {'line': b'-- Up-to-date symlink: /home/dyj/ros2_ws/install/stonefish_ros2/include/stonefish_ros2/msg/detail/dvl__struct.hpp\n'}
+[2.148455] (stonefish_ros2) StdoutLine: {'line': b'-- Up-to-date symlink: /home/dyj/ros2_ws/install/stonefish_ros2/include/stonefish_ros2/msg/detail/dvl__traits.hpp\n'}
+[2.148530] (stonefish_ros2) StdoutLine: {'line': b'-- Up-to-date symlink: /home/dyj/ros2_ws/install/stonefish_ros2/include/stonefish_ros2/msg/detail/dvl_beam__builder.hpp\n'}
+[2.148583] (stonefish_ros2) StdoutLine: {'line': b'-- Up-to-date symlink: /home/dyj/ros2_ws/install/stonefish_ros2/include/stonefish_ros2/msg/detail/dvl_beam__struct.hpp\n'}
+[2.148664] (stonefish_ros2) StdoutLine: {'line': b'-- Up-to-date symlink: /home/dyj/ros2_ws/install/stonefish_ros2/include/stonefish_ros2/msg/detail/dvl_beam__traits.hpp\n'}
+[2.148718] (stonefish_ros2) StdoutLine: {'line': b'-- Up-to-date symlink: /home/dyj/ros2_ws/install/stonefish_ros2/include/stonefish_ros2/msg/detail/event__builder.hpp\n'}
+[2.148794] (stonefish_ros2) StdoutLine: {'line': b'-- Up-to-date symlink: /home/dyj/ros2_ws/install/stonefish_ros2/include/stonefish_ros2/msg/detail/event__struct.hpp\n'}
+[2.148848] (stonefish_ros2) StdoutLine: {'line': b'-- Up-to-date symlink: /home/dyj/ros2_ws/install/stonefish_ros2/include/stonefish_ros2/msg/detail/event__traits.hpp\n'}
+[2.148925] (stonefish_ros2) StdoutLine: {'line': b'-- Up-to-date symlink: /home/dyj/ros2_ws/install/stonefish_ros2/include/stonefish_ros2/msg/detail/event_array__builder.hpp\n'}
+[2.148980] (stonefish_ros2) StdoutLine: {'line': b'-- Up-to-date symlink: /home/dyj/ros2_ws/install/stonefish_ros2/include/stonefish_ros2/msg/detail/event_array__struct.hpp\n'}
+[2.149057] (stonefish_ros2) StdoutLine: {'line': b'-- Up-to-date symlink: /home/dyj/ros2_ws/install/stonefish_ros2/include/stonefish_ros2/msg/detail/event_array__traits.hpp\n'}
+[2.149112] (stonefish_ros2) StdoutLine: {'line': b'-- Up-to-date symlink: /home/dyj/ros2_ws/install/stonefish_ros2/include/stonefish_ros2/msg/detail/ins__builder.hpp\n'}
+[2.149231] (stonefish_ros2) StdoutLine: {'line': b'-- Up-to-date symlink: /home/dyj/ros2_ws/install/stonefish_ros2/include/stonefish_ros2/msg/detail/ins__struct.hpp\n'}
+[2.149297] (stonefish_ros2) StdoutLine: {'line': b'-- Up-to-date symlink: /home/dyj/ros2_ws/install/stonefish_ros2/include/stonefish_ros2/msg/detail/ins__traits.hpp\n'}
+[2.149354] (stonefish_ros2) StdoutLine: {'line': b'-- Up-to-date symlink: /home/dyj/ros2_ws/install/stonefish_ros2/include/stonefish_ros2/msg/detail/int32_stamped__builder.hpp\n'}
+[2.149407] (stonefish_ros2) StdoutLine: {'line': b'-- Up-to-date symlink: /home/dyj/ros2_ws/install/stonefish_ros2/include/stonefish_ros2/msg/detail/int32_stamped__struct.hpp\n'}
+[2.149488] (stonefish_ros2) StdoutLine: {'line': b'-- Up-to-date symlink: /home/dyj/ros2_ws/install/stonefish_ros2/include/stonefish_ros2/msg/detail/int32_stamped__traits.hpp\n'}
+[2.149542] (stonefish_ros2) StdoutLine: {'line': b'-- Up-to-date symlink: /home/dyj/ros2_ws/install/stonefish_ros2/include/stonefish_ros2/msg/detail/ned_pose__builder.hpp\n'}
+[2.149613] (stonefish_ros2) StdoutLine: {'line': b'-- Up-to-date symlink: /home/dyj/ros2_ws/install/stonefish_ros2/include/stonefish_ros2/msg/detail/ned_pose__struct.hpp\n'}
+[2.149667] (stonefish_ros2) StdoutLine: {'line': b'-- Up-to-date symlink: /home/dyj/ros2_ws/install/stonefish_ros2/include/stonefish_ros2/msg/detail/ned_pose__traits.hpp\n'}
+[2.149721] (stonefish_ros2) StdoutLine: {'line': b'-- Up-to-date symlink: /home/dyj/ros2_ws/install/stonefish_ros2/include/stonefish_ros2/msg/detail/thruster_state__builder.hpp\n'}
+[2.149807] (stonefish_ros2) StdoutLine: {'line': b'-- Up-to-date symlink: /home/dyj/ros2_ws/install/stonefish_ros2/include/stonefish_ros2/msg/detail/thruster_state__struct.hpp\n'}
+[2.149860] (stonefish_ros2) StdoutLine: {'line': b'-- Up-to-date symlink: /home/dyj/ros2_ws/install/stonefish_ros2/include/stonefish_ros2/msg/detail/thruster_state__traits.hpp\n'}
+[2.149914] (stonefish_ros2) StdoutLine: {'line': b'-- Up-to-date symlink: /home/dyj/ros2_ws/install/stonefish_ros2/include/stonefish_ros2/msg/dvl.hpp\n'}
+[2.149966] (stonefish_ros2) StdoutLine: {'line': b'-- Up-to-date symlink: /home/dyj/ros2_ws/install/stonefish_ros2/include/stonefish_ros2/msg/dvl_beam.hpp\n'}
+[2.150050] (stonefish_ros2) StdoutLine: {'line': b'-- Up-to-date symlink: /home/dyj/ros2_ws/install/stonefish_ros2/include/stonefish_ros2/msg/event.hpp\n'}
+[2.150104] (stonefish_ros2) StdoutLine: {'line': b'-- Up-to-date symlink: /home/dyj/ros2_ws/install/stonefish_ros2/include/stonefish_ros2/msg/event_array.hpp\n'}
+[2.150157] (stonefish_ros2) StdoutLine: {'line': b'-- Up-to-date symlink: /home/dyj/ros2_ws/install/stonefish_ros2/include/stonefish_ros2/msg/ins.hpp\n'}
+[2.150210] (stonefish_ros2) StdoutLine: {'line': b'-- Up-to-date symlink: /home/dyj/ros2_ws/install/stonefish_ros2/include/stonefish_ros2/msg/int32_stamped.hpp\n'}
+[2.150283] (stonefish_ros2) StdoutLine: {'line': b'-- Up-to-date symlink: /home/dyj/ros2_ws/install/stonefish_ros2/include/stonefish_ros2/msg/ned_pose.hpp\n'}
+[2.150326] (stonefish_ros2) StdoutLine: {'line': b'-- Up-to-date symlink: /home/dyj/ros2_ws/install/stonefish_ros2/include/stonefish_ros2/msg/thruster_state.hpp\n'}
+[2.150349] (stonefish_ros2) StdoutLine: {'line': b'-- Up-to-date symlink: /home/dyj/ros2_ws/install/stonefish_ros2/include/stonefish_ros2/srv/detail/respawn__builder.hpp\n'}
+[2.150371] (stonefish_ros2) StdoutLine: {'line': b'-- Up-to-date symlink: /home/dyj/ros2_ws/install/stonefish_ros2/include/stonefish_ros2/srv/detail/respawn__struct.hpp\n'}
+[2.150406] (stonefish_ros2) StdoutLine: {'line': b'-- Up-to-date symlink: /home/dyj/ros2_ws/install/stonefish_ros2/include/stonefish_ros2/srv/detail/respawn__traits.hpp\n'}
+[2.150441] (stonefish_ros2) StdoutLine: {'line': b'-- Up-to-date symlink: /home/dyj/ros2_ws/install/stonefish_ros2/include/stonefish_ros2/srv/detail/sonar_settings2__builder.hpp\n'}
+[2.150475] (stonefish_ros2) StdoutLine: {'line': b'-- Up-to-date symlink: /home/dyj/ros2_ws/install/stonefish_ros2/include/stonefish_ros2/srv/detail/sonar_settings2__struct.hpp\n'}
+[2.150522] (stonefish_ros2) StdoutLine: {'line': b'-- Up-to-date symlink: /home/dyj/ros2_ws/install/stonefish_ros2/include/stonefish_ros2/srv/detail/sonar_settings2__traits.hpp\n'}
+[2.150582] (stonefish_ros2) StdoutLine: {'line': b'-- Up-to-date symlink: /home/dyj/ros2_ws/install/stonefish_ros2/include/stonefish_ros2/srv/detail/sonar_settings__builder.hpp\n'}
+[2.150643] (stonefish_ros2) StdoutLine: {'line': b'-- Up-to-date symlink: /home/dyj/ros2_ws/install/stonefish_ros2/include/stonefish_ros2/srv/detail/sonar_settings__struct.hpp\n'}
+[2.150706] (stonefish_ros2) StdoutLine: {'line': b'-- Up-to-date symlink: /home/dyj/ros2_ws/install/stonefish_ros2/include/stonefish_ros2/srv/detail/sonar_settings__traits.hpp\n'}
+[2.150765] (stonefish_ros2) StdoutLine: {'line': b'-- Up-to-date symlink: /home/dyj/ros2_ws/install/stonefish_ros2/include/stonefish_ros2/srv/respawn.hpp\n'}
+[2.150826] (stonefish_ros2) StdoutLine: {'line': b'-- Up-to-date symlink: /home/dyj/ros2_ws/install/stonefish_ros2/include/stonefish_ros2/srv/sonar_settings.hpp\n'}
+[2.150888] (stonefish_ros2) StdoutLine: {'line': b'-- Up-to-date symlink: /home/dyj/ros2_ws/install/stonefish_ros2/include/stonefish_ros2/srv/sonar_settings2.hpp\n'}
+[2.151158] (stonefish_ros2) StdoutLine: {'line': b'-- Up-to-date symlink: /home/dyj/ros2_ws/install/stonefish_ros2/include/stonefish_ros2/msg/detail/beacon_info__rosidl_typesupport_introspection_cpp.hpp\n'}
+[2.151223] (stonefish_ros2) StdoutLine: {'line': b'-- Up-to-date symlink: /home/dyj/ros2_ws/install/stonefish_ros2/include/stonefish_ros2/msg/detail/debug_physics__rosidl_typesupport_introspection_cpp.hpp\n'}
+[2.151286] (stonefish_ros2) StdoutLine: {'line': b'-- Up-to-date symlink: /home/dyj/ros2_ws/install/stonefish_ros2/include/stonefish_ros2/msg/detail/dvl__rosidl_typesupport_introspection_cpp.hpp\n'}
+[2.151347] (stonefish_ros2) StdoutLine: {'line': b'-- Up-to-date symlink: /home/dyj/ros2_ws/install/stonefish_ros2/include/stonefish_ros2/msg/detail/dvl_beam__rosidl_typesupport_introspection_cpp.hpp\n'}
+[2.151408] (stonefish_ros2) StdoutLine: {'line': b'-- Up-to-date symlink: /home/dyj/ros2_ws/install/stonefish_ros2/include/stonefish_ros2/msg/detail/event__rosidl_typesupport_introspection_cpp.hpp\n'}
+[2.151470] (stonefish_ros2) StdoutLine: {'line': b'-- Up-to-date symlink: /home/dyj/ros2_ws/install/stonefish_ros2/include/stonefish_ros2/msg/detail/event_array__rosidl_typesupport_introspection_cpp.hpp\n'}
+[2.151531] (stonefish_ros2) StdoutLine: {'line': b'-- Up-to-date symlink: /home/dyj/ros2_ws/install/stonefish_ros2/include/stonefish_ros2/msg/detail/ins__rosidl_typesupport_introspection_cpp.hpp\n'}
+[2.151595] (stonefish_ros2) StdoutLine: {'line': b'-- Up-to-date symlink: /home/dyj/ros2_ws/install/stonefish_ros2/include/stonefish_ros2/msg/detail/int32_stamped__rosidl_typesupport_introspection_cpp.hpp\n'}
+[2.151657] (stonefish_ros2) StdoutLine: {'line': b'-- Up-to-date symlink: /home/dyj/ros2_ws/install/stonefish_ros2/include/stonefish_ros2/msg/detail/ned_pose__rosidl_typesupport_introspection_cpp.hpp\n'}
+[2.151718] (stonefish_ros2) StdoutLine: {'line': b'-- Up-to-date symlink: /home/dyj/ros2_ws/install/stonefish_ros2/include/stonefish_ros2/msg/detail/thruster_state__rosidl_typesupport_introspection_cpp.hpp\n'}
+[2.151782] (stonefish_ros2) StdoutLine: {'line': b'-- Up-to-date symlink: /home/dyj/ros2_ws/install/stonefish_ros2/include/stonefish_ros2/srv/detail/respawn__rosidl_typesupport_introspection_cpp.hpp\n'}
+[2.151845] (stonefish_ros2) StdoutLine: {'line': b'-- Up-to-date symlink: /home/dyj/ros2_ws/install/stonefish_ros2/include/stonefish_ros2/srv/detail/sonar_settings2__rosidl_typesupport_introspection_cpp.hpp\n'}
+[2.151908] (stonefish_ros2) StdoutLine: {'line': b'-- Up-to-date symlink: /home/dyj/ros2_ws/install/stonefish_ros2/include/stonefish_ros2/srv/detail/sonar_settings__rosidl_typesupport_introspection_cpp.hpp\n'}
+[2.152014] (stonefish_ros2) StdoutLine: {'line': b'-- Up-to-date symlink: /home/dyj/ros2_ws/install/stonefish_ros2/share/stonefish_ros2/environment/pythonpath.sh\n'}
+[2.152114] (stonefish_ros2) StdoutLine: {'line': b'-- Up-to-date symlink: /home/dyj/ros2_ws/install/stonefish_ros2/share/stonefish_ros2/environment/pythonpath.dsv\n'}
+[2.152298] (stonefish_ros2) StdoutLine: {'line': b'-- Up-to-date symlink: /home/dyj/ros2_ws/install/stonefish_ros2/lib/python3.8/site-packages/stonefish_ros2-1.5.0-py3.8.egg-info/PKG-INFO\n'}
+[2.152362] (stonefish_ros2) StdoutLine: {'line': b'-- Up-to-date symlink: /home/dyj/ros2_ws/install/stonefish_ros2/lib/python3.8/site-packages/stonefish_ros2-1.5.0-py3.8.egg-info/SOURCES.txt\n'}
+[2.152426] (stonefish_ros2) StdoutLine: {'line': b'-- Up-to-date symlink: /home/dyj/ros2_ws/install/stonefish_ros2/lib/python3.8/site-packages/stonefish_ros2-1.5.0-py3.8.egg-info/dependency_links.txt\n'}
+[2.152486] (stonefish_ros2) StdoutLine: {'line': b'-- Up-to-date symlink: /home/dyj/ros2_ws/install/stonefish_ros2/lib/python3.8/site-packages/stonefish_ros2-1.5.0-py3.8.egg-info/top_level.txt\n'}
+[2.152906] (stonefish_ros2) StdoutLine: {'line': b'-- Up-to-date symlink: /home/dyj/ros2_ws/install/stonefish_ros2/lib/python3.8/site-packages/stonefish_ros2/__init__.py\n'}
+[2.152973] (stonefish_ros2) StdoutLine: {'line': b'-- Up-to-date symlink: /home/dyj/ros2_ws/install/stonefish_ros2/lib/python3.8/site-packages/stonefish_ros2/_stonefish_ros2_s.ep.rosidl_typesupport_c.c\n'}
+[2.153033] (stonefish_ros2) StdoutLine: {'line': b'-- Up-to-date symlink: /home/dyj/ros2_ws/install/stonefish_ros2/lib/python3.8/site-packages/stonefish_ros2/_stonefish_ros2_s.ep.rosidl_typesupport_fastrtps_c.c\n'}
+[2.153096] (stonefish_ros2) StdoutLine: {'line': b'-- Up-to-date symlink: /home/dyj/ros2_ws/install/stonefish_ros2/lib/python3.8/site-packages/stonefish_ros2/_stonefish_ros2_s.ep.rosidl_typesupport_introspection_c.c\n'}
+[2.153170] (stonefish_ros2) StdoutLine: {'line': b'-- Up-to-date symlink: /home/dyj/ros2_ws/install/stonefish_ros2/lib/python3.8/site-packages/stonefish_ros2/libstonefish_ros2__rosidl_generator_py.so\n'}
+[2.153260] (stonefish_ros2) StdoutLine: {'line': b'-- Up-to-date symlink: /home/dyj/ros2_ws/install/stonefish_ros2/lib/python3.8/site-packages/stonefish_ros2/msg/__init__.py\n'}
+[2.153331] (stonefish_ros2) StdoutLine: {'line': b'-- Up-to-date symlink: /home/dyj/ros2_ws/install/stonefish_ros2/lib/python3.8/site-packages/stonefish_ros2/msg/_beacon_info.py\n'}
+[2.153393] (stonefish_ros2) StdoutLine: {'line': b'-- Up-to-date symlink: /home/dyj/ros2_ws/install/stonefish_ros2/lib/python3.8/site-packages/stonefish_ros2/msg/_beacon_info_s.c\n'}
+[2.153454] (stonefish_ros2) StdoutLine: {'line': b'-- Up-to-date symlink: /home/dyj/ros2_ws/install/stonefish_ros2/lib/python3.8/site-packages/stonefish_ros2/msg/_debug_physics.py\n'}
+[2.153515] (stonefish_ros2) StdoutLine: {'line': b'-- Up-to-date symlink: /home/dyj/ros2_ws/install/stonefish_ros2/lib/python3.8/site-packages/stonefish_ros2/msg/_debug_physics_s.c\n'}
+[2.153578] (stonefish_ros2) StdoutLine: {'line': b'-- Up-to-date symlink: /home/dyj/ros2_ws/install/stonefish_ros2/lib/python3.8/site-packages/stonefish_ros2/msg/_dvl.py\n'}
+[2.153638] (stonefish_ros2) StdoutLine: {'line': b'-- Up-to-date symlink: /home/dyj/ros2_ws/install/stonefish_ros2/lib/python3.8/site-packages/stonefish_ros2/msg/_dvl_beam.py\n'}
+[2.153701] (stonefish_ros2) StdoutLine: {'line': b'-- Up-to-date symlink: /home/dyj/ros2_ws/install/stonefish_ros2/lib/python3.8/site-packages/stonefish_ros2/msg/_dvl_beam_s.c\n'}
+[2.153763] (stonefish_ros2) StdoutLine: {'line': b'-- Up-to-date symlink: /home/dyj/ros2_ws/install/stonefish_ros2/lib/python3.8/site-packages/stonefish_ros2/msg/_dvl_s.c\n'}
+[2.153824] (stonefish_ros2) StdoutLine: {'line': b'-- Up-to-date symlink: /home/dyj/ros2_ws/install/stonefish_ros2/lib/python3.8/site-packages/stonefish_ros2/msg/_event.py\n'}
+[2.153886] (stonefish_ros2) StdoutLine: {'line': b'-- Up-to-date symlink: /home/dyj/ros2_ws/install/stonefish_ros2/lib/python3.8/site-packages/stonefish_ros2/msg/_event_array.py\n'}
+[2.153947] (stonefish_ros2) StdoutLine: {'line': b'-- Up-to-date symlink: /home/dyj/ros2_ws/install/stonefish_ros2/lib/python3.8/site-packages/stonefish_ros2/msg/_event_array_s.c\n'}
+[2.154010] (stonefish_ros2) StdoutLine: {'line': b'-- Up-to-date symlink: /home/dyj/ros2_ws/install/stonefish_ros2/lib/python3.8/site-packages/stonefish_ros2/msg/_event_s.c\n'}
+[2.154070] (stonefish_ros2) StdoutLine: {'line': b'-- Up-to-date symlink: /home/dyj/ros2_ws/install/stonefish_ros2/lib/python3.8/site-packages/stonefish_ros2/msg/_ins.py\n'}
+[2.154131] (stonefish_ros2) StdoutLine: {'line': b'-- Up-to-date symlink: /home/dyj/ros2_ws/install/stonefish_ros2/lib/python3.8/site-packages/stonefish_ros2/msg/_ins_s.c\n'}
+[2.154191] (stonefish_ros2) StdoutLine: {'line': b'-- Up-to-date symlink: /home/dyj/ros2_ws/install/stonefish_ros2/lib/python3.8/site-packages/stonefish_ros2/msg/_int32_stamped.py\n'}
+[2.154255] (stonefish_ros2) StdoutLine: {'line': b'-- Up-to-date symlink: /home/dyj/ros2_ws/install/stonefish_ros2/lib/python3.8/site-packages/stonefish_ros2/msg/_int32_stamped_s.c\n'}
+[2.154322] (stonefish_ros2) StdoutLine: {'line': b'-- Up-to-date symlink: /home/dyj/ros2_ws/install/stonefish_ros2/lib/python3.8/site-packages/stonefish_ros2/msg/_ned_pose.py\n'}
+[2.154386] (stonefish_ros2) StdoutLine: {'line': b'-- Up-to-date symlink: /home/dyj/ros2_ws/install/stonefish_ros2/lib/python3.8/site-packages/stonefish_ros2/msg/_ned_pose_s.c\n'}
+[2.154444] (stonefish_ros2) StdoutLine: {'line': b'-- Up-to-date symlink: /home/dyj/ros2_ws/install/stonefish_ros2/lib/python3.8/site-packages/stonefish_ros2/msg/_thruster_state.py\n'}
+[2.154508] (stonefish_ros2) StdoutLine: {'line': b'-- Up-to-date symlink: /home/dyj/ros2_ws/install/stonefish_ros2/lib/python3.8/site-packages/stonefish_ros2/msg/_thruster_state_s.c\n'}
+[2.154571] (stonefish_ros2) StdoutLine: {'line': b'-- Up-to-date symlink: /home/dyj/ros2_ws/install/stonefish_ros2/lib/python3.8/site-packages/stonefish_ros2/srv/__init__.py\n'}
+[2.154632] (stonefish_ros2) StdoutLine: {'line': b'-- Up-to-date symlink: /home/dyj/ros2_ws/install/stonefish_ros2/lib/python3.8/site-packages/stonefish_ros2/srv/_respawn.py\n'}
+[2.154693] (stonefish_ros2) StdoutLine: {'line': b'-- Up-to-date symlink: /home/dyj/ros2_ws/install/stonefish_ros2/lib/python3.8/site-packages/stonefish_ros2/srv/_respawn_s.c\n'}
+[2.154754] (stonefish_ros2) StdoutLine: {'line': b'-- Up-to-date symlink: /home/dyj/ros2_ws/install/stonefish_ros2/lib/python3.8/site-packages/stonefish_ros2/srv/_sonar_settings.py\n'}
+[2.154815] (stonefish_ros2) StdoutLine: {'line': b'-- Up-to-date symlink: /home/dyj/ros2_ws/install/stonefish_ros2/lib/python3.8/site-packages/stonefish_ros2/srv/_sonar_settings2.py\n'}
+[2.154877] (stonefish_ros2) StdoutLine: {'line': b'-- Up-to-date symlink: /home/dyj/ros2_ws/install/stonefish_ros2/lib/python3.8/site-packages/stonefish_ros2/srv/_sonar_settings2_s.c\n'}
+[2.154937] (stonefish_ros2) StdoutLine: {'line': b'-- Up-to-date symlink: /home/dyj/ros2_ws/install/stonefish_ros2/lib/python3.8/site-packages/stonefish_ros2/srv/_sonar_settings_s.c\n'}
+[2.155000] (stonefish_ros2) StdoutLine: {'line': b'-- Up-to-date symlink: /home/dyj/ros2_ws/install/stonefish_ros2/lib/python3.8/site-packages/stonefish_ros2/stonefish_ros2_s__rosidl_typesupport_c.cpython-38-x86_64-linux-gnu.so\n'}
+[2.155067] (stonefish_ros2) StdoutLine: {'line': b'-- Up-to-date symlink: /home/dyj/ros2_ws/install/stonefish_ros2/lib/python3.8/site-packages/stonefish_ros2/stonefish_ros2_s__rosidl_typesupport_fastrtps_c.cpython-38-x86_64-linux-gnu.so\n'}
+[2.155123] (stonefish_ros2) StdoutLine: {'line': b'-- Up-to-date symlink: /home/dyj/ros2_ws/install/stonefish_ros2/lib/python3.8/site-packages/stonefish_ros2/stonefish_ros2_s__rosidl_typesupport_introspection_c.cpython-38-x86_64-linux-gnu.so\n'}
+[2.155297] (stonefish_ros2) StdoutLine: {'line': b'-- Up-to-date symlink: /home/dyj/ros2_ws/install/stonefish_ros2/lib/python3.8/site-packages/stonefish_ros2/stonefish_ros2_s__rosidl_typesupport_fastrtps_c.cpython-38-x86_64-linux-gnu.so\n'}
+[2.155459] (stonefish_ros2) StdoutLine: {'line': b'-- Up-to-date symlink: /home/dyj/ros2_ws/install/stonefish_ros2/lib/python3.8/site-packages/stonefish_ros2/stonefish_ros2_s__rosidl_typesupport_introspection_c.cpython-38-x86_64-linux-gnu.so\n'}
+[2.155620] (stonefish_ros2) StdoutLine: {'line': b'-- Up-to-date symlink: /home/dyj/ros2_ws/install/stonefish_ros2/lib/python3.8/site-packages/stonefish_ros2/stonefish_ros2_s__rosidl_typesupport_c.cpython-38-x86_64-linux-gnu.so\n'}
+[2.155729] (stonefish_ros2) StdoutLine: {'line': b'-- Up-to-date symlink: /home/dyj/ros2_ws/install/stonefish_ros2/share/stonefish_ros2/msg/Int32Stamped.idl\n'}
+[2.155829] (stonefish_ros2) StdoutLine: {'line': b'-- Up-to-date symlink: /home/dyj/ros2_ws/install/stonefish_ros2/share/stonefish_ros2/msg/BeaconInfo.idl\n'}
+[2.155926] (stonefish_ros2) StdoutLine: {'line': b'-- Up-to-date symlink: /home/dyj/ros2_ws/install/stonefish_ros2/share/stonefish_ros2/msg/NEDPose.idl\n'}
+[2.156023] (stonefish_ros2) StdoutLine: {'line': b'-- Up-to-date symlink: /home/dyj/ros2_ws/install/stonefish_ros2/share/stonefish_ros2/msg/INS.idl\n'}
+[2.156118] (stonefish_ros2) StdoutLine: {'line': b'-- Up-to-date symlink: /home/dyj/ros2_ws/install/stonefish_ros2/share/stonefish_ros2/msg/DVLBeam.idl\n'}
+[2.156212] (stonefish_ros2) StdoutLine: {'line': b'-- Up-to-date symlink: /home/dyj/ros2_ws/install/stonefish_ros2/share/stonefish_ros2/msg/DVL.idl\n'}
+[2.156308] (stonefish_ros2) StdoutLine: {'line': b'-- Up-to-date symlink: /home/dyj/ros2_ws/install/stonefish_ros2/share/stonefish_ros2/msg/ThrusterState.idl\n'}
+[2.156405] (stonefish_ros2) StdoutLine: {'line': b'-- Up-to-date symlink: /home/dyj/ros2_ws/install/stonefish_ros2/share/stonefish_ros2/msg/DebugPhysics.idl\n'}
+[2.156500] (stonefish_ros2) StdoutLine: {'line': b'-- Up-to-date symlink: /home/dyj/ros2_ws/install/stonefish_ros2/share/stonefish_ros2/msg/Event.idl\n'}
+[2.156596] (stonefish_ros2) StdoutLine: {'line': b'-- Up-to-date symlink: /home/dyj/ros2_ws/install/stonefish_ros2/share/stonefish_ros2/msg/EventArray.idl\n'}
+[2.156692] (stonefish_ros2) StdoutLine: {'line': b'-- Up-to-date symlink: /home/dyj/ros2_ws/install/stonefish_ros2/share/stonefish_ros2/srv/SonarSettings.idl\n'}
+[2.156787] (stonefish_ros2) StdoutLine: {'line': b'-- Up-to-date symlink: /home/dyj/ros2_ws/install/stonefish_ros2/share/stonefish_ros2/srv/SonarSettings2.idl\n'}
+[2.156883] (stonefish_ros2) StdoutLine: {'line': b'-- Up-to-date symlink: /home/dyj/ros2_ws/install/stonefish_ros2/share/stonefish_ros2/srv/Respawn.idl\n'}
+[2.156979] (stonefish_ros2) StdoutLine: {'line': b'-- Up-to-date symlink: /home/dyj/ros2_ws/install/stonefish_ros2/share/stonefish_ros2/msg/Int32Stamped.msg\n'}
+[2.157075] (stonefish_ros2) StdoutLine: {'line': b'-- Up-to-date symlink: /home/dyj/ros2_ws/install/stonefish_ros2/share/stonefish_ros2/msg/BeaconInfo.msg\n'}
+[2.157178] (stonefish_ros2) StdoutLine: {'line': b'-- Up-to-date symlink: /home/dyj/ros2_ws/install/stonefish_ros2/share/stonefish_ros2/msg/NEDPose.msg\n'}
+[2.157277] (stonefish_ros2) StdoutLine: {'line': b'-- Up-to-date symlink: /home/dyj/ros2_ws/install/stonefish_ros2/share/stonefish_ros2/msg/INS.msg\n'}
+[2.157371] (stonefish_ros2) StdoutLine: {'line': b'-- Up-to-date symlink: /home/dyj/ros2_ws/install/stonefish_ros2/share/stonefish_ros2/msg/DVLBeam.msg\n'}
+[2.157463] (stonefish_ros2) StdoutLine: {'line': b'-- Up-to-date symlink: /home/dyj/ros2_ws/install/stonefish_ros2/share/stonefish_ros2/msg/DVL.msg\n'}
+[2.157559] (stonefish_ros2) StdoutLine: {'line': b'-- Up-to-date symlink: /home/dyj/ros2_ws/install/stonefish_ros2/share/stonefish_ros2/msg/ThrusterState.msg\n'}
+[2.157650] (stonefish_ros2) StdoutLine: {'line': b'-- Up-to-date symlink: /home/dyj/ros2_ws/install/stonefish_ros2/share/stonefish_ros2/msg/DebugPhysics.msg\n'}
+[2.157743] (stonefish_ros2) StdoutLine: {'line': b'-- Up-to-date symlink: /home/dyj/ros2_ws/install/stonefish_ros2/share/stonefish_ros2/msg/Event.msg\n'}
+[2.157836] (stonefish_ros2) StdoutLine: {'line': b'-- Up-to-date symlink: /home/dyj/ros2_ws/install/stonefish_ros2/share/stonefish_ros2/msg/EventArray.msg\n'}
+[2.157931] (stonefish_ros2) StdoutLine: {'line': b'-- Up-to-date symlink: /home/dyj/ros2_ws/install/stonefish_ros2/share/stonefish_ros2/srv/SonarSettings.srv\n'}
+[2.158029] (stonefish_ros2) StdoutLine: {'line': b'-- Up-to-date symlink: /home/dyj/ros2_ws/install/stonefish_ros2/share/stonefish_ros2/srv/SonarSettings_Request.msg\n'}
+[2.158124] (stonefish_ros2) StdoutLine: {'line': b'-- Up-to-date symlink: /home/dyj/ros2_ws/install/stonefish_ros2/share/stonefish_ros2/srv/SonarSettings_Response.msg\n'}
+[2.158218] (stonefish_ros2) StdoutLine: {'line': b'-- Up-to-date symlink: /home/dyj/ros2_ws/install/stonefish_ros2/share/stonefish_ros2/srv/SonarSettings2.srv\n'}
+[2.158312] (stonefish_ros2) StdoutLine: {'line': b'-- Up-to-date symlink: /home/dyj/ros2_ws/install/stonefish_ros2/share/stonefish_ros2/srv/SonarSettings2_Request.msg\n'}
+[2.158408] (stonefish_ros2) StdoutLine: {'line': b'-- Up-to-date symlink: /home/dyj/ros2_ws/install/stonefish_ros2/share/stonefish_ros2/srv/SonarSettings2_Response.msg\n'}
+[2.158503] (stonefish_ros2) StdoutLine: {'line': b'-- Up-to-date symlink: /home/dyj/ros2_ws/install/stonefish_ros2/share/stonefish_ros2/srv/Respawn.srv\n'}
+[2.158601] (stonefish_ros2) StdoutLine: {'line': b'-- Up-to-date symlink: /home/dyj/ros2_ws/install/stonefish_ros2/share/stonefish_ros2/srv/Respawn_Request.msg\n'}
+[2.158692] (stonefish_ros2) StdoutLine: {'line': b'-- Up-to-date symlink: /home/dyj/ros2_ws/install/stonefish_ros2/share/stonefish_ros2/srv/Respawn_Response.msg\n'}
+[2.158900] (stonefish_ros2) StdoutLine: {'line': b'-- Up-to-date symlink: /home/dyj/ros2_ws/install/stonefish_ros2/include/include/stonefish_ros2/ROS2ConsoleSimulationApp.h\n'}
+[2.158966] (stonefish_ros2) StdoutLine: {'line': b'-- Up-to-date symlink: /home/dyj/ros2_ws/install/stonefish_ros2/include/include/stonefish_ros2/ROS2GraphicalSimulationApp.h\n'}
+[2.159024] (stonefish_ros2) StdoutLine: {'line': b'-- Up-to-date symlink: /home/dyj/ros2_ws/install/stonefish_ros2/include/include/stonefish_ros2/ROS2Interface.h\n'}
+[2.159087] (stonefish_ros2) StdoutLine: {'line': b'-- Up-to-date symlink: /home/dyj/ros2_ws/install/stonefish_ros2/include/include/stonefish_ros2/ROS2ScenarioParser.h\n'}
+[2.159147] (stonefish_ros2) StdoutLine: {'line': b'-- Up-to-date symlink: /home/dyj/ros2_ws/install/stonefish_ros2/include/include/stonefish_ros2/ROS2SimulationManager.h\n'}
+[2.159335] (stonefish_ros2) StdoutLine: {'line': b'-- Up-to-date symlink: /home/dyj/ros2_ws/install/stonefish_ros2/lib/stonefish_ros2/stonefish_simulator\n'}
+[2.159435] (stonefish_ros2) StdoutLine: {'line': b'-- Up-to-date symlink: /home/dyj/ros2_ws/install/stonefish_ros2/lib/stonefish_ros2/stonefish_simulator_nogpu\n'}
+[2.159529] (stonefish_ros2) StdoutLine: {'line': b'-- Up-to-date symlink: /home/dyj/ros2_ws/install/stonefish_ros2/lib/stonefish_ros2/fluid_dynamics_test\n'}
+[2.159610] (stonefish_ros2) StdoutLine: {'line': b'-- Symlinking: /home/dyj/ros2_ws/install/stonefish_ros2/lib/stonefish_ros2/camera_test\n'}
+[2.168764] (stonefish_ros2) StdoutLine: {'line': b'-- Up-to-date symlink: /home/dyj/ros2_ws/install/stonefish_ros2/share/stonefish_ros2/launch/stonefish_simulator.launch.py\n'}
+[2.168834] (stonefish_ros2) StdoutLine: {'line': b'-- Up-to-date symlink: /home/dyj/ros2_ws/install/stonefish_ros2/share/stonefish_ros2/launch/stonefish_simulator_nogpu.launch.py\n'}
+[2.168994] (stonefish_ros2) StdoutLine: {'line': b'-- Up-to-date symlink: /home/dyj/ros2_ws/install/stonefish_ros2/share/ament_index/resource_index/package_run_dependencies/stonefish_ros2\n'}
+[2.169152] (stonefish_ros2) StdoutLine: {'line': b'-- Up-to-date symlink: /home/dyj/ros2_ws/install/stonefish_ros2/share/ament_index/resource_index/parent_prefix_path/stonefish_ros2\n'}
+[2.169300] (stonefish_ros2) StdoutLine: {'line': b'-- Up-to-date symlink: /home/dyj/ros2_ws/install/stonefish_ros2/share/stonefish_ros2/environment/ament_prefix_path.sh\n'}
+[2.169429] (stonefish_ros2) StdoutLine: {'line': b'-- Up-to-date symlink: /home/dyj/ros2_ws/install/stonefish_ros2/share/stonefish_ros2/environment/ament_prefix_path.dsv\n'}
+[2.169526] (stonefish_ros2) StdoutLine: {'line': b'-- Up-to-date symlink: /home/dyj/ros2_ws/install/stonefish_ros2/share/stonefish_ros2/environment/path.sh\n'}
+[2.169614] (stonefish_ros2) StdoutLine: {'line': b'-- Up-to-date symlink: /home/dyj/ros2_ws/install/stonefish_ros2/share/stonefish_ros2/environment/path.dsv\n'}
+[2.169705] (stonefish_ros2) StdoutLine: {'line': b'-- Up-to-date symlink: /home/dyj/ros2_ws/install/stonefish_ros2/share/stonefish_ros2/local_setup.bash\n'}
+[2.169795] (stonefish_ros2) StdoutLine: {'line': b'-- Up-to-date symlink: /home/dyj/ros2_ws/install/stonefish_ros2/share/stonefish_ros2/local_setup.sh\n'}
+[2.169884] (stonefish_ros2) StdoutLine: {'line': b'-- Up-to-date symlink: /home/dyj/ros2_ws/install/stonefish_ros2/share/stonefish_ros2/local_setup.zsh\n'}
+[2.169972] (stonefish_ros2) StdoutLine: {'line': b'-- Up-to-date symlink: /home/dyj/ros2_ws/install/stonefish_ros2/share/stonefish_ros2/local_setup.dsv\n'}
+[2.170045] (stonefish_ros2) StdoutLine: {'line': b'-- Symlinking: /home/dyj/ros2_ws/install/stonefish_ros2/share/stonefish_ros2/package.dsv\n'}
+[2.173612] (stonefish_ros2) StdoutLine: {'line': b'-- Up-to-date symlink: /home/dyj/ros2_ws/install/stonefish_ros2/share/ament_index/resource_index/packages/stonefish_ros2\n'}
+[2.173757] (stonefish_ros2) StdoutLine: {'line': b'-- Up-to-date symlink: /home/dyj/ros2_ws/install/stonefish_ros2/share/stonefish_ros2/cmake/rosidl_cmake-extras.cmake\n'}
+[2.173911] (stonefish_ros2) StdoutLine: {'line': b'-- Up-to-date symlink: /home/dyj/ros2_ws/install/stonefish_ros2/share/stonefish_ros2/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[2.174052] (stonefish_ros2) StdoutLine: {'line': b'-- Up-to-date symlink: /home/dyj/ros2_ws/install/stonefish_ros2/share/stonefish_ros2/cmake/ament_cmake_export_libraries-extras.cmake\n'}
+[2.174190] (stonefish_ros2) StdoutLine: {'line': b'-- Up-to-date symlink: /home/dyj/ros2_ws/install/stonefish_ros2/share/stonefish_ros2/cmake/ament_cmake_export_targets-extras.cmake\n'}
+[2.174331] (stonefish_ros2) StdoutLine: {'line': b'-- Up-to-date symlink: /home/dyj/ros2_ws/install/stonefish_ros2/share/stonefish_ros2/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[2.174439] (stonefish_ros2) StdoutLine: {'line': b'-- Up-to-date symlink: /home/dyj/ros2_ws/install/stonefish_ros2/share/stonefish_ros2/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake\n'}
+[2.174527] (stonefish_ros2) StdoutLine: {'line': b'-- Up-to-date symlink: /home/dyj/ros2_ws/install/stonefish_ros2/share/stonefish_ros2/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake\n'}
+[2.174621] (stonefish_ros2) StdoutLine: {'line': b'-- Up-to-date symlink: /home/dyj/ros2_ws/install/stonefish_ros2/share/stonefish_ros2/cmake/stonefish_ros2Config.cmake\n'}
+[2.174696] (stonefish_ros2) StdoutLine: {'line': b'-- Up-to-date symlink: /home/dyj/ros2_ws/install/stonefish_ros2/share/stonefish_ros2/cmake/stonefish_ros2Config-version.cmake\n'}
+[2.174775] (stonefish_ros2) StdoutLine: {'line': b'-- Up-to-date symlink: /home/dyj/ros2_ws/install/stonefish_ros2/share/stonefish_ros2/package.xml\n'}
+[2.174894] (stonefish_ros2) StdoutLine: {'line': b'-- Up-to-date: /home/dyj/ros2_ws/install/stonefish_ros2/lib/libstonefish_ros2__rosidl_generator_c.so\n'}
+[2.175050] (stonefish_ros2) StdoutLine: {'line': b'-- Up-to-date: /home/dyj/ros2_ws/install/stonefish_ros2/lib/libstonefish_ros2__rosidl_typesupport_introspection_c.so\n'}
+[2.175196] (stonefish_ros2) StdoutLine: {'line': b'-- Up-to-date: /home/dyj/ros2_ws/install/stonefish_ros2/lib/libstonefish_ros2__rosidl_typesupport_c.so\n'}
+[2.175347] (stonefish_ros2) StdoutLine: {'line': b'-- Up-to-date: /home/dyj/ros2_ws/install/stonefish_ros2/lib/libstonefish_ros2__rosidl_typesupport_introspection_cpp.so\n'}
+[2.175502] (stonefish_ros2) StdoutLine: {'line': b'-- Up-to-date: /home/dyj/ros2_ws/install/stonefish_ros2/lib/libstonefish_ros2__rosidl_typesupport_cpp.so\n'}
+[2.189396] (stonefish_ros2) StdoutLine: {'line': b"Listing '/home/dyj/ros2_ws/install/stonefish_ros2/lib/python3.8/site-packages/stonefish_ros2'...\n"}
+[2.189518] (stonefish_ros2) StdoutLine: {'line': b"Compiling '/home/dyj/ros2_ws/install/stonefish_ros2/lib/python3.8/site-packages/stonefish_ros2/__init__.py'...\n"}
+[2.189594] (stonefish_ros2) StdoutLine: {'line': b"Listing '/home/dyj/ros2_ws/install/stonefish_ros2/lib/python3.8/site-packages/stonefish_ros2/msg'...\n"}
+[2.189655] (stonefish_ros2) StdoutLine: {'line': b"Listing '/home/dyj/ros2_ws/install/stonefish_ros2/lib/python3.8/site-packages/stonefish_ros2/srv'...\n"}
+[2.191479] (stonefish_ros2) StdoutLine: {'line': b'-- Up-to-date: /home/dyj/ros2_ws/install/stonefish_ros2/lib/libstonefish_ros2__rosidl_generator_py.so\n'}
+[2.191832] (stonefish_ros2) StdoutLine: {'line': b'-- Up-to-date: /home/dyj/ros2_ws/install/stonefish_ros2/lib/libstonefish_ros2_interface.so\n'}
+[2.192170] (stonefish_ros2) StdoutLine: {'line': b'-- Up-to-date: /home/dyj/ros2_ws/install/stonefish_ros2/share/stonefish_ros2/cmake/stonefish_ros2__rosidl_generator_cExport.cmake\n'}
+[2.192317] (stonefish_ros2) StdoutLine: {'line': b'-- Installing: /home/dyj/ros2_ws/install/stonefish_ros2/share/stonefish_ros2/cmake/stonefish_ros2__rosidl_generator_cExport-noconfig.cmake\n'}
+[2.192530] (stonefish_ros2) StdoutLine: {'line': b'-- Up-to-date: /home/dyj/ros2_ws/install/stonefish_ros2/share/stonefish_ros2/cmake/stonefish_ros2__rosidl_typesupport_introspection_cExport.cmake\n'}
+[2.192666] (stonefish_ros2) StdoutLine: {'line': b'-- Installing: /home/dyj/ros2_ws/install/stonefish_ros2/share/stonefish_ros2/cmake/stonefish_ros2__rosidl_typesupport_introspection_cExport-noconfig.cmake\n'}
+[2.192796] (stonefish_ros2) StdoutLine: {'line': b'-- Up-to-date: /home/dyj/ros2_ws/install/stonefish_ros2/share/stonefish_ros2/cmake/stonefish_ros2__rosidl_typesupport_cExport.cmake\n'}
+[2.192883] (stonefish_ros2) StdoutLine: {'line': b'-- Installing: /home/dyj/ros2_ws/install/stonefish_ros2/share/stonefish_ros2/cmake/stonefish_ros2__rosidl_typesupport_cExport-noconfig.cmake\n'}
+[2.193099] (stonefish_ros2) StdoutLine: {'line': b'-- Up-to-date: /home/dyj/ros2_ws/install/stonefish_ros2/share/stonefish_ros2/cmake/stonefish_ros2__rosidl_generator_cppExport.cmake\n'}
+[2.193317] (stonefish_ros2) StdoutLine: {'line': b'-- Up-to-date: /home/dyj/ros2_ws/install/stonefish_ros2/share/stonefish_ros2/cmake/stonefish_ros2__rosidl_typesupport_introspection_cppExport.cmake\n'}
+[2.193403] (stonefish_ros2) StdoutLine: {'line': b'-- Installing: /home/dyj/ros2_ws/install/stonefish_ros2/share/stonefish_ros2/cmake/stonefish_ros2__rosidl_typesupport_introspection_cppExport-noconfig.cmake\n'}
+[2.193626] (stonefish_ros2) StdoutLine: {'line': b'-- Up-to-date: /home/dyj/ros2_ws/install/stonefish_ros2/share/stonefish_ros2/cmake/stonefish_ros2__rosidl_typesupport_cppExport.cmake\n'}
+[2.193708] (stonefish_ros2) StdoutLine: {'line': b'-- Installing: /home/dyj/ros2_ws/install/stonefish_ros2/share/stonefish_ros2/cmake/stonefish_ros2__rosidl_typesupport_cppExport-noconfig.cmake\n'}
+[2.193933] (stonefish_ros2) StdoutLine: {'line': b'-- Up-to-date: /home/dyj/ros2_ws/install/stonefish_ros2/share/stonefish_ros2/cmake/export_stonefish_ros2__rosidl_generator_pyExport.cmake\n'}
+[2.194008] (stonefish_ros2) StdoutLine: {'line': b'-- Installing: /home/dyj/ros2_ws/install/stonefish_ros2/share/stonefish_ros2/cmake/export_stonefish_ros2__rosidl_generator_pyExport-noconfig.cmake\n'}
+[2.196423] (stonefish_ros2) CommandEnded: {'returncode': 0}
+[2.202729] (-) TimerEvent: {}
+[2.212863] (stonefish_ros2) JobEnded: {'identifier': 'stonefish_ros2', 'rc': 0}
+[2.213381] (-) EventReactorShutdown: {}

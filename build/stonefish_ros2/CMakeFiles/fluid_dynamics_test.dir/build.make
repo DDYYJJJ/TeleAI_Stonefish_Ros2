@@ -18,6 +18,9 @@ SUFFIXES =
 .SUFFIXES: .hpux_make_needs_suffix_list
 
 
+# Produce verbose output by default.
+VERBOSE = 1
+
 # Suppress display of executed commands.
 $(VERBOSE).SILENT:
 
@@ -109,7 +112,7 @@ fluid_dynamics_test: CMakeFiles/fluid_dynamics_test.dir/src/FluidDynamicsTestMan
 fluid_dynamics_test: CMakeFiles/fluid_dynamics_test.dir/src/FluidDynamicsTestApp.cpp.o
 fluid_dynamics_test: CMakeFiles/fluid_dynamics_test.dir/src/main.cpp.o
 fluid_dynamics_test: CMakeFiles/fluid_dynamics_test.dir/build.make
-fluid_dynamics_test: /home/dyj/stonefish/install/lib/libStonefish.so
+fluid_dynamics_test: /usr/local/lib/libStonefish.so
 fluid_dynamics_test: libstonefish_ros2__rosidl_typesupport_cpp.so
 fluid_dynamics_test: /opt/ros/rolling/lib/librclcpp.so
 fluid_dynamics_test: /opt/ros/rolling/lib/libgeometry_msgs__rosidl_typesupport_introspection_c.so

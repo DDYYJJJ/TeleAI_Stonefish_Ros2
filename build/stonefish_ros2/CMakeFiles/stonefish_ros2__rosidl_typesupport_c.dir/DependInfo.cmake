@@ -32,12 +32,10 @@ set(CMAKE_TARGET_DEFINITIONS_CXX
 
 # The include file search paths:
 set(CMAKE_CXX_TARGET_INCLUDE_PATH
-  "/usr/include/vtk-7.1"
-  "/usr/include/freetype2"
   "rosidl_generator_c"
   "rosidl_typesupport_c"
-  "/home/dyj/stonefish/install/include"
-  "/home/dyj/ros2_ws/src/stonefish_ros2/include"
+  "/usr/include/vtk-7.1"
+  "/usr/include/freetype2"
   "/opt/ros/rolling/include"
   )
 

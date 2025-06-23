@@ -6,5 +6,5 @@ CXX_FLAGS =   -fPIC   -Wall -std=gnu++14
 
 CXX_DEFINES = -DRCUTILS_ENABLE_FAULT_INJECTION -DROS_PACKAGE_NAME=\"stonefish_ros2\" -Dqh_QHpointer -Dstonefish_ros2__rosidl_typesupport_c_EXPORTS -DvtkRenderingContext2D_AUTOINIT="1(vtkRenderingContextOpenGL2)" -DvtkRenderingCore_AUTOINIT="3(vtkInteractionStyle,vtkRenderingFreeType,vtkRenderingOpenGL2)"
 
-CXX_INCLUDES = -I/usr/include/vtk-7.1 -I/usr/include/freetype2 -I/home/dyj/ros2_ws/build/stonefish_ros2/rosidl_generator_c -I/home/dyj/ros2_ws/build/stonefish_ros2/rosidl_typesupport_c -I/home/dyj/stonefish/install/include -I/home/dyj/ros2_ws/src/stonefish_ros2/include -isystem /opt/ros/rolling/include 
+CXX_INCLUDES = -I/home/dyj/ros2_ws/build/stonefish_ros2/rosidl_generator_c -I/home/dyj/ros2_ws/build/stonefish_ros2/rosidl_typesupport_c -I/usr/include/vtk-7.1 -I/usr/include/freetype2 -isystem /opt/ros/rolling/include 
 
